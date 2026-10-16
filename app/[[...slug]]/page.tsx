@@ -2,7 +2,7 @@ import { DocsPage,DocsBody,DocsTitle,DocsDescription } from 'fumadocs-ui/layouts
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { pages,getPage } from '@/lib/source';
-import { origin } from '@/lib/config';
+import { origin, withBasePath } from '@/lib/config';
 import { getSchema } from '@/lib/schema';
 import { PageControls } from '@/components/controls';
 export const dynamicParams=false;
@@ -14,7 +14,7 @@ const breadcrumbs=p.url.split('/').filter(Boolean).map((seg,i,a)=>({name:seg.rep
 return <DocsPage toc={toc} full={false}><div className="page-topline">LUCA AI PRODUCT DOCUMENTATION <span>Version 1.0 · 16 October 2026</span></div><DocsTitle>{p.title}</DocsTitle><DocsDescription>{p.metaDescription}</DocsDescription><PageControls title={p.title} url={p.url}/><DocsBody>
 <nav className="url-trail" aria-label="URL hierarchy"><Link href="/">Home</Link>{breadcrumbs.map(b=><span key={b.url}> / <Link href={b.url}>{b.name}</Link></span>)}</nav>
 <section id="overview"><h2>Overview</h2>{p.intro.map((v,i)=><p key={i}>{v}</p>)}</section>
-{p.sections.map(s=><section id={s.id} key={s.id}><h2>{s.title}</h2>{s.paragraphs.map((v,i)=><p key={i}>{v}</p>)}{s.links?.length>0&&<ul>{s.links.map(l=><li key={l.url}>{l.url.startsWith('/downloads/')?<a href={l.url} download>{l.title}</a>:<Link href={l.url}>{l.title}</Link>}</li>)}</ul>}</section>)}
+{p.sections.map(s=><section id={s.id} key={s.id}><h2>{s.title}</h2>{s.paragraphs.map((v,i)=><p key={i}>{v}</p>)}{s.links?.length>0&&<ul>{s.links.map(l=><li key={l.url}>{l.url.startsWith('/downloads/')?<a href={withBasePath(l.url)} download>{l.title}</a>:<Link href={l.url}>{l.title}</Link>}</li>)}</ul>}</section>)}
 {p.parameters.length>0&&<><h2>Capabilities on this page</h2><p className="muted">Each entry explains what the capability is, how it works in Luca, why it matters and its limits. Expand an entry to read it in full.</p></>}
 {p.parameters.map(x=><details className="micro-feature" key={x.id} id={x.anchor}><summary><span className={'status status-'+x.statusKey}>{x.status}</span><strong>{x.name}</strong><span className="parameter-id">{x.id}</span></summary><div className="micro-body">
 <p className="definition">{x.definition}</p>

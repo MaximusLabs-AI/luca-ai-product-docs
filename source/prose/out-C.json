@@ -166,7 +166,7 @@
           "id": "intake",
           "title": "Onboarding intake",
           "paragraphs": [
-            "Onboarding is labour intensive for Luca's team, so capacity is managed by intake. An intake can fill: the October 2026 intake filled after signings in September.",
+            "Onboarding is hands-on work for Luca's team, so Luca manages how many new clients it onboards at a time.",
             "If your start date matters, ask Luca's team which intake you would join before you sign up."
           ]
         }
@@ -469,14 +469,14 @@
       "definition": "Hands-on onboarding means the vendor's team does much of the setup work with you, rather than leaving you to configure the product alone.",
       "answers": [
         {"question": "What is it?", "paragraphs": ["It is an onboarding service where the vendor's people do significant setup work for each client."]},
-        {"question": "How does it work in Luca?", "paragraphs": ["Luca's team does significant onboarding work for each client, and describes that work as labour intensive on its side.", "Because of this, onboarding capacity is managed by intake. An intake can fill: the October 2026 intake filled after signings in September."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's team does significant onboarding work for each client.", "Because of this, Luca manages how many new clients it onboards at a time, so each one gets that support."]},
         {"question": "How does it help?", "paragraphs": ["This helps you start with your systems set up by people who know the product, without your team doing all the configuration."]},
         {"question": "What happens without it?", "paragraphs": ["With self-serve setup only, your team would carry the mapping and configuration work itself."]},
         {"question": "Who is it for?", "paragraphs": ["Brands without spare analyst or engineering time for setup."]}
       ],
       "example": "Before signing up, ask Luca's team which intake you would join and what they need from you. During onboarding, note which tasks the team handled and which fell to you.",
       "boundary": "Onboarding capacity is managed by intake, so your start date depends on availability. This page does not set timelines; ask Luca's team.",
-      "review": "Confirm the onboarding steps and typical duration, and decide whether to publish intake status, including the number of September 2026 signings."
+      "review": "Confirm the onboarding steps and typical duration, and decide whether to publish onboarding availability."
     },
     {
       "id": "S4",

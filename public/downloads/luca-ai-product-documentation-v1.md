@@ -883,7 +883,6 @@ Every Luca user, since capital is not required. If you want to explore capital, 
 
 **Evidence:**
 - Capital is a feature that Luca's intelligence can unlock, not a parallel product and not a requirement for using Luca. (Eric's canonical positioning statement (Site Structure V2): 'We are not a financing company. We are an Agentic AI company for e-commerce.')
-- Eric deliberately does not lead with capital, to avoid attracting funding seekers instead of operators. (Weekly call, 2026-08-07)
 
 **To confirm:** Confirm the approved capital wording with Luca's team, including any lending partner disclosures they require.
 
@@ -3860,7 +3859,7 @@ This page covers the onboarding service: hands-on setup by Luca's team, custom c
 
 ### Onboarding intake
 
-Onboarding is labour intensive for Luca's team, so capacity is managed by intake. An intake can fill: the October 2026 intake filled after signings in September.
+Onboarding is hands-on work for Luca's team, so Luca manages how many new clients it onboards at a time.
 
 If your start date matters, ask Luca's team which intake you would join before you sign up.
 
@@ -3874,9 +3873,9 @@ It is an onboarding service where the vendor's people do significant setup work 
 
 **How does it work in Luca?**
 
-Luca's team does significant onboarding work for each client, and describes that work as labour intensive on its side.
+Luca's team does significant onboarding work for each client.
 
-Because of this, onboarding capacity is managed by intake. An intake can fill: the October 2026 intake filled after signings in September.
+Because of this, Luca manages how many new clients it onboards at a time, so each one gets that support.
 
 **How does it help?**
 
@@ -3895,10 +3894,10 @@ Brands without spare analyst or engineering time for setup.
 **Limits:** Onboarding capacity is managed by intake, so your start date depends on availability. This page does not set timelines; ask Luca's team.
 
 **Evidence:**
-- Onboarding is hands-on: Luca's team does significant onboarding work for each client; Eric called it 'incredibly labour intensive on our side'. (Weekly call, 2026-09-25)
-- Onboarding capacity is managed by intake; October 2026 intake filled after 17–18 outbound signings in September. (Weekly call, 2026-09-25)
+- Onboarding is hands-on: Luca's team does significant onboarding work for each client. (Weekly call, 2026-09-25)
+- Luca manages how many new clients it onboards at a time so each one gets that support. (Weekly call, 2026-09-25)
 
-**To confirm:** Confirm the onboarding steps and typical duration, and decide whether to publish intake status, including the number of September 2026 signings.
+**To confirm:** Confirm the onboarding steps and typical duration, and decide whether to publish onboarding availability.
 
 ### S4 · Data mapping done by Luca's team (Available)
 

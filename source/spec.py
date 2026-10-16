@@ -4,7 +4,7 @@ Rule: only parameters MaximusLabs is CERTAIN Luca has are documented.
   available = ✅ on founder / product evidence
   scoped    = 🟡 — certain it exists, in a narrower form than a buyer might assume; the scope
               sentence is mandatory and is shown on the page
-Everything else (❓ 🗺 🛠 ❌, and every overclaim on ask-luca.com) is NOT documented. It goes to
+Everything else (unconfirmed, roadmap or not offered) is NOT documented. It goes to
 the client worksheet (build_worksheet.py) for Luca's team to fill.
 
 Never documented as available, whatever the website says: autonomous execution / autonomy levels,
@@ -268,7 +268,6 @@ add("M3", "/products/knowledge-base/", "available", [
 # ---- Capital
 add("U178", "/products/capital/", "available", [
     ("Capital is a feature that Luca's intelligence can unlock, not a parallel product and not a requirement for using Luca.", "positioning"),
-    ("Eric deliberately does not lead with capital, to avoid attracting funding seekers instead of operators.", "c0807"),
 ], name="Capital is optional")
 add("U179", "/products/capital/", "available", [
     ("Eric's canonical statement: 'We are not a financing company. We are an Agentic AI company for e-commerce.'", "positioning"),
@@ -355,8 +354,8 @@ add("M5", "/pricing/trial-and-signup/", "available", [
 
 # ---- Support, community, company
 add("S3", "/support/onboarding/", "available", [
-    ("Onboarding is hands-on: Luca's team does significant onboarding work for each client; Eric called it 'incredibly labour intensive on our side'.", "c0925"),
-    ("Onboarding capacity is managed by intake; October 2026 intake filled after 17–18 outbound signings in September.", "c0925"),
+    ("Onboarding is hands-on: Luca's team does significant onboarding work for each client.", "c0925"),
+    ("Luca manages how many new clients it onboards at a time so each one gets that support.", "c0925"),
 ], name="Hands-on onboarding with Luca's team")
 add("S4", "/support/onboarding/", "available", [
     ("Luca's team handles custom connectors and integration mapping.", "site"),

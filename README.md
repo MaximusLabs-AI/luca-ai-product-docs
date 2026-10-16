@@ -1,6 +1,6 @@
 # Luca AI product documentation · Version 1
 
-Fumadocs (Next.js static export) site, modelled on the EasyWebinar product-docs beta. 49 pages, 101 documented capabilities.
+Fumadocs (Next.js static export) site. 49 pages, 101 documented capabilities.
 
 **Rule:** v1 documents only what MaximusLabs is certain Luca has today (85 available, 16 available with a stated limited scope), each with dated evidence. Everything else is in the worksheet for Luca's team (`public/downloads/luca-ai-product-parameters-to-confirm.xlsx`).
 

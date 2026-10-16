@@ -1,0 +1,50 @@
+URL,Title,Type,Depth,Capabilities
+/,Luca AI product documentation,home,0,
+/products/,Products,hub,1,
+/products/luca-agent/,"Luca, the AI analyst agent",product,2,U84 U85 U86 U87 U92 U93 U119 U103 U127 M1
+/products/numbers/,Numbers: the reconciled control centre,product,2,U32 U189 U50 U67 U69 U180 U34 M2
+/products/knowledge-base/,Knowledge base and business context,product,2,U146 U147 M3
+/products/capital/,"Capital, and how it relates to Luca",product,2,U178 U179
+/products/features/,Feature directory,hub,2,
+/products/features/data-connection/,Data connection and setup,feature,3,U31
+/products/features/control-and-safety/,"Control and safety: Luca reads, you decide",feature,3,U137 U144
+/products/features/teams-and-seats/,"Teams, seats and regions",feature,3,U196 U197 U187 SC8
+/integrations/,Integrations,hub,1,
+/integrations/commerce/,Commerce platforms,hub,2,
+/integrations/commerce/shopify/,Shopify,integration,3,U1
+/integrations/commerce/amazon/,Amazon,integration,3,U2
+/integrations/advertising/,Advertising,hub,2,
+/integrations/advertising/meta-ads/,Meta Ads,integration,3,U6
+/integrations/advertising/google-ads/,Google Ads,integration,3,U7
+/integrations/analytics/,Web analytics and search,hub,2,
+/integrations/analytics/google-analytics-4/,Google Analytics 4,integration,3,U10
+/integrations/analytics/google-search-console/,Google Search Console,integration,3,U11
+/integrations/finance/,Payments and accounting,hub,2,
+/integrations/finance/stripe/,Stripe,integration,3,U15
+/integrations/finance/xero/,Xero,integration,3,U17
+/integrations/finance/quickbooks/,QuickBooks,integration,3,U18
+/integrations/subscriptions/recharge/,Recharge (subscriptions),integration,3,U14
+/integrations/subscriptions/,Subscriptions,hub,2,
+/integrations/workspace/,Workspace and documents,hub,2,
+/integrations/workspace/slack/,Slack,integration,3,U94 U192
+/integrations/workspace/documents/,Documents and files,integration,3,U27
+/integrations/custom/,Custom connectors and ERPs,integration,2,U22 U28
+/solutions/,Solutions by buyer,hub,1,
+/solutions/founders/,For founders and CEOs of Shopify brands,solution,2,FD1 FD2 FD10 FD11 FD17 FD18 FD20 FD21 FD29 FD30
+/solutions/subscription-brands/,For subscription DTC brands,solution,2,SU2 SU3 SU4 SU6 SU1
+/solutions/finance-leads/,For CFOs and finance leads,solution,2,CF18 CF22 CF25 CF1 CF2
+/solutions/growth-teams/,For growth and marketing teams,solution,2,GR21 GR23
+/solutions/shopify-and-amazon-sellers/,For Shopify and Amazon sellers,solution,2,MC1
+/solutions/european-brands/,For European and UK brands,solution,2,EU4 EU12 EU3
+/solutions/mastercard-business-bonus/,For Mastercard Business Bonus merchants,solution,2,CO16 MB1 MB2 MB4 MB6
+/pricing/,Pricing model,pricing,1,CO1 CO4 CO5 CO6 CO15 CO17 CO11
+/pricing/trial-and-signup/,Trial and signup,pricing,2,CO9 M5
+/security/,Security and data handling,security,1,
+/security/data-handling/,How Luca stores and processes your data,security,2,U213 U214 U216 M4
+/security/access-and-scopes/,"Access, scopes and deletion",security,2,U218 U219
+/support/,"Onboarding, services and support",support,1,
+/support/onboarding/,Onboarding: done with you,support,2,S3 S4
+/support/community/,Community and podcast,support,2,S10 T18
+/about/,About Luca,support,1,T14 R9 R5 R6
+/customers/,Customers and proof,support,1,T8 T9
+/review/,Documentation coverage and open questions,review,1,

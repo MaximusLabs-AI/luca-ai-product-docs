@@ -1,0 +1,3 @@
+:HL["/luca-ai-product-docs/_next/static/css/be4cf5221d3ab80f.css","style"]
+:HL["/luca-ai-product-docs/luca-logo.svg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"slug","param":{"type":"oc","key":"solutions/growth-teams","siblings":["_not-found","_global-error"]},"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"rcFV8oSgLuhLUJ65Ajexa"}

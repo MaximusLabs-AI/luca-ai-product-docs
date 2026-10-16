@@ -2,14 +2,14 @@ import fs from 'node:fs';
 const file='lib/content.json';const catalog=JSON.parse(fs.readFileSync(file,'utf8'));
 const origin=(process.env.NEXT_PUBLIC_SITE_URL??'http://127.0.0.1:3000').replace(/\/$/,'');
 const DATE='2026-10-16';
-const shorten=(text,n)=>text.length<=n?text:text.slice(0,n-1).replace(/\s+\S*$/,'').replace(/[.,;: ]+$/,'')+'.';
+const shorten=(text,n)=>{if(text.length<=n)return text;const cut=text.slice(0,n);const end=Math.max(cut.lastIndexOf('. '),cut.endsWith('.')?cut.length-1:-1);return end>60?cut.slice(0,end+1):cut.slice(0,n-1).replace(/\s+\S*$/,'').replace(/[.,;: ]+$/,'')+'…';};
 const counts=new Map();for(const p of catalog.pages)counts.set(p.title,(counts.get(p.title)??0)+1);
 for(const p of catalog.pages){
  const title=counts.get(p.title)>1?p.title+' · '+p.url.split('/').filter(Boolean).slice(0,-1).join(' / ').replaceAll('-',' '):p.title;
  p.seoTitle=p.url==='/'?'Luca AI Product Documentation':title+' | Luca AI Docs';
  let description;
  if(p.url==='/')description='Luca AI product documentation: the AI analyst for e-commerce brands. Confirmed capabilities, integrations, security, pricing model and onboarding.';
- else if(p.parameters.length)description=p.title+': '+p.parameters[0].definition;
+ else if(p.parameters.length){const def=p.parameters[0].definition;const first=def.split(/(?<=\.)\s/)[0];const a=p.title+'. '+def,b=p.title+'. '+first;description=a.length<=158?a:b.length<=158?b:first;}
  else description=p.title+'. '+(p.intro[0]??'');
  p.metaDescription=shorten(description.replace(/\s+/g,' '),158);
  const pageUrl=origin+p.url;const segs=p.url.split('/').filter(Boolean);const breadcrumb=[{'@type':'ListItem',position:1,name:'Documentation',item:origin+'/'}];

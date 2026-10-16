@@ -1,0 +1,617 @@
+{
+  "pages": [
+    {
+      "url": "/pricing/",
+      "intro": [
+        "This page explains how Luca's pricing is structured: what you pay for, what does not change your price and how billing works. It is for founders and finance leads comparing Luca with other analytics tools or with hiring an analyst.",
+        "It describes the pricing model only. For current plans and figures, see ask-luca.com/pricing, and for what happens when you sign up, see Trial and signup."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers the pricing model: seat-based pricing, usage, integration fees, annual billing and how to think about cost against hiring. It does not list plan names, prices, discount sizes or trial terms, because those change.",
+            "Plans and prices are published on ask-luca.com/pricing, and you can read them there without a sales call. Check that page before you budget."
+          ]
+        },
+        {
+          "id": "model-at-a-glance",
+          "title": "The model at a glance",
+          "paragraphs": [
+            "Luca prices by seat. Store revenue, order volume and ad spend do not set the price, so the plan price does not rise as your brand grows.",
+            "Every plan lists unlimited usage. The website states that custom connectors carry no integration fee, and annual billing is offered at a discount to monthly billing. The size of that discount is shown on ask-luca.com/pricing."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/pricing/trial-and-signup/",
+      "intro": [
+        "This page describes what happens when you sign up for Luca, so you can prepare before you start. It is for the person who will create the account and connect the first data source.",
+        "Trial availability and terms are not covered here. Check ask-luca.com/pricing for the current offer, and see Onboarding for what Luca's team does with you after signup."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers the signup sequence: creating an organisation, connecting data and entering card details. It does not state trial length, plan prices or when a card is charged. Confirm those on ask-luca.com/pricing."
+          ]
+        },
+        {
+          "id": "before-you-start",
+          "title": "What to have ready",
+          "paragraphs": [
+            "Signup includes creating an organisation before you connect data, and it asks for a data connection and card details up front.",
+            "Before you begin, decide which platform you will connect first and make sure you can sign in to it. Have the card you plan to bill to ready."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/security/",
+      "intro": [
+        "This section explains where Luca stores your data, who processes it, what access Luca requests and what happens to your data when you leave. It is for founders, finance leads and anyone completing a vendor security review.",
+        "Luca connects to your commerce, advertising, analytics, payments and accounting systems, so this is the place to check what happens to that data once it is connected."
+      ]
+,
+      "sections": [
+        {
+          "id": "in-this-section",
+          "title": "In this section",
+          "paragraphs": [
+            "Data handling covers hosting on Google Cloud Platform, the separate dataset each customer's data sits in, how credentials are kept, the sub-processors named in the privacy policy and Luca's position on AI model training.",
+            "Access and deletion covers read-only access scopes and what happens to your data after you disconnect a platform or close your account."
+          ]
+        },
+        {
+          "id": "security-reviews",
+          "title": "Security reviews and documentation",
+          "paragraphs": [
+            "These pages summarise what Luca's privacy policy and website state. They are not a substitute for a formal review, and the privacy policy at ask-luca.com/privacy holds the binding wording.",
+            "If your process needs certification details, a completed security questionnaire or further security documentation, request it from Luca's team."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/security/data-handling/",
+      "intro": [
+        "This page explains where Luca hosts your data, how each customer's data is kept separate, which sub-processors handle it and whether it is used to train AI models. It is for anyone assessing Luca as a vendor.",
+        "It summarises Luca's privacy policy and website. For access scopes and deletion, see Access and deletion."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers hosting, the separation of customer data, credential storage, named sub-processors and model training. It reflects ask-luca.com/privacy and ask-luca.com as read on 16 October 2026.",
+            "It does not cover certifications. Ask Luca's team for security documentation, or about anything your review needs that is not listed here."
+          ]
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "paragraphs": [
+            "Infrastructure runs on Google Cloud Platform. Each customer's data sits in a separate BigQuery dataset, and credentials are kept in Google Secret Manager.",
+            "The privacy policy names OpenAI and Google Cloud Platform as sub-processors. OpenAI processes data under enterprise terms that exclude training on it, and the website states that Luca does not train third-party foundation models on customers' financials."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/security/access-and-scopes/",
+      "intro": [
+        "This page explains the level of access Luca requests when you connect a platform, and what happens to your data after you disconnect or close your account. It is for the person approving connections and for anyone reviewing data retention.",
+        "For hosting, data separation and sub-processors, see Data handling."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers access scopes, deletion and retention. Read-only scopes are published for Google connections. Scopes for other connectors are shown on each platform's own permission screen when you connect.",
+            "Retention periods for data other than Google data are set out in the privacy policy at ask-luca.com/privacy, not on this page."
+          ]
+        },
+        {
+          "id": "checking-access",
+          "title": "Checking access when you connect",
+          "paragraphs": [
+            "When you connect a platform, read the permission screen that platform shows before you approve. For connectors other than Google, that screen is where you see what Luca is requesting."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/support/",
+      "intro": [
+        "This section explains how Luca's team helps you get set up and where you can learn from other users. It is for teams planning a rollout and for anyone who wants to know what working with Luca looks like after signup.",
+        "Onboarding with Luca is done with you: Luca's team does much of the setup work, including data mapping and reconciling your systems into Numbers."
+      ],
+      "sections": [
+        {
+          "id": "in-this-section",
+          "title": "In this section",
+          "paragraphs": [
+            "Onboarding describes the hands-on setup Luca's team runs for each client, including custom connectors, integration mapping and reconciliation into Numbers, and how onboarding capacity is managed by intake.",
+            "Community and podcast describes the Luca community on Heartbeat and the E-Commerce Leaders Series podcast."
+          ]
+        },
+        {
+          "id": "company-and-customers",
+          "title": "Company and customers",
+          "paragraphs": [
+            "For the people behind Luca, see About. For the brands shown on Luca's website, see Customers."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/support/onboarding/",
+      "intro": [
+        "This page explains how onboarding works with Luca and what Luca's team does for you during setup. It is for founders and operators planning when to start.",
+        "Onboarding is where your connected systems are mapped and reconciled into Numbers, Luca's reconciled view of your figures."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers the onboarding service: hands-on setup by Luca's team, custom connectors, integration mapping and reconciliation into Numbers. It does not set out onboarding timelines. Ask Luca's team for the current intake and what to expect for your systems."
+          ]
+        },
+        {
+          "id": "intake",
+          "title": "Onboarding intake",
+          "paragraphs": [
+            "Onboarding is labour intensive for Luca's team, so capacity is managed by intake. An intake can fill: the October 2026 intake filled after signings in September.",
+            "If your start date matters, ask Luca's team which intake you would join before you sign up."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/support/community/",
+      "intro": [
+        "This page describes the Luca community and the E-Commerce Leaders Series podcast. It is for clients and prospects who want to learn from other operators.",
+        "Both sit alongside the onboarding Luca's team runs with you."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers where the community is hosted, who it is for and what members exchange, and who hosts the podcast. It does not describe membership rules or episode schedules. Check those in the community or with Luca's team."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/about/",
+      "intro": [
+        "This page introduces the company behind Luca: its founder, its named team, the AI model provider it uses and a recent example of product progress. It is for buyers assessing Luca as a vendor.",
+        "Luca is an AI analyst agent for e-commerce brands. For how your data is handled, see the Security section."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers founder background, the team named on ask-luca.com/about, the disclosed language model provider and recent product progress. It reflects the about page and privacy policy as read on 16 October 2026, plus information from Luca's team.",
+            "Ask Luca's team for anything else your vendor review needs."
+          ]
+        },
+        {
+          "id": "team",
+          "title": "Who builds Luca",
+          "paragraphs": [
+            "Eric Bidinger is co-founder and CEO. The about page also names Abbas Khaku (COO), Ciske Smit (Head of Product), Kaan Simsek (Head of Data), and engineers Hassaan Mirza and Usman Jameel."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/customers/",
+      "intro": [
+        "This page lists the brands shown as customers on ask-luca.com and points you to the testimonials published there. It is for buyers who want to see which brands use Luca.",
+        "Testimonials are not reproduced in this documentation. Read them on ask-luca.com."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page lists customer names only. It does not reproduce testimonial quotes or describe results for any brand. If you want to speak to a customer, ask Luca's team."
+          ]
+        },
+        {
+          "id": "brands",
+          "title": "Brands shown on ask-luca.com",
+          "paragraphs": [
+            "Customer logos shown on ask-luca.com: Untamed, Circus, Prim, Twigs, Nidra, David Gandy Wellwear, Fabulous and Ayodi.",
+            "Named testimonials with photographs from leaders at Ayodi, Untamed and Nidra are published on ask-luca.com."
+          ]
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "id": "U213",
+      "name": "Customer data kept separate",
+      "definition": "Tenant isolation is the practice of storing each customer's data apart from other customers' data in a shared service.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is how a service used by many customers keeps one customer's data apart from another's. It is a standard question in a vendor review."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Each customer's data sits in its own BigQuery dataset on Google Cloud Platform.", "Credentials you provide when you connect platforms are kept in Google Secret Manager. Both points are stated in Luca's privacy policy at ask-luca.com/privacy."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you answer the data separation question in a vendor review with a specific storage model rather than a general assurance."]},
+        {"question": "What happens without it?", "paragraphs": ["Without a stated separation model, you would need to ask how your data is stored relative to other customers before you could complete a review."]},
+        {"question": "Who is it for?", "paragraphs": ["Founders, finance leads and anyone completing a security or vendor questionnaire for their brand."]}
+      ],
+      "example": "During setup or a trial, ask your reviewer to read the dataset and credential statements in the privacy policy. Then send Luca's team any follow-up questions your questionnaire requires and record their answers alongside the policy wording.",
+      "boundary": "This describes how data is stored. It is not a certification or audit result. Request security documentation from Luca's team if your review needs it.",
+      "review": "Confirm the wording matches the current privacy policy, and decide whether to attach an architecture diagram or security documentation."
+    },
+    {
+      "id": "U214",
+      "name": "Your data is not used to train AI models",
+      "definition": "A no-training commitment states that the data you give a service is not used to train AI models.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is a statement about whether the data you connect is used to train or improve AI models beyond your own use of the service."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca uses OpenAI as its language model provider, and OpenAI processes data under enterprise terms that exclude training on it.", "Luca's website also states that Luca does not train third-party foundation models on customers' financials."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you assess whether to connect financial data, since model training is a common concern in vendor reviews."]},
+        {"question": "What happens without it?", "paragraphs": ["Without a stated position, a reviewer would need to establish whether your financials could be used for model training before approving a connection."]},
+        {"question": "Who is it for?", "paragraphs": ["Founders, finance leads and reviewers responsible for sensitive financial data."]}
+      ],
+      "example": "Before you connect your accounting system, read the training statements in the privacy policy and on ask-luca.com. Ask Luca's team how you can review the enterprise terms referenced, and check them against your internal data policy.",
+      "boundary": "The statements cover OpenAI's processing under enterprise terms and Luca not training third-party foundation models on customers' financials. Ask Luca's team about anything outside those statements.",
+      "review": "Confirm the exact website wording, and whether Luca can share the OpenAI enterprise terms or a summary of them."
+    },
+    {
+      "id": "U216",
+      "name": "Sub-processors disclosed",
+      "definition": "A sub-processor is a third party that processes customer data on a vendor's behalf. Disclosure means the vendor names them publicly.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is a published list of the third parties that handle your data for a vendor."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's privacy policy names two sub-processors: OpenAI, the language model provider, and Google Cloud Platform, which runs Luca's infrastructure.", "You can read the list at ask-luca.com/privacy."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you complete the third-party section of a vendor review and check each named provider against your own policies."]},
+        {"question": "What happens without it?", "paragraphs": ["Without a published list, you would need to request one before you could assess where your data goes."]},
+        {"question": "Who is it for?", "paragraphs": ["Reviewers, legal teams and finance teams handling data protection checks."]}
+      ],
+      "example": "Open the privacy policy and compare the named sub-processors with your approved vendor list. If your process requires a sub-processor agreement or notice of changes, ask Luca's team how they handle it.",
+      "boundary": "This reflects the privacy policy as read on 16 October 2026. Check the live policy for the current list.",
+      "review": "Confirm the list is complete, and state whether Luca notifies customers when sub-processors change."
+    },
+    {
+      "id": "U218",
+      "name": "Deletion and retention after you disconnect",
+      "definition": "Retention and deletion rules set out how long a vendor keeps your data and when it is removed after you stop using the service.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is the vendor's stated timing for removing your data after you disconnect a platform or close your account."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Data from Google connections is deleted within 30 days of disconnecting.", "For other data, Luca's privacy policy states how long it is retained after an account closes. Read those periods at ask-luca.com/privacy."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you plan an exit and answer retention questions in a review using the vendor's stated periods."]},
+        {"question": "What happens without it?", "paragraphs": ["Without stated rules, you could not tell how long your data stays with a vendor after you leave."]},
+        {"question": "Who is it for?", "paragraphs": ["Finance leads, legal teams and anyone responsible for data retention policy."]}
+      ],
+      "example": "Read the retention section of the privacy policy and note the period for each type of data you plan to connect. If you test a Google connection, record the date you disconnect and ask Luca's team to confirm when deletion is complete.",
+      "boundary": "The 30-day deletion window applies to Google data after disconnecting. Retention for other data follows the periods in the privacy policy, which this page does not repeat.",
+      "review": "Add the retention periods for other data from the privacy policy, and confirm whether customers can request earlier deletion."
+    },
+    {
+      "id": "U219",
+      "name": "Read-only access scopes",
+      "definition": "An access scope is the set of permissions an app requests when you connect a platform. A read-only scope lets the app view data without changing it.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is the published list of permissions a vendor requests on each platform you connect."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's privacy policy states that Google access is read-only and names the read-only Search Console scope, webmasters.readonly.", "For other platforms, the scopes Luca requests are shown on that platform's own permission screen when you connect."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you check what Luca can access on Google before you approve a connection, and supports a least-privilege review."]},
+        {"question": "What happens without it?", "paragraphs": ["Without published scopes, you would rely on each permission screen alone and could not check access in advance."]},
+        {"question": "Who is it for?", "paragraphs": ["Whoever approves platform connections, and reviewers checking access levels."]}
+      ],
+      "example": "When you connect Search Console, check that the permission screen matches the read-only scope named in the privacy policy. For each other platform you connect, record the permissions its screen shows before you approve.",
+      "boundary": "Published for Google connections; scopes for other connectors are shown on each platform's own permission screen.",
+      "review": "Confirm whether Luca will publish scopes for each connector beyond Google, and attach screenshots of the permission screens."
+    },
+    {
+      "id": "M4",
+      "name": "Hosted on Google Cloud Platform",
+      "definition": "Hosting describes the cloud infrastructure a service runs on.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is the infrastructure provider that runs the service and stores its data."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's infrastructure runs on Google Cloud Platform, as stated in the privacy policy.", "Customer data is stored there in separate BigQuery datasets, and credentials are kept in Google Secret Manager."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you identify the infrastructure layer in a vendor review and apply any assessment you already hold of that provider."]},
+        {"question": "What happens without it?", "paragraphs": ["Without knowing the host, you cannot assess the infrastructure layer of a vendor."]},
+        {"question": "Who is it for?", "paragraphs": ["Security reviewers and IT leads."]}
+      ],
+      "example": "Check that Google Cloud Platform appears in the privacy policy as both the infrastructure provider and a sub-processor. If your review needs more detail on hosting, ask Luca's team.",
+      "boundary": "This names the hosting provider only. Ask Luca's team for any further hosting detail your review needs.",
+      "review": "Confirm which hosting details, if any, Luca is willing to publish beyond the provider name."
+    },
+    {
+      "id": "CO1",
+      "name": "Published pricing",
+      "definition": "Published pricing means plans and prices are shown publicly, so you can read them without talking to sales.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is a vendor making its plans and prices public rather than sharing them only on a sales call."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca publishes its plans and prices on ask-luca.com/pricing, and you can read them there without a sales call.", "This documentation describes the pricing model and does not repeat the figures."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you check fit and budget before you speak to anyone at Luca."]},
+        {"question": "What happens without it?", "paragraphs": ["Without published pricing, you would need a sales conversation just to learn whether Luca fits your budget."]},
+        {"question": "Who is it for?", "paragraphs": ["Founders and finance leads in early evaluation."]}
+      ],
+      "example": "Open ask-luca.com/pricing and choose the plan that fits the number of people who will use Luca. Compare that cost with what you spend today on analytics tools or analysis time.",
+      "boundary": "Current figures are on ask-luca.com/pricing only. This page does not quote prices.",
+      "review": "Confirm the pricing page is current, and link it from every pricing page in these docs."
+    },
+    {
+      "id": "CO4",
+      "name": "Priced by seat",
+      "definition": "Seat-based pricing charges for the number of people who use a product.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is a pricing model where cost follows the number of users rather than the size of the business."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca prices by seat. Your store revenue, order volume and ad spend do not set the price.", "Current seat prices are on ask-luca.com/pricing."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you predict cost from your team size rather than from your trading figures."]},
+        {"question": "What happens without it?", "paragraphs": ["Where pricing is tied to revenue, orders or ad spend, your bill can change with your trading results, which makes budgeting harder."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands that want software cost tied to team size."]}
+      ],
+      "example": "List the people who will use Luca, then use the seat prices on ask-luca.com/pricing to work out your cost. Ask Luca's team how adding or removing a seat is billed.",
+      "boundary": "This describes how the price is calculated, not the price itself. Confirm what counts as a seat with Luca's team.",
+      "review": "Confirm what counts as a seat and how seat changes are billed."
+    },
+    {
+      "id": "CO5",
+      "name": "Price does not rise with your revenue",
+      "definition": "A pricing model in which growth in revenue or orders does not increase what you pay.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It means your plan price stays the same as your sales grow."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Because Luca prices per seat, the plan price does not rise as your revenue or order volume grows.", "What you pay follows your seats and plan, not your trading volume."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you grow sales without your Luca cost rising with them."]},
+        {"question": "What happens without it?", "paragraphs": ["With revenue-linked pricing, a strong month or season could raise your bill."]},
+        {"question": "Who is it for?", "paragraphs": ["Growing brands planning for higher volume."]}
+      ],
+      "example": "Work out your cost at today's revenue and at your growth target using the seat prices on ask-luca.com/pricing. The two figures should differ only if you plan to add seats or change plan.",
+      "boundary": "Your price can still change if you add seats or move plan. Check ask-luca.com/pricing for current figures.",
+      "review": "Confirm whether any plan has limits, such as on stores or connections, that could require a change of plan."
+    },
+    {
+      "id": "CO6",
+      "name": "Unlimited usage on every plan",
+      "definition": "Unlimited usage means a plan does not cap or meter how much you use the product.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is a plan term that removes usage allowances, such as credits or question limits."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Every plan on ask-luca.com/pricing lists unlimited usage.", "Seats, not usage, are the basis of the price."]},
+        {"question": "How does it help?", "paragraphs": ["This helps your team ask as many questions as the work needs without tracking an allowance."]},
+        {"question": "What happens without it?", "paragraphs": ["With metered or credit-based usage, teams often ration questions to control cost."]},
+        {"question": "Who is it for?", "paragraphs": ["Teams that expect to use Luca often."]}
+      ],
+      "example": "During setup or a trial, have each seat holder work through the questions they usually answer in a week. Then read the plan details on ask-luca.com/pricing to confirm that level of use does not change your cost.",
+      "boundary": "This reflects what the pricing page lists. Read the plan details there for any usage terms.",
+      "review": "Confirm whether any fair-use terms apply to unlimited usage."
+    },
+    {
+      "id": "CO15",
+      "name": "No integration fees",
+      "definition": "An integration fee is a charge for connecting a data source or building a custom connector.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is a commitment not to charge separately for connecting your systems."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's website states that custom connectors carry no integration fee.", "Luca's team handles custom connectors and integration mapping as part of onboarding."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you connect systems that need a custom connector without a separate setup bill."]},
+        {"question": "What happens without it?", "paragraphs": ["Where vendors charge per integration, connecting less common systems can add cost before you see any value."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands whose systems need a custom connector."]}
+      ],
+      "example": "List the systems you use that may need a custom connector and raise them with Luca's team before onboarding. Ask them to confirm in writing that no integration fee applies to each one.",
+      "boundary": "This covers integration fees for custom connectors. It does not set a timeline for building them; ask Luca's team.",
+      "review": "Confirm the website wording and any limits on which custom connectors Luca's team will build."
+    },
+    {
+      "id": "CO17",
+      "name": "Compared with hiring an analyst",
+      "definition": "A way to judge a tool's cost against the cost of hiring a person to do similar work.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is a cost frame that compares software with the analysis work a team does by hand or would hire for."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca is positioned as doing the work of an analyst and advisor for a growing brand that cannot yet hire one.", "You ask questions in plain English and Luca answers from your connected data and the reconciled view in Numbers."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you weigh the cost of Luca against the analysis time your team spends today."]},
+        {"question": "What happens without it?", "paragraphs": ["Without this frame, you may compare Luca only with other software and overlook the time your team spends on analysis."]},
+        {"question": "Who is it for?", "paragraphs": ["Growing brands without an in-house analyst or advisor."]}
+      ],
+      "example": "Write down the analysis questions your team answered by hand last month. Ask Luca the same questions during setup or a trial, and compare the answers and the time taken.",
+      "boundary": "This is how Luca is positioned, not a guaranteed saving. Judge it against your own team's workload.",
+      "review": "Confirm whether Luca wants to publish a cost comparison with hiring, and which sources it would use."
+    },
+    {
+      "id": "CO11",
+      "name": "Annual billing discount",
+      "definition": "An annual billing discount is a lower effective price for paying for a year at a time instead of monthly.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is a billing option that rewards a yearly commitment with a lower price than monthly billing."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca offers annual billing at a discount to monthly billing.", "The size of the discount and the plan prices are shown on ask-luca.com/pricing."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you lower your cost if you are ready to commit for a year."]},
+        {"question": "What happens without it?", "paragraphs": ["Without an annual option, you would pay the monthly rate whatever your commitment."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands ready to commit to Luca for a year."]}
+      ],
+      "example": "Compare the monthly and annual figures on ask-luca.com/pricing for your seat count. Before you choose, ask Luca's team how cancellation and seat changes work on annual billing.",
+      "boundary": "This page does not state the discount. Check ask-luca.com/pricing for current terms.",
+      "review": "Confirm annual terms, including cancellation and changes to seats during the term."
+    },
+    {
+      "id": "CO9",
+      "name": "Card and data connection at signup",
+      "definition": "Some products ask for payment details and a data connection when you create your account.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is a signup flow that collects card details and a first data connection at the start."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's signup asks for a data connection and card details up front.", "Signup also includes creating an organisation before you connect data."]},
+        {"question": "How does it help?", "paragraphs": ["Connecting data at signup means your first look at Luca uses your own data."]},
+        {"question": "What happens without it?", "paragraphs": ["Without a connection at signup, there would be nothing of yours to analyse until you added one later."]},
+        {"question": "Who is it for?", "paragraphs": ["The person setting up the account, usually a founder or operator."]}
+      ],
+      "example": "Before you start signup, choose the first platform to connect and have the card you will bill to ready. Read the current trial and billing terms on ask-luca.com/pricing before you enter card details.",
+      "boundary": "This page does not state trial length or when a card is charged. Confirm those on ask-luca.com/pricing.",
+      "review": "Confirm the order of signup steps and whether the card is charged at signup or later, and attach screenshots."
+    },
+    {
+      "id": "M5",
+      "name": "Organisation setup during signup",
+      "definition": "Organisation setup is the signup step where you create the account that represents your business before adding data.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is the first part of signup, where your business is set up in the product."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Signup includes creating an organisation before you connect data.", "Once the organisation exists, you move on to connecting your data."]},
+        {"question": "How does it help?", "paragraphs": ["This helps keep your data connections set up under your business from the start."]},
+        {"question": "What happens without it?", "paragraphs": ["Without an organisation step, there would be no clear account for your brand's connections to sit under."]},
+        {"question": "Who is it for?", "paragraphs": ["The person creating the account."]}
+      ],
+      "example": "When you sign up, create the organisation for the brand you are evaluating, then connect one data source. Ask Luca's team how to add colleagues if you need them.",
+      "boundary": "This page does not describe organisation settings, multi-brand setups or user roles. Ask Luca's team about those.",
+      "review": "Attach a screenshot of the organisation step and confirm which details it asks for."
+    },
+    {
+      "id": "S3",
+      "name": "Hands-on onboarding with Luca's team",
+      "definition": "Hands-on onboarding means the vendor's team does much of the setup work with you, rather than leaving you to configure the product alone.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is an onboarding service where the vendor's people do significant setup work for each client."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's team does significant onboarding work for each client, and describes that work as labour intensive on its side.", "Because of this, onboarding capacity is managed by intake. An intake can fill: the October 2026 intake filled after signings in September."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you start with your systems set up by people who know the product, without your team doing all the configuration."]},
+        {"question": "What happens without it?", "paragraphs": ["With self-serve setup only, your team would carry the mapping and configuration work itself."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands without spare analyst or engineering time for setup."]}
+      ],
+      "example": "Before signing up, ask Luca's team which intake you would join and what they need from you. During onboarding, note which tasks the team handled and which fell to you.",
+      "boundary": "Onboarding capacity is managed by intake, so your start date depends on availability. This page does not set timelines; ask Luca's team.",
+      "review": "Confirm the onboarding steps and typical duration, and decide whether to publish intake status, including the number of September 2026 signings."
+    },
+    {
+      "id": "S4",
+      "name": "Data mapping done by Luca's team",
+      "definition": "Data mapping is matching fields and records across systems so that figures from different sources line up.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is the work of making data from separate systems agree, so a combined view can be trusted."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's team handles custom connectors and integration mapping for you.", "The team also reconciles your systems into Numbers, Luca's reconciled view of your figures."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you get a consistent view across your sales, advertising, payments and accounting data without your team doing the mapping."]},
+        {"question": "What happens without it?", "paragraphs": ["Without vendor mapping, your team would need to work out how each system's figures relate before relying on a combined view."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands with several connected systems and no in-house data team."]}
+      ],
+      "example": "Pick a figure you already reconcile by hand, such as one month's revenue across your store and your accounting system. Once Luca's team has completed the mapping, compare it with Numbers and raise any differences with them.",
+      "boundary": "Mapping is done by Luca's team as part of onboarding. This page does not describe self-serve mapping.",
+      "review": "Confirm the mapping steps and what the client reviews or signs off, and attach a screenshot of Numbers."
+    },
+    {
+      "id": "S10",
+      "name": "Luca community",
+      "definition": "A customer community is a shared space where users and prospects exchange ideas about a product.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is a place to learn from other people using the same product."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca runs a community for clients and prospects on Heartbeat. You can reach it at community.ask-luca.com or through the Heartbeat apps for iOS and Android.", "Members exchange prompts, workflows and use cases."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you see how other brands ask questions of Luca and adapt their workflows to your own."]},
+        {"question": "What happens without it?", "paragraphs": ["Without a community, you would learn only from your own use and from Luca's team."]},
+        {"question": "Who is it for?", "paragraphs": ["Luca clients and prospects."]}
+      ],
+      "example": "Join the community during your evaluation and look for workflows from brands like yours. Try one shared prompt on your own data and compare the result with how you answer that question today.",
+      "boundary": "The community is for exchanging prompts, workflows and use cases. Ask Luca's team how to join and where to raise account issues.",
+      "review": "Confirm how prospects get access, and attach a screenshot of the community."
+    },
+    {
+      "id": "T18",
+      "name": "E-Commerce Leaders Series podcast",
+      "definition": "An owned podcast is a show a company produces itself. Luca's features conversations with e-commerce operators.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is a podcast hosted by Luca's founder in which e-commerce operators talk about their work."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Eric Bidinger, Luca's co-founder and CEO, hosts the E-Commerce Leaders Series podcast with e-commerce operators.", "It sits alongside the community as a way to hear from other operators."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you understand the questions and problems Luca's founder discusses with operators."]},
+        {"question": "What happens without it?", "paragraphs": ["Without it, you would have fewer ways to judge the thinking behind the product."]},
+        {"question": "Who is it for?", "paragraphs": ["Founders and operators of e-commerce brands."]}
+      ],
+      "example": "Listen to an episode with an operator whose brand is similar to yours. Note the questions they raise, then ask Luca the same questions about your own data during setup or a trial.",
+      "boundary": "The podcast is not product documentation or advice for your brand.",
+      "review": "Add the podcast link and the platforms where it is published."
+    },
+    {
+      "id": "T14",
+      "name": "Founder background",
+      "definition": "Founder background describes the experience of the people leading a company.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is published information about who leads the company and what they have done before."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's co-founder and CEO is Eric Bidinger, an aerospace engineer with 17 years in private equity.", "This is published on ask-luca.com/about."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you judge the experience behind a product that handles your financial data."]},
+        {"question": "What happens without it?", "paragraphs": ["Without it, you would know less about who is accountable for the product."]},
+        {"question": "Who is it for?", "paragraphs": ["Buyers assessing vendor risk."]}
+      ],
+      "example": "Read the about page before a call with Luca's team, and use the call to ask about the product's direction and how the team's background shapes it.",
+      "boundary": "This covers the CEO's background as published on the about page. Ask Luca's team about other leadership experience if your review needs it.",
+      "review": "Confirm the bio wording, and add a photo or profile link if wanted."
+    },
+    {
+      "id": "R9",
+      "name": "Team",
+      "definition": "A named team shows who builds and runs a product.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is a public list of the people behind a company and their roles."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["The about page names the team: Eric Bidinger (CEO), Abbas Khaku (COO), Ciske Smit (Head of Product), Kaan Simsek (Head of Data), and engineers Hassaan Mirza and Usman Jameel."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you see who leads product, data and operations when you assess Luca as a vendor."]},
+        {"question": "What happens without it?", "paragraphs": ["Without a named team, you would have less to go on when judging who builds and supports the product."]},
+        {"question": "Who is it for?", "paragraphs": ["Buyers assessing vendor risk."]}
+      ],
+      "example": "Check which named team members you meet during your evaluation, and ask who will be involved in your onboarding.",
+      "boundary": "This lists the people named on the about page as read on 16 October 2026. It does not state support capacity.",
+      "review": "Confirm the list is current, and decide whether to state support capacity."
+    },
+    {
+      "id": "R5",
+      "name": "AI model provider disclosed",
+      "definition": "Model provider disclosure means a vendor names the company whose language model its product uses.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is a public statement of which language model provider processes your data."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's privacy policy names OpenAI as its language-model sub-processor.", "OpenAI processes data under enterprise terms that exclude training on it."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you include the model provider in your vendor review and check it against your own policies."]},
+        {"question": "What happens without it?", "paragraphs": ["Without disclosure, you would not know which third party processes your data through the language model."]},
+        {"question": "Who is it for?", "paragraphs": ["Buyers and reviewers assessing vendor and data risk."]}
+      ],
+      "example": "Check that OpenAI is named in the privacy policy, and confirm your organisation's policy allows that provider. Ask Luca's team any follow-up questions about the enterprise terms.",
+      "boundary": "This names the provider as listed in the privacy policy read on 16 October 2026. Check the live policy for changes.",
+      "review": "Confirm the provider is still current, and whether Luca will publish changes of provider."
+    },
+    {
+      "id": "R6",
+      "name": "Product velocity",
+      "definition": "Product velocity is how quickly a vendor ships and extends its product.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is evidence that a product is being developed and rolled out to customers."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Numbers, Luca's reconciled view, moved from a first client build to every client between September and October 2026."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you judge whether the product is moving forward before you commit."]},
+        {"question": "What happens without it?", "paragraphs": ["Without visible progress, you would have less evidence that the product is still being developed."]},
+        {"question": "Who is it for?", "paragraphs": ["Buyers assessing vendor risk."]}
+      ],
+      "example": "Ask Luca's team what has shipped since your first demo, and compare the product you see during setup or a trial with what you were first shown.",
+      "boundary": "This is one example of recent progress. It is not a changelog or a roadmap.",
+      "review": "Decide whether to publish a changelog and link it from this page."
+    },
+    {
+      "id": "T8",
+      "name": "Customer logos",
+      "definition": "Customer logos show which brands a vendor names as customers.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is a public list of brands that use a product."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["ask-luca.com shows logos for Untamed, Circus, Prim, Twigs, Nidra, David Gandy Wellwear, Fabulous and Ayodi."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you see whether brands like yours use Luca."]},
+        {"question": "What happens without it?", "paragraphs": ["Without named customers, you would have less evidence of who uses the product."]},
+        {"question": "Who is it for?", "paragraphs": ["Buyers evaluating Luca."]}
+      ],
+      "example": "Look for brands on the list that are similar to yours in category or size. If a reference matters to your decision, ask Luca's team whether you can speak to a customer.",
+      "boundary": "This lists names only. It does not describe how each brand uses Luca or any results.",
+      "review": "Confirm each brand has approved being named in the documentation."
+    },
+    {
+      "id": "T9",
+      "name": "Named testimonials",
+      "definition": "Named testimonials are customer statements published with the person's name and photograph.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["It is customer feedback attributed to a named person, which makes it more checkable than anonymous praise."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["ask-luca.com publishes named testimonials with photographs from leaders at Ayodi, Untamed and Nidra.", "This documentation does not reproduce them. Read them on the website."]},
+        {"question": "How does it help?", "paragraphs": ["This helps you hear from named leaders at brands using Luca."]},
+        {"question": "What happens without it?", "paragraphs": ["Without named testimonials, you would rely only on the vendor's own description of the product."]},
+        {"question": "Who is it for?", "paragraphs": ["Buyers evaluating Luca."]}
+      ],
+      "example": "Read the testimonials on ask-luca.com and note what each leader says Luca is used for. Test that same use on your own data during setup or a trial.",
+      "boundary": "This page names the brands only and does not quote the testimonials.",
+      "review": "Confirm permission to reference each testimonial, and whether to link to each one."
+    }
+  ]
+}

@@ -1,0 +1,663 @@
+{
+  "pages": [
+    {
+      "url": "/",
+      "intro": [
+        "Luca is an AI analyst for e-commerce brands. It reads the data you connect from your store, ad platforms, analytics, payment and accounting tools, and answers your questions about the business in plain English.",
+        "Luca works done-with-you. Luca's team onboards each client directly, and a human stays in the loop: Luca does not change your connected systems on its own. This documentation is for buyers evaluating Luca, and for anyone who needs an exact account of what the product does today."
+      ],
+      "sections": [
+        {
+          "id": "how-this-documentation-is-organised",
+          "title": "How this documentation is organised",
+          "paragraphs": [
+            "Products describes what Luca does, including Numbers, the reconciled view of your business. Integrations describes the data sources Luca connects to and, where it applies, which ones are set up by Luca's team.",
+            "Solutions describes the same capabilities from the point of view of a specific buyer, such as a founder, a finance lead or a subscription brand. Pricing explains how plans are published, including currencies and partner pricing.",
+            "Security explains how your data is handled, including the commitments in Luca's privacy policy. Onboarding and support explains how Luca's team sets you up and works with you. Coverage lists what this version documents and what is still waiting for confirmation."
+          ]
+        },
+        {
+          "id": "what-is-documented-here",
+          "title": "What is documented here",
+          "paragraphs": [
+            "This version documents only capabilities that MaximusLabs has confirmed from Luca's product, website and team. Where a capability has a limit, for example it is set up by Luca's team or confirmed per account, the page states that limit.",
+            "Anything not yet confirmed is left out of this version. It is listed for Luca's team to confirm, and it will be documented once it is. If you need a capability that is not described here, ask Luca directly rather than assuming it is available."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/solutions/",
+      "intro": [
+        "This section describes Luca from the point of view of specific buyers: founders and CEOs, subscription brands, finance leads, growth teams, Shopify and Amazon sellers, European and UK brands, and Mastercard Business Bonus merchants. Each page takes the needs that buyer tends to raise and answers them with what Luca does today.",
+        "The capabilities themselves are documented under Products and Integrations. Solution pages connect those capabilities to the questions a particular buyer asks during evaluation."
+      ],
+      "sections": [
+        {
+          "id": "choosing-a-page",
+          "title": "Choosing a page",
+          "paragraphs": [
+            "Start with the page that matches your role or business model. Founders and CEOs of Shopify brands will find the overview of how Luca is used day to day. Finance leads will find reconciliation, accounting connections and data retention. Growth teams will find Slack access and Google data sources.",
+            "Subscription brands, Shopify and Amazon sellers, European and UK brands, and Mastercard Business Bonus merchants each have their own page covering the needs specific to them. You can read more than one: the pages describe the same product."
+          ]
+        },
+        {
+          "id": "how-to-read-a-solution-page",
+          "title": "How to read a solution page",
+          "paragraphs": [
+            "Each need is written as the buyer would put it, then answered: what it is, how it works in Luca, how it helps, what happens without it and who it is for. Each one also gives a test you can run during setup and states its limits.",
+            "Where a need is only partly covered today, the page says so and tells you what to confirm with Luca's team."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/solutions/founders/",
+      "intro": [
+        "This page is for founders and CEOs of Shopify brands who want to understand the business without building dashboards or hiring an analyst first. It covers how you use Luca, what it can see, how your data is treated and who helps you get started.",
+        "Most of what is described here runs on Numbers, Luca's reconciled view of the business, and on the plain English questions you ask over your connected data."
+      ]
+      ,
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers ten founder needs: one view of the business, plain English answers, the analyst you cannot yet hire, human approval, data use, working on your own data from the first session, data beyond Shopify, connected sources instead of file exports, a conversational way of working, and direct onboarding by Luca's team.",
+            "It does not cover pricing figures, which are on Luca's pricing page, or individual integrations, which are documented under Integrations."
+          ]
+        },
+        {
+          "id": "how-founders-use-luca",
+          "title": "How founders use Luca",
+          "paragraphs": [
+            "You connect your store and other sources, then ask Luca questions as you would ask an analyst. Luca answers from the connected data and generates charts as it goes. Luca does not change anything in your connected systems; you decide what to do with the answer."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/solutions/subscription-brands/",
+      "intro": [
+        "This page is for subscription DTC brands that need their subscription platform, Shopify and accounting data to agree. It covers reconciled reporting, subscriber status, skip analysis, cohort visibility and connecting a subscription platform.",
+        "These needs are met through Numbers, the reconciled view of the business, with the subscription connection set up by Luca's team."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers five subscription needs, based on work with live subscription clients that use Recharge. Recharge is the subscription platform confirmed so far, and its connection is set up by Luca's team.",
+            "Other subscription platforms, such as Skio and Stay.ai, are not documented in this version. Confirm them with Luca's team before you rely on them."
+          ]
+        },
+        {
+          "id": "why-reconciliation-comes-first",
+          "title": "Why reconciliation comes first",
+          "paragraphs": [
+            "Subscriber status, skip history and cohort views only became visible for Luca's subscription clients after their Shopify, Recharge and accounting data was reconciled. Expect reconciliation to be the first piece of work in your setup."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/solutions/finance-leads/",
+      "intro": [
+        "This page is for CFOs, finance leads and fractional CFOs evaluating whether Luca's numbers can be trusted and controlled. It covers approval and control, the role of your accounting system, data retention, reconciliation to the accounting system and accounting connections.",
+        "Luca reads your accounting data alongside commerce data. It does not replace your ledger and it does not move money or change systems."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers five finance needs. Two of them carry limits: reconciliation to the accounting system is a reconciliation project confirmed per account, and accounting connections are confirmed for Xero, with QuickBooks to confirm during setup.",
+            "Other accounting systems, such as Exact and NetSuite, are not documented in this version."
+          ]
+        },
+        {
+          "id": "control-and-the-ledger",
+          "title": "Control and the ledger",
+          "paragraphs": [
+            "A human stays in the loop. Luca reports and explains; your team approves and acts, and your accounting system remains the record."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/solutions/growth-teams/",
+      "intro": [
+        "This page is for heads of growth and performance marketing teams. It covers using Luca from Slack and connecting Google Analytics and Search Console alongside your ad platforms.",
+        "Both needs rest on the same idea: your team asks Luca questions over connected data, in the place it already works."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers two growth needs: asking Luca in Slack, and Google Analytics and Search Console as data sources next to ad platforms.",
+            "It does not document automatic or scheduled messages from Luca. In this version, Luca answers in Slack when someone asks it."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/solutions/shopify-and-amazon-sellers/",
+      "intro": [
+        "This page is for brands that sell on both Shopify and Amazon and want one picture of the business. It covers connecting both channels and how they are brought together in reporting.",
+        "Shopify and Amazon both connect to Luca as commerce sources, alongside your other data."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers one need: Shopify and Amazon in one P&L. Both sources connect; how they are combined in reporting is confirmed per account.",
+            "Other marketplaces are not documented in this version."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/solutions/european-brands/",
+      "intro": [
+        "This page is for brands based in Europe and the UK. It covers local-currency pricing, the Mastercard Business Bonus programme and European accounting and banking connections.",
+        "The product is the same for European brands. What differs is how pricing is published and which local data sources are confirmed."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers three needs: prices in EUR and GBP, Mastercard Business Bonus pricing, and European accounting and banking sources. Xero is confirmed; other European accounting and banking sources, including Exact and Open Banking connections, are still to confirm.",
+            "This page does not make any statement about where data is stored."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/solutions/mastercard-business-bonus/",
+      "intro": [
+        "This page is for merchants who reach Luca through Mastercard Business Bonus. It covers the partner pricing page, eligibility, the discount, the Mastercard listing and what the partner plans include.",
+        "Partner pricing gives you the same Luca plans as standard pricing, with a discount set out on Luca's dedicated Mastercard Business Bonus pricing page."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers five partner needs. It does not state a discount percentage or eligibility criteria: the discount is shown on the partner pricing page, and eligibility is confirmed by Luca.",
+            "For the plans themselves, see Pricing."
+          ]
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "id": "CO16",
+      "name": "Mastercard Business Bonus partner pricing",
+      "definition": "Partner pricing is a separate price list offered to members of a partner programme. For Luca, it is a dedicated pricing page for Mastercard Business Bonus merchants.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["A dedicated Mastercard Business Bonus pricing page on ask-luca.com, separate from standard pricing."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca publishes a dedicated pricing page for Mastercard Business Bonus. Luca is also listed on Mastercard's own Business Bonus page, which is how many merchants first find it.", "Eligibility for partner pricing is confirmed by Luca. This page does not state a discount percentage."]},
+        {"question": "How does it help?", "paragraphs": ["If you are a Business Bonus merchant, it gives you a partner route into the same product, with its own pricing page to compare against standard pricing."]},
+        {"question": "What happens without it?", "paragraphs": ["You would evaluate Luca on standard pricing only."]},
+        {"question": "Who is it for?", "paragraphs": ["Merchants who use Mastercard Business Bonus and are considering Luca."]}
+      ],
+      "example": "Open the Mastercard Business Bonus pricing page on ask-luca.com and the standard pricing page side by side. Ask Luca's team to confirm that your business is eligible before you choose a plan.",
+      "boundary": "This page does not state a discount percentage or eligibility rules. Eligibility is confirmed by Luca.",
+      "review": "Luca's team should confirm the URL of the partner pricing page, the eligibility rules and the current discount wording for the pricing section."
+    },
+    {
+      "id": "FD1",
+      "name": "One place to see the whole business",
+      "definition": "A single view that brings a brand's data together so the business can be read in one place. In Luca, this view is called Numbers.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Numbers, Luca's reconciled view of the business, built from the data you connect."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca reconciles your connected sources into one view, called Numbers. You open Numbers when you want the overall picture, instead of checking each tool in turn, and you can ask Luca questions about what you see."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you start the day from one set of figures rather than several tools that may not agree."]},
+        {"question": "What happens without it?", "paragraphs": ["You check each system separately and work out yourself why their figures differ."]},
+        {"question": "Who is it for?", "paragraphs": ["Founders and CEOs who want to read the whole business quickly, without building reports."]}
+      ],
+      "example": "During setup, ask Luca's team which of your sources Numbers will reconcile. Once it is ready, compare one week of revenue in Numbers with the same week in your store and accounting system, and ask Luca to explain any difference.",
+      "boundary": "Numbers shows the sources you have connected and that have been reconciled for your account. Luca does not send you this view automatically; you open it or ask for it.",
+      "review": "Luca's team should attach a Numbers screenshot and confirm which sources it includes by default."
+    },
+    {
+      "id": "FD2",
+      "name": "Answers in plain English, no dashboards",
+      "definition": "Asking questions about business data in everyday language, instead of building reports or dashboards to find the answer.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["You type a question about your business and Luca answers from your connected data."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["You ask questions in plain English over the data you have connected. Luca answers and generates charts on the fly, so there is no dashboard to design first."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you get to an answer without learning a reporting tool or waiting for someone to build a view."]},
+        {"question": "What happens without it?", "paragraphs": ["You build and maintain dashboards, or export data and work through it in a spreadsheet."]},
+        {"question": "Who is it for?", "paragraphs": ["Founders who want answers, not reporting projects."]}
+      ],
+      "example": "Once your store is connected, ask a question you normally answer from a dashboard, such as last month's revenue by channel. Check the chart Luca generates against the figure you already trust.",
+      "boundary": "Luca answers from connected data only. If a source is not connected, Luca cannot answer questions that depend on it.",
+      "review": "Luca's team should attach an example question with its generated chart."
+    },
+    {
+      "id": "FD10",
+      "name": "The analyst you cannot hire yet",
+      "definition": "Analytical help for a brand that needs analysis but is not yet ready to hire a full-time analyst or a fractional CFO.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Luca's role for a growing brand: the analyst it cannot yet hire."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca is positioned as the analyst a growing brand cannot yet hire. You ask it the questions you would put to an analyst, over your connected data, and it answers in plain English."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you get analysis now, before analysis justifies a hire."]},
+        {"question": "What happens without it?", "paragraphs": ["The founder does the analysis, or it waits until the brand can hire."]},
+        {"question": "Who is it for?", "paragraphs": ["Founders of growing brands weighing an analyst or fractional CFO hire."]}
+      ],
+      "example": "List the questions you would give a new analyst in their first month. Ask Luca the same questions during setup and judge whether the answers cover what you need. Compare plan costs on Luca's pricing page with your own hiring budget.",
+      "boundary": "This page makes no price comparison. Luca does not replace an accountant or the judgement of your own team, and a human stays in the loop.",
+      "review": "Luca's team should confirm the positioning wording and link to the pricing page."
+    },
+    {
+      "id": "FD11",
+      "name": "Never changes anything without my OK",
+      "definition": "Human control over a business's systems: nothing is changed unless a person decides to change it.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Luca does not change your connected systems on its own. A human stays in the loop."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca reads your connected data to answer questions. It does not make changes in those systems. Any action that follows from an answer is taken by you or your team."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you connect your store and tools without worrying that the analyst will change them."]},
+        {"question": "What happens without it?", "paragraphs": ["You would need to monitor what an automated tool changes in your systems."]},
+        {"question": "Who is it for?", "paragraphs": ["Founders who want analysis without handing over control."]}
+      ],
+      "example": "During setup, ask Luca's team to show you the access each connection uses. After a week, check the change history in your store and ad accounts for any changes you did not make.",
+      "boundary": "Luca does not change connected systems, so it does not carry out recommendations for you.",
+      "review": "Luca's team should confirm the access level each connection requests, so the security pages can list it."
+    },
+    {
+      "id": "FD17",
+      "name": "My data is not used to train AI",
+      "definition": "A commitment that a customer's business data is not used to train artificial intelligence models.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Luca's privacy policy commitment that customer data is not used to train AI models."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's privacy policy on ask-luca.com states that customer data is not used to train AI models. Your data is used to answer your questions."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you connect commercially sensitive data with a clear statement of how it will and will not be used."]},
+        {"question": "What happens without it?", "paragraphs": ["You would have to find out from each tool whether your data improves models other people use."]},
+        {"question": "Who is it for?", "paragraphs": ["Founders and finance leads who need to know how business data is handled before connecting it."]}
+      ],
+      "example": "Before you connect anything, read the privacy policy at ask-luca.com/privacy and note the training commitment and the retention terms. Raise any question with Luca's team before signup.",
+      "boundary": "This page covers the training commitment only. Other data handling terms are in the privacy policy, and this documentation makes no certification claims.",
+      "review": "Luca's team should confirm the exact privacy policy wording and section to quote."
+    },
+    {
+      "id": "FD18",
+      "name": "Trial on my own data",
+      "definition": "Evaluating a product with your own business data from the start, rather than with sample data.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["You connect your own data when you sign up and work with it from your first session."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["New users connect their own data during signup. From the first session, the questions you ask are answered from your business, not a demo account."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you judge Luca on the questions and data that matter to you."]},
+        {"question": "What happens without it?", "paragraphs": ["You judge the product on sample data and find out later how it handles yours."]},
+        {"question": "Who is it for?", "paragraphs": ["Founders who want to evaluate Luca on their own business before committing."]}
+      ],
+      "example": "Connect your store during signup and, in the first session, ask three questions you already know the answers to. Compare Luca's answers with your own figures.",
+      "boundary": "This page covers connecting your own data at signup. Trial length and terms are not documented here; confirm them with Luca.",
+      "review": "Luca's team should confirm whether a trial period exists, its length and terms, and attach a screenshot of the signup connection step."
+    },
+    {
+      "id": "FD20",
+      "name": "What Luca sees beyond Shopify Sidekick",
+      "definition": "The difference between an assistant that works inside one platform and an analyst that reads data from several platforms together.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Luca reasons over Shopify data together with ads, analytics, payments and accounting data."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca reads Shopify alongside your ad, analytics, payment and accounting sources. Luca's website contrasts this with Shopify Sidekick, which works inside Shopify."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you ask questions whose answers depend on data outside your store, such as how ad spend relates to orders."]},
+        {"question": "What happens without it?", "paragraphs": ["You get answers about what happens inside Shopify, and combine other sources yourself."]},
+        {"question": "Who is it for?", "paragraphs": ["Shopify founders who already use Sidekick and want to know what an outside analyst adds."]}
+      ],
+      "example": "Ask Luca a question that needs both store and ad data, for example how last month's ad spend compares with orders. Then ask yourself whether you could answer it from inside Shopify alone.",
+      "boundary": "Luca can only reason over the sources you connect. This page describes Luca; it makes no statement about Sidekick's features beyond working inside Shopify.",
+      "review": "Luca's team should confirm the website comparison wording."
+    },
+    {
+      "id": "FD21",
+      "name": "Connected data instead of CSV exports",
+      "definition": "Analysing business data through live connections and stored context, rather than exporting files to a general chatbot each time.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Your sources stay connected to Luca, and context about your business is held in a knowledge base."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["In the product's Connect & Setup screen, you connect your sources once and they stay connected. Context is held in a knowledge base, so you do not export files and explain your business to a general chatbot each time."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you skip the export, upload and re-explain routine, and work from current connected data."]},
+        {"question": "What happens without it?", "paragraphs": ["You export a CSV, upload it to a general chatbot and repeat the context in every new conversation."]},
+        {"question": "Who is it for?", "paragraphs": ["Founders who already use ChatGPT or similar tools with spreadsheet exports."]}
+      ],
+      "example": "Take a question you recently answered by exporting a CSV to a chatbot. Ask Luca the same question over your connected sources and compare the effort and the answer.",
+      "boundary": "Only connected sources and the context in the knowledge base are used. What the knowledge base holds and how you manage it should be confirmed with Luca's team.",
+      "review": "Luca's team should attach the Connect & Setup screenshot and describe what the knowledge base holds and how a user can view or edit it."
+    },
+    {
+      "id": "FD29",
+      "name": "Talks to me like a co-founder",
+      "definition": "Working with business data through conversation, as you would with an analyst, rather than by reading a dashboard.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Luca is used as a conversation with an analyst, not as a dashboard."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["You ask Luca a question, read the answer and ask the next question. The work happens as a conversation, with charts generated when they help."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you follow a line of thought, asking why a figure moved instead of stopping at the figure."]},
+        {"question": "What happens without it?", "paragraphs": ["You read a fixed dashboard and work out the follow-up questions alone."]},
+        {"question": "Who is it for?", "paragraphs": ["Founders who think out loud and want an analyst to think with."]}
+      ],
+      "example": "Ask Luca about one figure that changed recently, then ask two follow-up questions about why. Judge whether the conversation gets you closer to an explanation than your current dashboard does.",
+      "boundary": "Luca answers from connected data. It explains and reports; decisions and actions stay with you.",
+      "review": "Luca's team should attach an example multi-turn conversation."
+    },
+    {
+      "id": "FD30",
+      "name": "A human to call when I'm stuck",
+      "definition": "Access to people who help you set up and use the product, not only self-serve software.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Luca's team onboards each client directly."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["When you start with Luca, Luca's team works with you directly on onboarding. This is part of how Luca works: done-with-you, with a human in the loop."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you get connected and get useful answers sooner, with someone to ask when something is unclear."]},
+        {"question": "What happens without it?", "paragraphs": ["You set up the product alone from help articles."]},
+        {"question": "Who is it for?", "paragraphs": ["Founders who want help getting set up rather than a self-serve tool."]}
+      ],
+      "example": "During onboarding, bring one question about your data you have not been able to answer. Ask Luca's team to work through it with you and note how the setup handles it.",
+      "boundary": "This page covers direct onboarding. Support hours, channels and response times after onboarding are not documented here; confirm them with Luca.",
+      "review": "Luca's team should confirm the support channels and hours that apply after onboarding."
+    },
+    {
+      "id": "SU2",
+      "name": "Subscriptions, Shopify and accounting reconciled",
+      "definition": "Bringing subscription platform, store and accounting data into agreement so that one view of the business can be trusted.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["A single reconciled view of subscription, Shopify and accounting data."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["For a subscription client, Luca reconciled Shopify, Recharge and accounting data into one view in Numbers. You then ask questions over the reconciled figures."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you work from one set of subscription figures rather than three systems that may disagree."]},
+        {"question": "What happens without it?", "paragraphs": ["Your subscription platform, store and accounts each tell a different story, and you reconcile them by hand."]},
+        {"question": "Who is it for?", "paragraphs": ["Subscription DTC brands running Shopify with a subscription platform and an accounting system."]}
+      ],
+      "example": "During setup, choose one recent month and ask Luca's team to show how the reconciled view matches your subscription platform and your accounts for that month.",
+      "boundary": "Confirmed for Shopify, Recharge and accounting data. The subscription connection is set up by Luca's team, and other subscription platforms are to confirm.",
+      "review": "Luca's team should attach a screenshot of the reconciled subscription view and confirm which accounting systems were involved."
+    },
+    {
+      "id": "SU3",
+      "name": "Active and lapsed subscribers",
+      "definition": "Knowing how many subscribers are currently active and how many have become inactive.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["A view of active versus inactive subscribers."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Once subscription, Shopify and accounting data were reconciled, active versus inactive subscribers became visible in Numbers. You can then ask Luca about either group."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you see the real size of your active subscriber base and how many have lapsed."]},
+        {"question": "What happens without it?", "paragraphs": ["You rely on platform counts that may not match orders or revenue."]},
+        {"question": "Who is it for?", "paragraphs": ["Subscription brands tracking the health of their subscriber base."]}
+      ],
+      "example": "After reconciliation, ask Luca how many subscribers are active and how many are inactive. Compare the result with your subscription platform's own count and ask Luca to explain any gap.",
+      "boundary": "This view depends on reconciliation being complete for your account. How active and inactive are defined should be confirmed with Luca's team.",
+      "review": "Luca's team should confirm the definitions of active and inactive used in Numbers."
+    },
+    {
+      "id": "SU4",
+      "name": "Skips analysed (the $72,000 case)",
+      "definition": "Analysing when subscribers skip deliveries, and what those skips mean for revenue.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Analysis of subscription skip history and its effect on revenue."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca rebuilds subscription skip history from your data. For one client, the rebuilt history revealed a $72,000 revenue shortfall."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you see revenue that skips quietly remove, which can be hard to spot in platform reports."]},
+        {"question": "What happens without it?", "paragraphs": ["Skips can reduce revenue without showing up clearly in your reporting."]},
+        {"question": "Who is it for?", "paragraphs": ["Subscription brands that allow customers to skip deliveries."]}
+      ],
+      "example": "Ask Luca's team to rebuild skip history for a recent quarter, then ask Luca how much revenue skips affected in that period and how that compares with your expectations.",
+      "boundary": "The $72,000 figure is one client's result, not an expected outcome. This page documents skips; pause analysis is not documented in this version.",
+      "review": "Luca's team should confirm whether pauses are analysed alongside skips and how skip history is rebuilt."
+    },
+    {
+      "id": "SU6",
+      "name": "Cohort retention",
+      "definition": "Grouping subscribers into cohorts and following how each cohort is retained over time.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Cohort visibility for subscription brands."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["For Luca's first subscription client, cohort visibility was the stated gap, and Numbers closed it. The cohort view comes from the reconciled data."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you see whether newer subscribers are retained better or worse than earlier ones."]},
+        {"question": "What happens without it?", "paragraphs": ["You see total subscribers but not how each group behaves over time."]},
+        {"question": "Who is it for?", "paragraphs": ["Subscription brands judging retention and acquisition quality."]}
+      ],
+      "example": "After reconciliation, ask Luca to show retention for two cohorts that started at different times, and check whether the difference matches what you see in the business.",
+      "boundary": "This page confirms cohort visibility in Numbers. Exact cohort definitions, such as grouping by start month, should be confirmed with Luca's team.",
+      "review": "Luca's team should confirm how cohorts are defined and attach a cohort view screenshot."
+    },
+    {
+      "id": "SU1",
+      "name": "Subscription platform connected",
+      "definition": "Connecting a subscription platform, such as Recharge, Skio or Stay.ai, so its data can be analysed with the rest of the business.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["A connection between Luca and your subscription platform."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Recharge data has been connected for a live client. The connection is set up by Luca's team as part of onboarding."]},
+        {"question": "How does it help?", "paragraphs": ["It helps Luca include subscription data when it reconciles and answers questions."]},
+        {"question": "What happens without it?", "paragraphs": ["Luca cannot see subscriber activity, so subscription questions cannot be answered."]},
+        {"question": "Who is it for?", "paragraphs": ["Subscription brands that run Recharge or another subscription platform."]}
+      ],
+      "example": "Tell Luca's team which subscription platform you use before onboarding. Once connected, ask Luca a subscription question you can check against the platform.",
+      "boundary": "Set up by Luca's team. Recharge is confirmed; Skio and Stay.ai are not documented in this version and should be confirmed with Luca.",
+      "review": "Luca's team should confirm whether Skio and Stay.ai are supported and describe the Recharge setup steps."
+    },
+    {
+      "id": "CF18",
+      "name": "No money moves without approval",
+      "definition": "Assurance that a tool cannot move funds or change financial systems without a person deciding to do so.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Luca does not move money or change systems. A human stays in the loop."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca reads your connected payment and accounting data to answer questions. It does not move money and it does not change connected systems. Any payment or change is made by your team."]},
+        {"question": "How does it help?", "paragraphs": ["It helps finance leads approve the connection without adding a new route for money to move."]},
+        {"question": "What happens without it?", "paragraphs": ["You would need extra controls around a tool that could act on your accounts."]},
+        {"question": "Who is it for?", "paragraphs": ["CFOs, finance leads and fractional CFOs responsible for financial controls."]}
+      ],
+      "example": "During setup, ask Luca's team to show the access each payment and accounting connection uses, and check that your own approval process is unchanged.",
+      "boundary": "Luca does not move money or change systems, so it does not carry out payments or postings for you.",
+      "review": "Luca's team should confirm the access scopes requested from payment and accounting connections."
+    },
+    {
+      "id": "CF22",
+      "name": "Works with our accountant, keeps the ledger",
+      "definition": "An analysis tool that reads accounting data without replacing the accounting system as the record.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Luca reads accounting data alongside commerce data. Your accounting system remains the ledger."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca reads your accounting data next to your store and other commerce data, and reconciles them in Numbers. The books stay in your accounting system, where your accountant works."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you add analysis without changing how your books are kept or who keeps them."]},
+        {"question": "What happens without it?", "paragraphs": ["Commerce and accounting figures are compared by hand, outside the ledger."]},
+        {"question": "Who is it for?", "paragraphs": ["Finance leads and brands that work with an external accountant."]}
+      ],
+      "example": "Share a recent month's accounts with your accountant and ask Luca for the same month's revenue. Ask your accountant whether Luca's view helps explain the differences between store and ledger.",
+      "boundary": "Luca does not replace your ledger, bookkeeping or accountant.",
+      "review": "Luca's team should confirm which accounting data Luca reads."
+    },
+    {
+      "id": "CF25",
+      "name": "Data retention after we leave",
+      "definition": "The terms that govern how long a provider keeps your data and when it is deleted after you stop using it.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Luca's retention and deletion terms, set out in its privacy policy."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Retention and deletion terms are set out in the privacy policy at ask-luca.com/privacy. They include deletion of Google data within 30 days after you disconnect."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you know in advance what happens to your data if you stop using Luca."]},
+        {"question": "What happens without it?", "paragraphs": ["You would not know how long your data is kept after you leave."]},
+        {"question": "Who is it for?", "paragraphs": ["Finance leads and anyone responsible for data handling."]}
+      ],
+      "example": "Read the retention section of the privacy policy before signup and note the terms for each data source you plan to connect. Ask Luca's team about any source not named there.",
+      "boundary": "The 30-day deletion term on this page applies to Google data after disconnecting. Terms for other data are in the privacy policy.",
+      "review": "Luca's team should confirm the retention terms for non-Google data so they can be summarised here."
+    },
+    {
+      "id": "CF1",
+      "name": "Revenue and margin reconcile to the accounts",
+      "definition": "Making the revenue and margin figures in an analysis tool agree with the accounting system.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["A reconciliation project that brings your commerce and accounting figures into agreement."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Reconciliation is done as a project with Luca's team. For the first Numbers client, Luca's team reconciled accounting, Shopify and Recharge data over about three weeks."]},
+        {"question": "How does it help?", "paragraphs": ["It helps finance leads trust the figures Luca answers from, because they tie back to the accounts."]},
+        {"question": "What happens without it?", "paragraphs": ["Commerce figures and accounting figures disagree, and the difference is worked out by hand."]},
+        {"question": "Who is it for?", "paragraphs": ["CFOs and finance leads who need reported figures to match the books."]}
+      ],
+      "example": "Before the project starts, agree with Luca's team which month you will use to test the result. When it is done, compare that month's revenue and margin in Numbers with your accounts.",
+      "boundary": "A reconciliation project, confirmed per account. The three-week timeline was one client's experience, not a commitment.",
+      "review": "Luca's team should confirm how scope and timelines are agreed per account and which margin definitions are used."
+    },
+    {
+      "id": "CF2",
+      "name": "Accounting system connection",
+      "definition": "Connecting an accounting system, such as Xero, QuickBooks, Exact or NetSuite, so its data can be read alongside commerce data.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["A connection between Luca and your accounting system."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Xero is connected in the product's Connect & Setup screen. QuickBooks has been stated by Luca's founder and should be confirmed during setup."]},
+        {"question": "How does it help?", "paragraphs": ["It helps Luca read your accounts next to commerce data, which reconciliation depends on."]},
+        {"question": "What happens without it?", "paragraphs": ["Luca cannot compare commerce figures with your books."]},
+        {"question": "Who is it for?", "paragraphs": ["Finance leads whose accounts run in Xero or QuickBooks."]}
+      ],
+      "example": "Tell Luca's team which accounting system you use before onboarding. If it is QuickBooks, confirm the connection during setup before planning reconciliation work.",
+      "boundary": "Xero confirmed; QuickBooks to confirm during setup. Exact and NetSuite are not documented in this version.",
+      "review": "Luca's team should confirm QuickBooks, Exact and NetSuite status and attach the Xero connection steps."
+    },
+    {
+      "id": "GR21",
+      "name": "Luca in Slack for the team",
+      "definition": "Using an analysis tool from inside Slack, so a team can ask questions where it already works.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Your team can ask Luca questions from Slack."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Team members use Luca from Slack, by direct message or by mentioning Luca in a channel. Slack appears in the product's Connect & Setup screen; how it is connected for your workspace should be confirmed with Luca's team."]},
+        {"question": "How does it help?", "paragraphs": ["It helps your team get answers in the conversation where the question came up, without switching tools."]},
+        {"question": "What happens without it?", "paragraphs": ["Someone leaves Slack, finds the answer and pastes it back."]},
+        {"question": "Who is it for?", "paragraphs": ["Growth and marketing teams that work in Slack."]}
+      ],
+      "example": "Once Slack is set up, mention Luca in a team channel with a question about last week's ad performance, then ask a follow-up by direct message. Check whether both answers match what you see in your ad platform.",
+      "boundary": "Luca answers in Slack when someone asks. This page does not document automatic or scheduled messages.",
+      "review": "Luca's team should confirm the Slack setup steps and attach a screenshot of a channel mention."
+    },
+    {
+      "id": "GR23",
+      "name": "Google Analytics and Search Console alongside ads",
+      "definition": "Connecting web analytics and search data next to ad platform data, so traffic and spend can be read together.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Google Analytics and Search Console as Luca data sources, alongside ad platforms."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Google Analytics and Search Console connect alongside your ad platforms, as described in Luca's privacy policy. You can then ask Luca questions that draw on these sources."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you ask questions that cross site traffic, search and paid media, rather than checking each tool."]},
+        {"question": "What happens without it?", "paragraphs": ["Analytics, search and ad data are reviewed separately and combined by hand."]},
+        {"question": "Who is it for?", "paragraphs": ["Growth and performance marketing teams."]}
+      ],
+      "example": "Connect Google Analytics, Search Console and one ad platform, then ask Luca a question that needs all three. Check each part of the answer against the source tool.",
+      "boundary": "Both sources connect. How they appear together in a single report should be confirmed with Luca's team. Google data is deleted within 30 days after disconnecting, under the privacy policy.",
+      "review": "Luca's team should confirm how Google Analytics and Search Console data appear in Numbers."
+    },
+    {
+      "id": "MC1",
+      "name": "Shopify and Amazon in one P&L",
+      "definition": "Bringing sales from Shopify and Amazon into one profit and loss view of the business.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Shopify and Amazon connected as commerce sources, so both channels can be reported together."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Shopify and Amazon both connect to Luca as commerce sources. How they are combined in reporting is agreed and confirmed for each account."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you see the business across both channels rather than as two separate shops."]},
+        {"question": "What happens without it?", "paragraphs": ["You combine Shopify and Amazon reports by hand to see the total."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands that sell on both Shopify and Amazon."]}
+      ],
+      "example": "Connect both channels, then ask Luca's team how your account will combine them. Once agreed, compare one month's combined revenue with the two channel reports added together.",
+      "boundary": "Both sources connect; how they are combined in reporting is confirmed per account. Other marketplaces are not documented in this version.",
+      "review": "Luca's team should confirm how Shopify and Amazon are combined by default and which Amazon data is read."
+    },
+    {
+      "id": "EU4",
+      "name": "Prices in EUR and GBP",
+      "definition": "Publishing prices in a buyer's local currency, so European and UK brands can compare plans without conversion.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Luca's pricing is published in EUR and GBP, as well as USD and AUD."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's pricing page at ask-luca.com/pricing publishes plans in EUR, GBP, USD and AUD. You can read the plans in your own currency."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you budget in the currency you report in."]},
+        {"question": "What happens without it?", "paragraphs": ["You convert prices from another currency and estimate the cost."]},
+        {"question": "Who is it for?", "paragraphs": ["European and UK brands."]}
+      ],
+      "example": "Open the pricing page, select EUR or GBP and note the plan you would choose. Ask Luca's team to confirm the currency you would be billed in.",
+      "boundary": "This page confirms published currencies only. It states no price figures; see the pricing page. Billing currency and tax treatment should be confirmed with Luca.",
+      "review": "Luca's team should confirm whether billing follows the published currency and how VAT is handled."
+    },
+    {
+      "id": "EU12",
+      "name": "Mastercard Business Bonus for European brands",
+      "definition": "A partner route to Luca for merchants in the Mastercard Business Bonus programme, relevant to European brands that take part.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["A dedicated Mastercard Business Bonus pricing page, with Luca listed on Mastercard's Business Bonus page."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca has a dedicated Mastercard Business Bonus pricing page, and Luca is listed on Mastercard's Business Bonus page. Eligibility is confirmed by Luca."]},
+        {"question": "How does it help?", "paragraphs": ["It helps Business Bonus merchants in Europe find a partner route into Luca."]},
+        {"question": "What happens without it?", "paragraphs": ["You would evaluate Luca on standard pricing only."]},
+        {"question": "Who is it for?", "paragraphs": ["European brands that are Mastercard Business Bonus merchants."]}
+      ],
+      "example": "If you take part in Business Bonus, open Luca's partner pricing page and ask Luca's team to confirm that your business is eligible. See the Mastercard Business Bonus solution page for detail.",
+      "boundary": "This page states no discount percentage. Eligibility, including which countries are covered, is confirmed by Luca.",
+      "review": "Luca's team should confirm which European countries the partner pricing applies to."
+    },
+    {
+      "id": "EU3",
+      "name": "Xero and European banking sources",
+      "definition": "Connecting accounting systems and banking sources used by European brands, such as Xero, Exact and Open Banking.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Accounting and banking connections relevant to European brands."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Xero is connected in the product's Connect & Setup screen. Other European accounting and banking sources are still to confirm."]},
+        {"question": "How does it help?", "paragraphs": ["It helps European brands bring their accounts into Luca alongside commerce data."]},
+        {"question": "What happens without it?", "paragraphs": ["Luca cannot compare your commerce figures with your books or bank data."]},
+        {"question": "Who is it for?", "paragraphs": ["European and UK brands, particularly those on Xero."]}
+      ],
+      "example": "List the accounting and banking tools you use. If you use Xero, connect it during setup; for anything else, ask Luca's team to confirm support before onboarding.",
+      "boundary": "Xero confirmed; other European accounting and banking sources, including Exact and Open Banking, to confirm.",
+      "review": "Luca's team should confirm Exact and any European banking or Open Banking connections."
+    },
+    {
+      "id": "MB1",
+      "name": "Am I eligible?",
+      "definition": "Whether a merchant qualifies for Luca's Mastercard Business Bonus partner pricing.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The question of whether your business qualifies for Mastercard Business Bonus pricing. Eligibility is confirmed by Luca."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca has a dedicated Mastercard Business Bonus pricing page on ask-luca.com. Eligibility is confirmed by Luca, so start from that page and ask Luca's team to confirm your business qualifies."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you know before you choose a plan whether partner pricing applies to you."]},
+        {"question": "What happens without it?", "paragraphs": ["You might choose a plan expecting partner pricing that does not apply."]},
+        {"question": "Who is it for?", "paragraphs": ["Mastercard Business Bonus merchants considering Luca."]}
+      ],
+      "example": "Before signup, contact Luca's team from the partner pricing page with your business details and ask them to confirm eligibility in writing.",
+      "boundary": "This page does not list eligibility criteria. Eligibility is confirmed by Luca.",
+      "review": "Luca's team should confirm the eligibility criteria and how a merchant requests confirmation."
+    },
+    {
+      "id": "MB2",
+      "name": "Size of the discount",
+      "definition": "How much the Mastercard Business Bonus partner discount reduces the price of Luca's plans.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The partner discount on Luca's plans for Mastercard Business Bonus merchants."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["The Mastercard Business Bonus pricing page offers a discount on every plan, on both monthly and annual billing. The discount is shown on that page; this documentation does not state a percentage."]},
+        {"question": "How does it help?", "paragraphs": ["It helps eligible merchants reduce the cost of whichever plan suits them."]},
+        {"question": "What happens without it?", "paragraphs": ["You pay standard pricing."]},
+        {"question": "Who is it for?", "paragraphs": ["Eligible Mastercard Business Bonus merchants."]}
+      ],
+      "example": "Compare the plan you want on the partner pricing page and the standard pricing page, for both monthly and annual billing. Ask Luca's team to confirm eligibility before you rely on the partner price.",
+      "boundary": "No discount percentage is stated here. The discount applies to eligible merchants, and eligibility is confirmed by Luca.",
+      "review": "Luca's team should confirm the current discount wording on the partner page."
+    },
+    {
+      "id": "MB4",
+      "name": "Listed on Mastercard Business Bonus",
+      "definition": "Being listed by a known partner programme, which gives merchants a recognisable place to find a provider.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Luca is listed on Mastercard's Business Bonus page."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca appears on Mastercard's Business Bonus page beside large consumer brands. Merchants can find Luca there and then go to Luca's partner pricing page."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you find Luca through a programme you already use."]},
+        {"question": "What happens without it?", "paragraphs": ["You would need to find and assess Luca without the programme listing."]},
+        {"question": "Who is it for?", "paragraphs": ["Mastercard Business Bonus merchants."]}
+      ],
+      "example": "Find Luca on Mastercard's Business Bonus page, follow it to Luca's partner pricing page and confirm with Luca's team that you are eligible.",
+      "boundary": "The listing shows that Luca is part of the programme. It is not a statement by Mastercard about Luca's product, and this page makes no certification claims.",
+      "review": "Luca's team should confirm the link to the Mastercard listing."
+    },
+    {
+      "id": "MB6",
+      "name": "Same product as the full plan",
+      "definition": "Whether partner pricing buys the same product as standard pricing, or a reduced version.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The partner discount applies to the same plans as standard pricing."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["The Mastercard Business Bonus pricing page applies its discount to the same plans as standard pricing. You choose a plan as any other customer would."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you know that partner pricing does not mean a cut-down product."]},
+        {"question": "What happens without it?", "paragraphs": ["You would need to check plan by plan what a partner version leaves out."]},
+        {"question": "Who is it for?", "paragraphs": ["Mastercard Business Bonus merchants comparing partner and standard pricing."]}
+      ],
+      "example": "Compare plan names and inclusions on the partner and standard pricing pages, and ask Luca's team to confirm there are no differences for your plan.",
+      "boundary": "The discount applies to eligible merchants, and eligibility is confirmed by Luca. This page states no discount percentage.",
+      "review": "Luca's team should confirm that plan inclusions are identical on partner and standard pricing."
+    }
+  ]
+}

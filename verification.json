@@ -1,0 +1,11 @@
+{
+  "result": "passed",
+  "pages": 49,
+  "capabilities": 101,
+  "statusCounts": {
+    "available": 85,
+    "scoped": 16
+  },
+  "origin": "http://127.0.0.1:3000",
+  "basePath": ""
+}

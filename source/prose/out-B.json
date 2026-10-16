@@ -1,0 +1,665 @@
+{
+  "pages": [
+    {
+      "url": "/products/",
+      "intro": [
+        "This section describes the parts of Luca and how they fit together. It is for buyers evaluating Luca and for operators who want to know what each part does and where its limits are.",
+        "Luca is an AI analyst agent for e-commerce brands. You connect your sources, ask questions in plain English in the chat, and see a reconciled view of your business in Numbers."
+      ],
+      "sections": [
+        {
+          "id": "what-is-in-this-section",
+          "title": "What is in this section",
+          "paragraphs": [
+            "The Luca agent page covers the chat interface: asking questions, answers that combine sources, charts, follow-ups, recommended next steps and content drafts. The Numbers page covers the reconciled control centre shown above the chat.",
+            "The knowledge base page covers the documents and business context you upload. The capital page explains how optional capital relates to Luca. The feature directory covers data connection, control and safety, and teams and seats."
+          ]
+        },
+        {
+          "id": "how-the-parts-fit",
+          "title": "How the parts fit together",
+          "paragraphs": [
+            "Numbers holds your reconciled data. Luca, the agent, sits on top of it and reasons across your connected sources, using any context you add to the knowledge base.",
+            "Luca reads your data and suggests. You validate its suggestions and make any changes in your own systems yourself."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/products/luca-agent/",
+      "intro": [
+        "This page describes Luca, the AI analyst agent you use through a chat interface over your connected data. It covers how you ask questions, the kinds of answers you get, and where the agent's limits are. It is for operators and buyers evaluating how Luca would fit day-to-day analysis.",
+        "The agent sits on top of Numbers, the reconciled view of your data, and can draw on context you add to the knowledge base. Luca suggests and you decide: it does not change your connected systems."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers asking questions in plain English, answers that combine sources, charts generated from a question, follow-up questions, usage without credits, the web app, recommended next steps, marketing content drafts, the done-with-you working model, and how Luca responds to requests outside what it does.",
+            "It does not cover connecting sources, which is described under Data connection, or the reconciled dashboard, which is described under Numbers."
+          ]
+        },
+        {
+          "id": "how-you-work-with-luca",
+          "title": "How you work with Luca",
+          "paragraphs": [
+            "Luca is done-with-you, not done-for-you. Luca does the analysis and proposes a strategy. You validate it and carry it out in your own tools.",
+            "During onboarding and data reconciliation, Luca's team works alongside you."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/products/numbers/",
+      "intro": [
+        "Numbers is the reconciled control centre in Luca. It brings data from your sources together into one clean database and shows it as a unified view above the chat. This page is for operators and finance or growth leads who want to understand what Numbers shows and how it is set up.",
+        "Numbers is the data layer: the dashboard is the reconciled data itself, with no AI in it. Luca, the agent, sits on top of it and answers questions using that data."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers the reconciled database, the control-centre view, net revenue, cohort analysis, active and lapsed customers, subscription skip data, reconciliation with accounting data, and the data connections shown on Numbers.",
+            "Several of these are delivered through reconciliation work by Luca's team, not created automatically when you connect a source. Each item below says where that applies."
+          ]
+        },
+        {
+          "id": "how-numbers-is-set-up",
+          "title": "How Numbers is set up",
+          "paragraphs": [
+            "Reconciliation is a project led by Luca's team. For the first Numbers client, reconciling Shopify, Recharge and accounting data took about three weeks of work by Luca's team.",
+            "Luca's team is rolling Numbers out for several clients. The work needed for your account depends on your sources, so confirm the plan with Luca's team."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/products/knowledge-base/",
+      "intro": [
+        "The knowledge base is where you give Luca context about your business. You can upload company documents and manage them in the product. This page is for operators who want Luca's answers to reflect their goals and rules, not only their raw data.",
+        "The knowledge base works alongside your connected sources and Numbers. Separately, Luca has its own internal knowledge base, written by its team, that describes what it can and cannot do."
+      ]
+      ,
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers uploading company documents, the kinds of business context the knowledge base holds, and Luca's internal knowledge of its own capabilities.",
+            "The knowledge base holds what you upload. It does not describe Luca remembering past conversations, and holding context such as seasonality is not forecasting."
+          ]
+        },
+        {
+          "id": "what-context-to-add",
+          "title": "What context to add",
+          "paragraphs": [
+            "Luca's website lists goals, constraints, cost rules, lead times and seasonality as the context the knowledge base holds. This context can come from documents such as PDFs or emails that you upload.",
+            "Confirm with Luca's team how each type of context is applied in answers."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/products/capital/",
+      "intro": [
+        "This page explains how capital relates to Luca. Capital is optional, and you do not need it to use Luca. It is for buyers and finance leads who want a clear picture before evaluating the product.",
+        "Luca is an agentic AI company for e-commerce, not a financing company, and Luca is not a lender or a bank. Capital is an optional output of Luca's intelligence, provided through lending partners, and availability and terms are confirmed directly with Luca's team."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers two points: capital is optional, and Luca is not a lender. Any capital is provided through lending partners.",
+            "This page does not describe availability, amounts, rates, eligibility, timings or terms, and none of these should be inferred from it."
+          ]
+        },
+        {
+          "id": "availability-and-terms",
+          "title": "Availability and terms",
+          "paragraphs": [
+            "Whether capital is available to your business, and on what terms, is confirmed directly with Luca's team. Nothing on this page is an offer of credit.",
+            "Luca does not lead with capital. The product is built for operators who want to understand and run their business, and every part of it can be used without capital."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/products/features/",
+      "intro": [
+        "The feature directory groups Luca's supporting capabilities by area. It is for buyers checking specific requirements, such as how sources connect, what Luca can and cannot change, and how seats work.",
+        "Each feature page sits alongside the product pages: the Luca agent, Numbers, the knowledge base and capital."
+      ],
+      "sections": [
+        {
+          "id": "areas",
+          "title": "Areas in this directory",
+          "paragraphs": [
+            "Data connection and setup explains how you connect a source. Control and safety explains why Luca reads your data and you decide what changes. Teams, seats and regions explains how plans are sized by seat and which regions Luca serves."
+          ]
+        },
+        {
+          "id": "how-to-read-a-feature-page",
+          "title": "How to read a feature page",
+          "paragraphs": [
+            "Each feature is described by what it is, how it works in Luca, how it helps, what happens without it, and who it is for. Each also lists its limits and a way to test it during setup or a trial.",
+            "Where a feature is delivered by Luca's team or applies only in some cases, the page says so."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/products/features/data-connection/",
+      "intro": [
+        "This page explains how you connect a data source to Luca. It is for anyone setting up an account or evaluating how much effort setup takes.",
+        "Connected sources are what the Luca agent reasons across and what Numbers reconciles. Some reconciliation work is done by Luca's team after you connect, as described on the Numbers page."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers connecting a standard source through the platform's own sign-in and permission screen, and when you connect your first source.",
+            "It does not cover reconciliation, which is separate work described on the Numbers page, or the access permissions Luca holds, which are described under Control and safety."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/products/features/control-and-safety/",
+      "intro": [
+        "This page explains what Luca can and cannot do in your connected systems. It is for operators, finance leads and anyone responsible for the systems Luca connects to.",
+        "Luca reads, you decide. The agent analyses your data and suggests next steps; you validate them and make any changes yourself."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers two principles: nothing changes in a connected system without you, and Luca is read-only by design.",
+            "It does not cover how to connect a source, which is described under Data connection."
+          ]
+        },
+        {
+          "id": "what-this-means-in-practice",
+          "title": "What this means in practice",
+          "paragraphs": [
+            "When Luca was asked to automate a change in Shopify or Meta, it replied that it could not. It offered to explain how to make the change, and said a human stays in the loop.",
+            "If you ask Luca to change something, expect guidance on how to do it yourself, not the change itself."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/products/features/teams-and-seats/",
+      "intro": [
+        "This page covers how Luca plans are structured by seat, the unlimited-seat option, and the regions Luca serves. It is for buyers planning who in their team will use Luca.",
+        "Plans are sold by seat, so the plan you choose sets how many people can use Luca. Prices are not stated here; see the pricing page for current plans."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers seats per plan, the unlimited-seat option with its full and standard access levels, and the regions and currencies Luca serves.",
+            "It does not state prices, and it does not describe where data is stored. Confirm data location with Luca's team."
+          ]
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "id": "U31",
+      "name": "Connect a source in two clicks (OAuth)",
+      "definition": "OAuth connection lets you link a data source by signing in on that platform's own screen and approving the access it requests.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["A way to connect a data source through the platform's own sign-in and permission screen, rather than by entering that platform's credentials into Luca."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Standard sources connect through each platform's own sign-in and permission screen. Luca's pricing page describes this as two clicks per source for most users.", "New users connect a data source during signup, so the first source is in place before they start asking questions."]},
+        {"question": "How does it help?", "paragraphs": ["It keeps setup short, and you approve access on a platform you already use, which helps you see what you are granting."]},
+        {"question": "What happens without it?", "paragraphs": ["Without a direct connection, you would rely on manual exports that go out of date and must be refreshed by hand."]},
+        {"question": "Who is it for?", "paragraphs": ["Anyone setting up a Luca account, including founders and operators who do not have a data team."]}
+      ],
+      "example": "During signup, connect one standard source and count the steps from choosing it to seeing it listed as connected. Note which permissions the platform's screen asks you to approve. Repeat for a second source to check the experience is consistent.",
+      "boundary": "Two clicks applies to standard sources for most users, as described on the pricing page; some sources may need more steps or help from Luca's team. Connecting a source is not the same as reconciling it, which is separate work for Numbers.",
+      "review": "Attach a screenshot of the connection flow and confirm which sources use this flow and which need assistance from Luca's team."
+    },
+    {
+      "id": "U84",
+      "name": "Ask questions in plain English across connected sources",
+      "definition": "Natural-language questions let you ask about your business in everyday words and get an answer from your data, without writing queries or building reports.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["A chat interface where you type a question in plain English and Luca answers using your connected data."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca is used through a chat interface, Luca Web Chat, over your connected data. New users connect a data source and start chatting with Luca.", "Questions can draw on whichever sources your account has connected."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you get to an answer without waiting for an analyst or switching between tools. A third-party round-up published in September 2026 described Luca as suited to cross-functional analysis across commerce, marketing, finance, inventory and cash flow."]},
+        {"question": "What happens without it?", "paragraphs": ["Each question means logging in to separate tools, exporting data and combining it yourself."]},
+        {"question": "Who is it for?", "paragraphs": ["Founders, operators and team leads who need answers from their data but do not want to build reports."]}
+      ],
+      "example": "Connect two sources, then ask one question that needs both, for example how a recent change in marketing relates to sales. Check whether the answer draws on both sources and whether you can follow it up in the same conversation.",
+      "boundary": "Luca can only answer from sources your account has connected. It answers questions; it does not change anything in those sources.",
+      "review": "Attach a screenshot of Luca Web Chat showing a sample question and answer."
+    },
+    {
+      "id": "U85",
+      "name": "Answers that combine marketing, finance and commerce data",
+      "definition": "Cross-source reasoning means one answer draws on several kinds of business data at once, such as marketing, finance and commerce, instead of reporting from one tool at a time.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Answers that bring together data from more than one area of your business in a single response."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca is designed as one main orchestrator with tools beneath it. It reasons across your business's sources rather than one tool at a time.", "Answers can only span the sources your account has connected and that Luca's team has reconciled."]},
+        {"question": "How does it help?", "paragraphs": ["It addresses a common problem: data is fragmented across tools, with no coherent reasoning layer across them. One answer across areas helps you see how a decision in one area relates to another."]},
+        {"question": "What happens without it?", "paragraphs": ["Each tool reports on its own slice, and you are left to join the pieces and explain any differences yourself."]},
+        {"question": "Who is it for?", "paragraphs": ["Leaders whose decisions span marketing, finance and operations, such as founders, heads of growth and finance leads."]}
+      ],
+      "example": "Ask a question that needs marketing and finance data together, then ask a related question about a single source. Compare which sources each answer draws on, and confirm with Luca's team which of your sources are reconciled.",
+      "boundary": "Answers can only span the sources the account has connected and that Luca's team has reconciled. Where a source is connected but not yet reconciled, confirm with Luca's team how it is used.",
+      "review": "Confirm which source combinations are reconciled as standard and attach an example cross-source answer."
+    },
+    {
+      "id": "U86",
+      "name": "Charts generated from a question",
+      "definition": "On-demand charts are graphs created in response to a specific question, rather than picked from a fixed set of prebuilt dashboards.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Charts and graphs that Luca creates to answer the question you asked."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["When you ask a question, Luca can generate charts and graphs on the fly as part of its answer. Each chart is made for that question, rather than drawn from a fixed set of dashboards."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you see a trend or comparison without first building a dashboard for it."]},
+        {"question": "What happens without it?", "paragraphs": ["You need a prebuilt dashboard for every view you want, or you build the chart yourself from exported data."]},
+        {"question": "Who is it for?", "paragraphs": ["Anyone who prefers to see results visually, including teams presenting figures to colleagues."]}
+      ],
+      "example": "Ask for a comparison over time, then ask for the same view broken down a different way. Check that each chart matches the question and that its figures agree with your source.",
+      "boundary": "Charts reflect the data Luca has from your connected sources. This page does not describe exporting or sharing charts; confirm those with Luca's team.",
+      "review": "Attach a screenshot of a generated chart and confirm the chart types and any export options available."
+    },
+    {
+      "id": "U87",
+      "name": "Follow-up questions in the same conversation",
+      "definition": "Multi-turn follow-ups let you continue a conversation, asking a further question that builds on the previous answer.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The ability to keep asking within the same conversation, refining or extending what you asked before."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca is used as an ongoing conversation rather than one question at a time, so you can ask a follow-up that builds on the previous answer. Luca's team has reported users returning to Luca four to five times a day."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you go from a first answer to the detail behind it without restating your question each time."]},
+        {"question": "What happens without it?", "paragraphs": ["Each question starts from nothing, and you repeat context to narrow an answer down."]},
+        {"question": "Who is it for?", "paragraphs": ["Operators who explore a question in steps, such as tracing a change in sales to its cause."]}
+      ],
+      "example": "Ask a broad question, then ask two follow-ups that narrow it without restating the first. Check that each answer stays consistent with the one before.",
+      "boundary": "Follow-ups apply within a conversation. This page does not describe Luca remembering earlier conversations; context you want Luca to use belongs in the knowledge base.",
+      "review": "Confirm how much of a conversation Luca carries into a follow-up and attach an example multi-turn exchange."
+    },
+    {
+      "id": "U92",
+      "name": "Unlimited questions, no AI credits",
+      "definition": "Unlimited usage means the number of questions you can ask is not capped by a credit or question allowance.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Asking Luca as many questions as you need, without counting credits."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's pricing page lists unlimited usage on every plan. There is no question limit and no credit limit."]},
+        {"question": "How does it help?", "paragraphs": ["You can ask freely, including follow-ups, without rationing questions or watching a balance."]},
+        {"question": "What happens without it?", "paragraphs": ["With credit-based tools, teams may ration questions or skip follow-ups to save credits."]},
+        {"question": "Who is it for?", "paragraphs": ["Teams that ask questions often, and buyers who want predictable usage."]}
+      ],
+      "example": "During a trial, use Luca as you would in a normal week, including follow-ups, and check whether any credit counter or question limit appears. Confirm the current terms on the pricing page.",
+      "boundary": "This describes usage as listed on the pricing page. Plans differ in other ways, such as seats; check the pricing page for current plan details.",
+      "review": "Confirm this wording matches the current pricing page and whether any fair-use terms apply."
+    },
+    {
+      "id": "U93",
+      "name": "Web app",
+      "definition": "A web app runs in your browser, so there is nothing to install.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Luca's browser-based application."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca runs as a web application at app.ask-luca.com. You sign in there to use the chat and see your data."]},
+        {"question": "How does it help?", "paragraphs": ["You can use Luca from a browser without installing software."]},
+        {"question": "What happens without it?", "paragraphs": ["Each user would need installed software, which adds setup for a team."]},
+        {"question": "Who is it for?", "paragraphs": ["Every Luca user."]}
+      ],
+      "example": "Open app.ask-luca.com in the browser your team normally uses and sign in. Check that the chat and your connected data load as expected.",
+      "boundary": "This page describes the web app only. Confirm with Luca's team whether any other apps are available.",
+      "review": "Confirm supported browsers and attach a screenshot of the signed-in app."
+    },
+    {
+      "id": "U119",
+      "name": "Recommended next steps",
+      "definition": "Prescriptive next steps are recommendations about what to do, given alongside the analysis that supports them.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Recommendations and step-by-step plans that Luca produces alongside its answers."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca produces recommendations and step-by-step plans, not only numbers. It does the analysis and proposes the strategy.", "You validate the plan and carry it out yourself."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you move from an answer to a decision, with a plan you can review before acting."]},
+        {"question": "What happens without it?", "paragraphs": ["You get figures but must work out on your own what they mean for your next decision."]},
+        {"question": "Who is it for?", "paragraphs": ["Founders and operators who want a starting point for action that they can check and adapt."]}
+      ],
+      "example": "Ask Luca what you should do about a specific issue in your data. Check whether the plan is broken into steps and whether each step traces back to the analysis. Decide which steps you would carry out.",
+      "boundary": "Recommendations are suggestions. Luca does not carry them out; you validate and execute them.",
+      "review": "Attach an example recommendation with its step-by-step plan."
+    },
+    {
+      "id": "U103",
+      "name": "Marketing content drafting",
+      "definition": "Content drafting produces first versions of marketing material, such as posts or newsletters, for a person to review and edit.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Drafts of marketing content that Luca can produce on request."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Content generation is listed in Luca's product walkthrough and covers posts, newsletters, images and brand assets. It is a secondary capability, and what Luca produces is a draft for your team to review."]},
+        {"question": "How does it help?", "paragraphs": ["It can give your team a starting point to edit."]},
+        {"question": "What happens without it?", "paragraphs": ["Your team starts each piece from a blank page."]},
+        {"question": "Who is it for?", "paragraphs": ["Small marketing teams and founders who write their own content."]}
+      ],
+      "example": "Ask Luca for a draft newsletter on a topic from your data. Review it against your brand guidelines and note how much editing it needs.",
+      "boundary": "A secondary capability; output is a draft for the team to review. Luca does not publish or send content.",
+      "review": "Confirm which content types are available today and attach an example draft."
+    },
+    {
+      "id": "U127",
+      "name": "Done-with-you analysis and strategy",
+      "definition": "A done-with-you model means the product does the analysis and proposes a strategy, while your team validates it and carries it out.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The way Luca works with you: Luca analyses and proposes, and you decide and act."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca is done-with-you, not done-for-you. Luca does the analysis and strategy, and you validate and execute.", "Luca's team also works alongside clients during onboarding and data reconciliation."]},
+        {"question": "How does it help?", "paragraphs": ["It keeps decisions with the people accountable for them, while taking analysis work off their plate."]},
+        {"question": "What happens without it?", "paragraphs": ["Teams either do all the analysis themselves or hand decisions to a tool they cannot check."]},
+        {"question": "Who is it for?", "paragraphs": ["Operators who want analytical help but want to stay in control of what happens in their business."]}
+      ],
+      "example": "During onboarding, note which reconciliation tasks Luca's team takes on and which need your input. After setup, take one proposed strategy and check how easily you can validate it before acting.",
+      "boundary": "Luca does not execute changes. The work Luca's team does is part of onboarding and reconciliation; confirm its extent for your account.",
+      "review": "Confirm what Luca's team does during onboarding and reconciliation, and how that support is scoped."
+    },
+    {
+      "id": "M1",
+      "name": "Tells you plainly when a request is outside what it does",
+      "definition": "Clear refusal means an assistant says directly when a request is outside what it can do, rather than attempting it or giving a vague reply.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Luca's behaviour when you ask for something it does not do."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["When Luca was asked to automate a change in Shopify or Meta, it replied that it could not. It offered to explain how to make the change, and said a human stays in the loop.", "Luca's awareness of its own limits comes from an internal knowledge base written by its team."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you trust what Luca does say, because it is clear about what it will not do."]},
+        {"question": "What happens without it?", "paragraphs": ["An assistant might appear to attempt a task it cannot complete, leaving you unsure what happened."]},
+        {"question": "Who is it for?", "paragraphs": ["Anyone relying on Luca for decisions, and anyone responsible for the systems it connects to."]}
+      ],
+      "example": "Ask Luca to make a change in one of your connected systems, such as editing a product. Check that it says it cannot and offers guidance instead.",
+      "boundary": "This describes how Luca responds; it does not mean Luca can make changes on request. The exact wording of a response can vary.",
+      "review": "Attach a screenshot of a current refusal response to confirm this behaviour."
+    },
+    {
+      "id": "U32",
+      "name": "One reconciled database across your sources",
+      "definition": "A reconciled database combines data from several systems and resolves differences between them, so each figure has one agreed value.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The single, clean database behind Numbers, built from your sources."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Numbers reconciles your Shopify, subscription and accounting data into one clean database and shows it as a unified view. Luca's team is rolling Numbers out for several clients.", "Reconciliation is work led by Luca's team, as described under Reconciled with accounting data."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you work from one set of figures rather than reconciling differences between tools yourself."]},
+        {"question": "What happens without it?", "paragraphs": ["Each system reports its own version of the same figure, and teams spend time explaining the gaps."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands whose figures differ between their store, subscription and accounting systems, and the finance and growth leads who reconcile them."]}
+      ],
+      "example": "Pick one figure you already track, such as last month's revenue, and compare the value in Numbers with your store and accounting systems. Ask Luca's team to explain any difference.",
+      "boundary": "Numbers reconciles the sources included in your reconciliation, which Luca's team sets up. It is not created automatically when you connect a source.",
+      "review": "Confirm which source types are included in a standard Numbers setup and attach a screenshot."
+    },
+    {
+      "id": "U189",
+      "name": "Unified control-centre view",
+      "definition": "A control-centre view is a single screen that shows the main figures you need to run a business.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The Numbers dashboard, shown above the chat in Luca."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Numbers is a control centre to run the business, shown above the chat. The dashboard is the reconciled data itself, with no AI in it.", "Luca, the agent, sits on top of it and answers questions using that data."]},
+        {"question": "How does it help?", "paragraphs": ["Because the dashboard shows reconciled data rather than AI output, it gives you a fixed reference to check Luca's answers against."]},
+        {"question": "What happens without it?", "paragraphs": ["You check several dashboards in different tools, each with its own figures."]},
+        {"question": "Who is it for?", "paragraphs": ["Founders and operators who want one place to see how the business is doing."]}
+      ],
+      "example": "Open Numbers, note a figure, then ask Luca a question about it in the chat. Check that the answer is consistent with the figure shown.",
+      "boundary": "The dashboard displays reconciled data and does not generate AI insights by itself. Which figures appear depends on your reconciliation.",
+      "review": "Attach a screenshot of Numbers above the chat and list the panels shown as standard."
+    },
+    {
+      "id": "U50",
+      "name": "Net revenue",
+      "definition": "Net revenue is revenue after deductions such as discounts, refunds and returns.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["A revenue figure in Numbers that reflects deductions, not only gross sales."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Net revenue is part of the reconciled commerce view in Numbers. Because it comes from reconciled data, it reflects one agreed set of figures rather than a single tool's report."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you judge performance on the revenue the business keeps, not only on what was sold."]},
+        {"question": "What happens without it?", "paragraphs": ["Teams may rely on gross figures from a single tool, which can overstate performance."]},
+        {"question": "Who is it for?", "paragraphs": ["Finance leads, founders and growth teams."]}
+      ],
+      "example": "Compare net revenue in Numbers for a recent month with the figure your finance team reports. Ask Luca's team which deductions are included.",
+      "boundary": "The deductions included depend on how your data is reconciled; confirm the definition with Luca's team.",
+      "review": "Confirm the net revenue definition used in Numbers and attach a screenshot."
+    },
+    {
+      "id": "U67",
+      "name": "Cohort analysis",
+      "definition": "Cohort analysis groups customers by when they started, such as their first order or subscription month, and tracks how each group behaves over time.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["A view in Numbers that shows how groups of customers behave over time."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Cohort visibility in Numbers was built for a live subscription client who previously had no visibility of their cohorts. It is part of the reconciled view, so cohorts are built from reconciled data."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you see whether newer customers behave differently from earlier ones, which supports retention decisions."]},
+        {"question": "What happens without it?", "paragraphs": ["You see totals but cannot tell whether retention is improving or worsening for newer customers."]},
+        {"question": "Who is it for?", "paragraphs": ["Subscription and repeat-purchase brands, and their retention and finance leads."]}
+      ],
+      "example": "Ask Luca's team to show cohorts for your account, then pick one cohort and check its size against your own records.",
+      "boundary": "Cohort visibility was built for a subscription client's reconciled data. Confirm how cohorts are defined for your data model.",
+      "review": "Confirm cohort definitions and availability for non-subscription brands, and attach a screenshot."
+    },
+    {
+      "id": "U69",
+      "name": "Active vs lapsed customers",
+      "definition": "Active and lapsed customer status separates customers who are still buying or subscribed from those who have stopped.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["A view in Numbers that tells active customers apart from inactive ones."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Before Numbers, a subscription client could not tell active from inactive customers. The reconciled view addressed this, and it was built for that client's reconciled data."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you size your active base and see how many customers have lapsed."]},
+        {"question": "What happens without it?", "paragraphs": ["Active and lapsed customers are mixed together, so customer counts can mislead."]},
+        {"question": "Who is it for?", "paragraphs": ["Subscription brands and the teams responsible for retention."]}
+      ],
+      "example": "Ask Luca's team how active and lapsed are defined for your data, then check the counts against a sample of customers you know.",
+      "boundary": "Built for a subscription client's reconciled data; confirm for your data model.",
+      "review": "Confirm the definition of active and lapsed and whether it applies beyond subscription data."
+    },
+    {
+      "id": "U180",
+      "name": "Subscription skips, pauses and gaps",
+      "definition": "Subscription skip and pause data records when subscribers skip or pause deliveries, which affects revenue even when they have not cancelled.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["A rebuilt history of subscription events, such as skipped orders, drawn from the systems that hold them."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["This is delivered through a reconciliation project by Luca's team. In one client's case, Luca rebuilt the historical subscription-skip data from several systems.", "The rebuild found a revenue shortfall of $72,000 that the client had not known about."]},
+        {"question": "How does it help?", "paragraphs": ["It can reveal revenue lost to skips that does not show up in standard reporting."]},
+        {"question": "What happens without it?", "paragraphs": ["Skips and gaps can stay hidden across systems, so revenue shortfalls go unnoticed."]},
+        {"question": "Who is it for?", "paragraphs": ["Subscription brands whose subscription data sits across several systems."]}
+      ],
+      "example": "Ask Luca's team to scope a reconciliation of your subscription history. Once it is complete, compare skip counts for one period with your subscription platform's records.",
+      "boundary": "Delivered through a reconciliation project by Luca's team. The client result described is one case, not an expected outcome; confirm whether pauses are covered for your data.",
+      "review": "Confirm the client has agreed to the example being cited, and confirm which subscription events, including pauses, are covered."
+    },
+    {
+      "id": "U34",
+      "name": "Reconciled with accounting data",
+      "definition": "Accounting reconciliation checks commerce figures against the accounting records, so the figures you analyse agree with your books.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Reconciliation of your store and subscription data with your accounting data, inside Numbers."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["This is a reconciliation project led by Luca's team, not an instant connector result. For the first Numbers client, reconciling Shopify, Recharge and accounting data took about three weeks of work by Luca's team."]},
+        {"question": "How does it help?", "paragraphs": ["It helps make the figures you analyse in Luca consistent with the figures your finance team reports."]},
+        {"question": "What happens without it?", "paragraphs": ["Commerce and accounting figures disagree, and each review starts with explaining the difference."]},
+        {"question": "Who is it for?", "paragraphs": ["Finance leads and founders who need commerce figures to match the books."]}
+      ],
+      "example": "Ask Luca's team to scope reconciliation for your sources and explain the plan. Afterwards, pick one month and compare Numbers with your accounting records.",
+      "boundary": "A reconciliation project led by Luca's team, not an instant connector result. The work needed depends on your sources, and the first client's timing is not a commitment for yours.",
+      "review": "Confirm which accounting systems are supported for reconciliation and how projects are scheduled."
+    },
+    {
+      "id": "M2",
+      "name": "Data connections shown on Numbers",
+      "definition": "Connection status shows which data sources feed a dashboard.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The connected sources displayed on Numbers."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["In the demonstrated build, Numbers shows Shopify, Amazon, Google Analytics and Stripe connections. This lets you see which sources the view draws on."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you check which sources sit behind the figures you are looking at."]},
+        {"question": "What happens without it?", "paragraphs": ["You cannot easily tell which systems a figure includes."]},
+        {"question": "Who is it for?", "paragraphs": ["Anyone reviewing figures in Numbers, especially finance and growth leads."]}
+      ],
+      "example": "Open Numbers and check that the connections shown match the sources you connected. Ask Luca's team about any source you expected but do not see.",
+      "boundary": "The connections listed are those in the demonstrated build, not a full list of supported sources. Confirm which connections appear for your account.",
+      "review": "Attach a screenshot of the connections area on Numbers."
+    },
+    {
+      "id": "U146",
+      "name": "Upload company documents to a knowledge base",
+      "definition": "A knowledge base is a set of company documents that an AI system can refer to when answering questions.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["A place in Luca to upload and manage your company documents."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["In the product's Connect & Setup screen, you can upload company documents and manage a knowledge base. Luca uses what your account uploads as context alongside your connected data."]},
+        {"question": "How does it help?", "paragraphs": ["It helps Luca's answers reflect how your business works, not only what the data shows."]},
+        {"question": "What happens without it?", "paragraphs": ["Luca answers from data alone, without your policies, goals or other written context."]},
+        {"question": "Who is it for?", "paragraphs": ["Teams with written plans, policies or briefs they want Luca to take into account."]}
+      ],
+      "example": "Upload one document that sets a rule, such as a cost policy, then ask a question where the rule matters. Check whether the answer reflects it.",
+      "boundary": "The knowledge base holds what you upload; confirm supported file types with Luca's team. It does not mean Luca remembers past conversations.",
+      "review": "Attach a screenshot of the knowledge base in Connect & Setup and list supported file types."
+    },
+    {
+      "id": "U147",
+      "name": "Goals, constraints and cost rules as context",
+      "definition": "Business context is the information about goals, limits and rules that shapes what a good decision looks like for a particular business.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The kinds of context you can give Luca through the knowledge base."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's website lists goals, constraints, cost rules, lead times and seasonality as the context the knowledge base holds. This context can come from documents such as PDFs or emails.", "Luca uses what your account uploads."]},
+        {"question": "How does it help?", "paragraphs": ["It helps Luca weigh its suggestions against your actual targets and limits."]},
+        {"question": "What happens without it?", "paragraphs": ["Suggestions may ignore rules that matter to you, such as a cost limit or a supplier's lead time."]},
+        {"question": "Who is it for?", "paragraphs": ["Operators and finance leads whose decisions depend on specific targets, costs or lead times."]}
+      ],
+      "example": "Upload a document setting out a goal and a constraint, then ask Luca for a recommendation that touches both. Check whether the recommendation respects them.",
+      "boundary": "Luca uses what the account uploads; confirm how each type of context is applied. Holding seasonality or lead times as context is not forecasting.",
+      "review": "Confirm how each context type is applied in answers and attach an example."
+    },
+    {
+      "id": "M3",
+      "name": "Built-in knowledge of its own capabilities",
+      "definition": "Self-knowledge in an AI agent is a defined description of what it can and cannot do, which it uses to answer requests accurately.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Luca's internal knowledge base about its own capabilities."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca has its own internal knowledge base, written by its team as skills. It makes Luca aware of what it can and cannot do.", "This is separate from the knowledge base you fill with your company documents."]},
+        {"question": "How does it help?", "paragraphs": ["It helps Luca tell you clearly when a request is outside what it does."]},
+        {"question": "What happens without it?", "paragraphs": ["An agent may overstate what it can do, or try a task it cannot finish."]},
+        {"question": "Who is it for?", "paragraphs": ["Anyone evaluating whether Luca's answers about itself can be relied on."]}
+      ],
+      "example": "Ask Luca what it can and cannot do with one of your connected sources. Compare its answer with this documentation.",
+      "boundary": "This internal knowledge base is written by Luca's team, not by you, and is separate from your uploaded documents.",
+      "review": "Confirm how the internal skills are maintained and whether users can see them."
+    },
+    {
+      "id": "U178",
+      "name": "Capital is optional",
+      "definition": "Optional capital means funding is an extra that a business may choose to explore, not something the product depends on.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Capital is an optional output of Luca's intelligence. It is not a separate product and not a requirement for using Luca."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca is an agentic AI company for e-commerce, not a financing company. Capital is a feature that Luca's intelligence can unlock, not a parallel product, and any capital is provided through lending partners.", "Whether capital is available to you, and on what terms, is confirmed directly with Luca's team."]},
+        {"question": "How does it help?", "paragraphs": ["Keeping capital optional means you can use Luca fully for analysis without any funding conversation."]},
+        {"question": "What happens without it?", "paragraphs": ["Nothing changes: you do not need capital to use Luca, and choosing not to explore it does not limit the rest of the product."]},
+        {"question": "Who is it for?", "paragraphs": ["Every Luca user, since capital is not required. If you want to explore capital, speak to Luca's team directly."]}
+      ],
+      "example": "Set up and use Luca without raising capital at any point, and check whether anything in setup depends on it. If you want to explore capital, ask Luca's team directly about availability and terms.",
+      "boundary": "This page does not describe availability, amounts, rates, timings or terms. Availability and terms are confirmed directly with Luca's team.",
+      "review": "Confirm the approved capital wording with Luca's team, including any lending partner disclosures they require."
+    },
+    {
+      "id": "U179",
+      "name": "Luca is not a lender",
+      "definition": "A lender is the party that provides credit and is responsible for it. Luca is not a lender.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["A clear statement that Luca is not a lender, a bank or a financing company."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca describes itself as an agentic AI company for e-commerce, not a financing company. Its website states that any capital is provided through lending partners, so Luca does not provide credit itself."]},
+        {"question": "How does it help?", "paragraphs": ["It makes clear who you would deal with for any capital, so you can assess Luca as an analysis product on its own merits."]},
+        {"question": "What happens without it?", "paragraphs": ["Buyers could mistake an analytics product for a funding provider and evaluate it on the wrong terms."]},
+        {"question": "Who is it for?", "paragraphs": ["Buyers, finance leads and anyone reviewing Luca for procurement or compliance."]}
+      ],
+      "example": "When reviewing Luca, check that capital is presented as optional and provided through lending partners. If capital matters to you, ask Luca's team which lending partner would be involved and how availability and terms are confirmed.",
+      "boundary": "This page makes no statement about the availability, amount, rate, timing or terms of any capital. Those are confirmed directly with Luca's team.",
+      "review": "Confirm the lending partner disclosure wording Luca's team wants shown on this page."
+    },
+    {
+      "id": "U137",
+      "name": "Nothing changes without your approval",
+      "definition": "Approval by default means no change is made in a connected system unless a person has decided to make it.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Luca's principle that you stay in control of every change in your connected systems."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's website states that every action needs approval by default. In practice, Luca suggests and a human stays in the loop.", "Nothing changes in a connected system without you, and you make any changes yourself."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you act on suggestions on your own terms, so changes happen only when you decide to make them."]},
+        {"question": "What happens without it?", "paragraphs": ["A tool that changes systems on its own could make changes you did not intend."]},
+        {"question": "Who is it for?", "paragraphs": ["Operators, finance leads and anyone accountable for live systems."]}
+      ],
+      "example": "Ask Luca to make a change in a connected system. Check that it does not make the change and instead suggests what you could do.",
+      "boundary": "Luca suggests; it does not make changes in your connected systems on its own. Confirm with Luca's team what the approval-by-default statement covers in the current product.",
+      "review": "Confirm what the website's approval-by-default statement refers to in the product today."
+    },
+    {
+      "id": "U144",
+      "name": "Read-only by design",
+      "definition": "Read-only access lets a system view data in another system without being able to change it.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Luca's design principle: it reads your connected data but does not write to it."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca is agent-readable, not agent-writable. It reads your connected data, gets context and reasons over it.", "Luca's privacy policy states that its Google access is read-only. Luca's team has said it will not make Luca write to live systems without strong guardrails and audit trails."]},
+        {"question": "How does it help?", "paragraphs": ["It limits what Luca does in your systems to reading, which helps when you assess the risk of connecting them."]},
+        {"question": "What happens without it?", "paragraphs": ["Write access would let a tool change live data, which calls for more trust and review."]},
+        {"question": "Who is it for?", "paragraphs": ["Anyone approving Luca's access to company systems, including IT and finance leads."]}
+      ],
+      "example": "When connecting a source, read the permissions the platform asks you to approve. Check whether they are limited to reading, and ask Luca's team about any that are not.",
+      "boundary": "The privacy policy states read-only access for Google specifically. Confirm the access scopes for each other source with Luca's team.",
+      "review": "List the access scopes requested for each source and attach the relevant privacy policy section."
+    },
+    {
+      "id": "U196",
+      "name": "Seats per plan",
+      "definition": "A seat is one named user's access to a product.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["How Luca plans are sized by the number of people who can use them."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca plans are sold by seat. The pricing page lists plans with one seat, three seats or unlimited seats."]},
+        {"question": "How does it help?", "paragraphs": ["It helps you choose a plan by the number of people who need access."]},
+        {"question": "What happens without it?", "paragraphs": ["Without stated seat counts, it is hard to plan access and cost for a team."]},
+        {"question": "Who is it for?", "paragraphs": ["Buyers sizing Luca for a founder alone, a small team or a whole company."]}
+      ],
+      "example": "List who in your team would use Luca, then match that number to the one-seat, three-seat or unlimited-seat plan. Check the pricing page for current plan details.",
+      "boundary": "This page does not state prices. See the pricing page for current plans.",
+      "review": "Confirm the seat counts match the current pricing page."
+    },
+    {
+      "id": "U197",
+      "name": "Unlimited-seat option",
+      "definition": "An unlimited-seat plan lets any number of people in an organisation use a product.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Luca's largest plan, which has no cap on seats."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["The largest plan includes unlimited seats with full and standard access levels. This lets you give some people a different level of access from others."]},
+        {"question": "How does it help?", "paragraphs": ["It helps larger teams give access to everyone who needs it without counting seats."]},
+        {"question": "What happens without it?", "paragraphs": ["Teams ration seats, and some people get answers second-hand."]},
+        {"question": "Who is it for?", "paragraphs": ["Larger brands and teams where many people need access."]}
+      ],
+      "example": "Invite a few colleagues with different roles, giving some full and some standard access. Check what each access level can see and do.",
+      "boundary": "Unlimited seats are on the largest plan only. Confirm what full and standard access each allow with Luca's team.",
+      "review": "Document what full and standard access each permit and attach a screenshot of the access setting."
+    },
+    {
+      "id": "U187",
+      "name": "Serves brands across the UK, EU, US and Australia",
+      "definition": "Regional coverage describes the markets a product serves and the currencies it prices in.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The regions Luca serves and the currencies its pricing is published in."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca operates from London and Luxembourg and serves brands in Europe, the UK, the US and Australia. Its pricing is published in GBP, USD, EUR and AUD."]},
+        {"question": "How does it help?", "paragraphs": ["You can see pricing in your own currency and know that Luca serves brands in your region."]},
+        {"question": "What happens without it?", "paragraphs": ["Buyers outside a product's home market may face pricing in an unfamiliar currency."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands in Europe, the UK, the US and Australia."]}
+      ],
+      "example": "Check the pricing page in your currency. If you sell across several regions, ask Luca's team how multi-region data is handled for your account.",
+      "boundary": "Serving brands in a region is not a statement about where data is stored. Confirm data location with Luca's team.",
+      "review": "Confirm the data location wording Luca's team wants on this page."
+    },
+    {
+      "id": "SC8",
+      "name": "Unlimited seats",
+      "definition": "Unlimited seats means there is no cap on the number of users on a plan.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The option to give any number of people in your team access to Luca."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Unlimited seats are available on Luca's largest plan, as listed on the pricing page. That plan includes full and standard access levels."]},
+        {"question": "How does it help?", "paragraphs": ["It helps growing brands add people without changing plans each time."]},
+        {"question": "What happens without it?", "paragraphs": ["Each new user needs a seat, which can slow access as a team grows."]},
+        {"question": "Who is it for?", "paragraphs": ["Scaling brands with several teams using Luca."]}
+      ],
+      "example": "Estimate how many people across marketing, finance and operations would use Luca. If that is more than three, compare the unlimited-seat plan on the pricing page.",
+      "boundary": "Available on the largest plan only. This page does not state prices.",
+      "review": "Confirm the name of the plan that carries unlimited seats."
+    }
+  ]
+}

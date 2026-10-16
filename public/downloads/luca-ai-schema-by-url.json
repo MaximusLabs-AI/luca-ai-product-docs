@@ -1,0 +1,4875 @@
+{
+ "/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "CollectionPage",
+    "@id": "http://127.0.0.1:3000/#document",
+    "url": "http://127.0.0.1:3000/",
+    "name": "Luca AI product documentation",
+    "description": "Luca AI product documentation: the AI analyst for e-commerce brands. Confirmed capabilities, integrations, security, pricing model and onboarding.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/#breadcrumb"
+    },
+    "hasPart": [
+     {
+      "@type": "WebPage",
+      "name": "Products",
+      "url": "http://127.0.0.1:3000/products/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Integrations",
+      "url": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Solutions by buyer",
+      "url": "http://127.0.0.1:3000/solutions/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Pricing model",
+      "url": "http://127.0.0.1:3000/pricing/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Security and data handling",
+      "url": "http://127.0.0.1:3000/security/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Onboarding, services and support",
+      "url": "http://127.0.0.1:3000/support/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "About Luca",
+      "url": "http://127.0.0.1:3000/about/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Customers and proof",
+      "url": "http://127.0.0.1:3000/customers/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Documentation coverage and open questions",
+      "url": "http://127.0.0.1:3000/review/"
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     }
+    ]
+   }
+  ]
+ },
+ "/products/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "CollectionPage",
+    "@id": "http://127.0.0.1:3000/products/#document",
+    "url": "http://127.0.0.1:3000/products/",
+    "name": "Products",
+    "description": "Products. This section describes the parts of Luca and how they fit together. It is for buyers evaluating Luca and for operators who want to know what each.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/products/#breadcrumb"
+    },
+    "hasPart": [
+     {
+      "@type": "WebPage",
+      "name": "Luca, the AI analyst agent",
+      "url": "http://127.0.0.1:3000/products/luca-agent/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Numbers: the reconciled control centre",
+      "url": "http://127.0.0.1:3000/products/numbers/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Knowledge base and business context",
+      "url": "http://127.0.0.1:3000/products/knowledge-base/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Capital, and how it relates to Luca",
+      "url": "http://127.0.0.1:3000/products/capital/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Feature directory",
+      "url": "http://127.0.0.1:3000/products/features/"
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/products/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "products",
+      "item": "http://127.0.0.1:3000/products/"
+     }
+    ]
+   }
+  ]
+ },
+ "/products/luca-agent/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/products/luca-agent/#document",
+    "url": "http://127.0.0.1:3000/products/luca-agent/",
+    "name": "Luca, the AI analyst agent",
+    "headline": "Luca, the AI analyst agent",
+    "description": "Luca, the AI analyst agent: Natural-language questions let you ask about your business in everyday words and get an answer from your data, without writing.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/products/luca-agent/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/luca-agent/#U84-ask-questions-in-plain-english-across-connected-sources",
+      "name": "Ask questions in plain English across connected sources",
+      "description": "Natural-language questions let you ask about your business in everyday words and get an answer from your data, without writing queries or building reports."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/luca-agent/#U85-answers-that-combine-marketing-finance-and-commerce-data",
+      "name": "Answers that combine marketing, finance and commerce data",
+      "description": "Cross-source reasoning means one answer draws on several kinds of business data at once, such as marketing, finance and commerce, instead of reporting from one tool at a time."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/luca-agent/#U86-charts-generated-from-a-question",
+      "name": "Charts generated from a question",
+      "description": "On-demand charts are graphs created in response to a specific question, rather than picked from a fixed set of prebuilt dashboards."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/luca-agent/#U87-follow-up-questions-in-the-same-conversation",
+      "name": "Follow-up questions in the same conversation",
+      "description": "Multi-turn follow-ups let you continue a conversation, asking a further question that builds on the previous answer."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/luca-agent/#U92-unlimited-questions-no-ai-credits",
+      "name": "Unlimited questions, no AI credits",
+      "description": "Unlimited usage means the number of questions you can ask is not capped by a credit or question allowance."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/luca-agent/#U93-web-app",
+      "name": "Web app",
+      "description": "A web app runs in your browser, so there is nothing to install."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/luca-agent/#U119-recommended-next-steps",
+      "name": "Recommended next steps",
+      "description": "Prescriptive next steps are recommendations about what to do, given alongside the analysis that supports them."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/luca-agent/#U103-marketing-content-drafting",
+      "name": "Marketing content drafting",
+      "description": "Content drafting produces first versions of marketing material, such as posts or newsletters, for a person to review and edit."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/luca-agent/#U127-done-with-you-analysis-and-strategy",
+      "name": "Done-with-you analysis and strategy",
+      "description": "A done-with-you model means the product does the analysis and proposes a strategy, while your team validates it and carries it out."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/luca-agent/#M1-tells-you-plainly-when-a-request-is-outside-what-it-does",
+      "name": "Tells you plainly when a request is outside what it does",
+      "description": "Clear refusal means an assistant says directly when a request is outside what it can do, rather than attempting it or giving a vague reply."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/products/luca-agent/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "products",
+      "item": "http://127.0.0.1:3000/products/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "luca agent",
+      "item": "http://127.0.0.1:3000/products/luca-agent/"
+     }
+    ]
+   }
+  ]
+ },
+ "/products/numbers/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/products/numbers/#document",
+    "url": "http://127.0.0.1:3000/products/numbers/",
+    "name": "Numbers: the reconciled control centre",
+    "headline": "Numbers: the reconciled control centre",
+    "description": "Numbers: the reconciled control centre: A reconciled database combines data from several systems and resolves differences between them, so each figure has.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/products/numbers/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/numbers/#U32-one-reconciled-database-across-your-sources",
+      "name": "One reconciled database across your sources",
+      "description": "A reconciled database combines data from several systems and resolves differences between them, so each figure has one agreed value."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/numbers/#U189-unified-control-centre-view",
+      "name": "Unified control-centre view",
+      "description": "A control-centre view is a single screen that shows the main figures you need to run a business."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/numbers/#U50-net-revenue",
+      "name": "Net revenue",
+      "description": "Net revenue is revenue after deductions such as discounts, refunds and returns."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/numbers/#U67-cohort-analysis",
+      "name": "Cohort analysis",
+      "description": "Cohort analysis groups customers by when they started, such as their first order or subscription month, and tracks how each group behaves over time."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/numbers/#U69-active-vs-lapsed-customers",
+      "name": "Active vs lapsed customers",
+      "description": "Active and lapsed customer status separates customers who are still buying or subscribed from those who have stopped."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/numbers/#U180-subscription-skips-pauses-and-gaps",
+      "name": "Subscription skips, pauses and gaps",
+      "description": "Subscription skip and pause data records when subscribers skip or pause deliveries, which affects revenue even when they have not cancelled."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/numbers/#U34-reconciled-with-accounting-data",
+      "name": "Reconciled with accounting data",
+      "description": "Accounting reconciliation checks commerce figures against the accounting records, so the figures you analyse agree with your books."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/numbers/#M2-data-connections-shown-on-numbers",
+      "name": "Data connections shown on Numbers",
+      "description": "Connection status shows which data sources feed a dashboard."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/products/numbers/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "products",
+      "item": "http://127.0.0.1:3000/products/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "numbers",
+      "item": "http://127.0.0.1:3000/products/numbers/"
+     }
+    ]
+   }
+  ]
+ },
+ "/products/knowledge-base/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/products/knowledge-base/#document",
+    "url": "http://127.0.0.1:3000/products/knowledge-base/",
+    "name": "Knowledge base and business context",
+    "headline": "Knowledge base and business context",
+    "description": "Knowledge base and business context: A knowledge base is a set of company documents that an AI system can refer to when answering questions.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/products/knowledge-base/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/knowledge-base/#U146-upload-company-documents-to-a-knowledge-base",
+      "name": "Upload company documents to a knowledge base",
+      "description": "A knowledge base is a set of company documents that an AI system can refer to when answering questions."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/knowledge-base/#U147-goals-constraints-and-cost-rules-as-context",
+      "name": "Goals, constraints and cost rules as context",
+      "description": "Business context is the information about goals, limits and rules that shapes what a good decision looks like for a particular business."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/knowledge-base/#M3-built-in-knowledge-of-its-own-capabilities",
+      "name": "Built-in knowledge of its own capabilities",
+      "description": "Self-knowledge in an AI agent is a defined description of what it can and cannot do, which it uses to answer requests accurately."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/products/knowledge-base/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "products",
+      "item": "http://127.0.0.1:3000/products/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "knowledge base",
+      "item": "http://127.0.0.1:3000/products/knowledge-base/"
+     }
+    ]
+   }
+  ]
+ },
+ "/products/capital/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/products/capital/#document",
+    "url": "http://127.0.0.1:3000/products/capital/",
+    "name": "Capital, and how it relates to Luca",
+    "headline": "Capital, and how it relates to Luca",
+    "description": "Capital, and how it relates to Luca: Optional capital means funding is an extra that a business may choose to explore, not something the product depends on.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/products/capital/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/capital/#U178-capital-is-optional",
+      "name": "Capital is optional",
+      "description": "Optional capital means funding is an extra that a business may choose to explore, not something the product depends on."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/capital/#U179-luca-is-not-a-lender",
+      "name": "Luca is not a lender",
+      "description": "A lender is the party that provides credit and is responsible for it. Luca is not a lender."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/products/capital/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "products",
+      "item": "http://127.0.0.1:3000/products/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "capital",
+      "item": "http://127.0.0.1:3000/products/capital/"
+     }
+    ]
+   }
+  ]
+ },
+ "/products/features/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "CollectionPage",
+    "@id": "http://127.0.0.1:3000/products/features/#document",
+    "url": "http://127.0.0.1:3000/products/features/",
+    "name": "Feature directory",
+    "description": "Feature directory. The feature directory groups Luca's supporting capabilities by area. It is for buyers checking specific requirements, such as how sources.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/products/features/#breadcrumb"
+    },
+    "hasPart": [
+     {
+      "@type": "WebPage",
+      "name": "Data connection and setup",
+      "url": "http://127.0.0.1:3000/products/features/data-connection/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Control and safety: Luca reads, you decide",
+      "url": "http://127.0.0.1:3000/products/features/control-and-safety/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Teams, seats and regions",
+      "url": "http://127.0.0.1:3000/products/features/teams-and-seats/"
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/products/features/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "products",
+      "item": "http://127.0.0.1:3000/products/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "features",
+      "item": "http://127.0.0.1:3000/products/features/"
+     }
+    ]
+   }
+  ]
+ },
+ "/products/features/data-connection/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/products/features/data-connection/#document",
+    "url": "http://127.0.0.1:3000/products/features/data-connection/",
+    "name": "Data connection and setup",
+    "headline": "Data connection and setup",
+    "description": "Data connection and setup: OAuth connection lets you link a data source by signing in on that platform's own screen and approving the access it requests.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/products/features/data-connection/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/features/data-connection/#U31-connect-a-source-in-two-clicks-oauth",
+      "name": "Connect a source in two clicks (OAuth)",
+      "description": "OAuth connection lets you link a data source by signing in on that platform's own screen and approving the access it requests."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/products/features/data-connection/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "products",
+      "item": "http://127.0.0.1:3000/products/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "features",
+      "item": "http://127.0.0.1:3000/products/features/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "data connection",
+      "item": "http://127.0.0.1:3000/products/features/data-connection/"
+     }
+    ]
+   }
+  ]
+ },
+ "/products/features/control-and-safety/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/products/features/control-and-safety/#document",
+    "url": "http://127.0.0.1:3000/products/features/control-and-safety/",
+    "name": "Control and safety: Luca reads, you decide",
+    "headline": "Control and safety: Luca reads, you decide",
+    "description": "Control and safety: Luca reads, you decide: Approval by default means no change is made in a connected system unless a person has decided to make it.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/products/features/control-and-safety/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/features/control-and-safety/#U137-nothing-changes-without-your-approval",
+      "name": "Nothing changes without your approval",
+      "description": "Approval by default means no change is made in a connected system unless a person has decided to make it."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/features/control-and-safety/#U144-read-only-by-design",
+      "name": "Read-only by design",
+      "description": "Read-only access lets a system view data in another system without being able to change it."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/products/features/control-and-safety/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "products",
+      "item": "http://127.0.0.1:3000/products/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "features",
+      "item": "http://127.0.0.1:3000/products/features/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "control and safety",
+      "item": "http://127.0.0.1:3000/products/features/control-and-safety/"
+     }
+    ]
+   }
+  ]
+ },
+ "/products/features/teams-and-seats/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/products/features/teams-and-seats/#document",
+    "url": "http://127.0.0.1:3000/products/features/teams-and-seats/",
+    "name": "Teams, seats and regions",
+    "headline": "Teams, seats and regions",
+    "description": "Teams, seats and regions: A seat is one named user's access to a product.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/products/features/teams-and-seats/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/features/teams-and-seats/#U196-seats-per-plan",
+      "name": "Seats per plan",
+      "description": "A seat is one named user's access to a product."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/features/teams-and-seats/#U197-unlimited-seat-option",
+      "name": "Unlimited-seat option",
+      "description": "An unlimited-seat plan lets any number of people in an organisation use a product."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/features/teams-and-seats/#U187-serves-brands-across-the-uk-eu-us-and-australia",
+      "name": "Serves brands across the UK, EU, US and Australia",
+      "description": "Regional coverage describes the markets a product serves and the currencies it prices in."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/products/features/teams-and-seats/#SC8-unlimited-seats",
+      "name": "Unlimited seats",
+      "description": "Unlimited seats means there is no cap on the number of users on a plan."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/products/features/teams-and-seats/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "products",
+      "item": "http://127.0.0.1:3000/products/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "features",
+      "item": "http://127.0.0.1:3000/products/features/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "teams and seats",
+      "item": "http://127.0.0.1:3000/products/features/teams-and-seats/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "CollectionPage",
+    "@id": "http://127.0.0.1:3000/integrations/#document",
+    "url": "http://127.0.0.1:3000/integrations/",
+    "name": "Integrations",
+    "description": "Integrations. This section describes the data sources you can connect to Luca and what each one contributes. It is for teams evaluating Luca and for anyone.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/#breadcrumb"
+    },
+    "hasPart": [
+     {
+      "@type": "WebPage",
+      "name": "Commerce platforms",
+      "url": "http://127.0.0.1:3000/integrations/commerce/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Advertising",
+      "url": "http://127.0.0.1:3000/integrations/advertising/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Web analytics and search",
+      "url": "http://127.0.0.1:3000/integrations/analytics/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Payments and accounting",
+      "url": "http://127.0.0.1:3000/integrations/finance/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Subscriptions",
+      "url": "http://127.0.0.1:3000/integrations/subscriptions/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Workspace and documents",
+      "url": "http://127.0.0.1:3000/integrations/workspace/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Custom connectors and ERPs",
+      "url": "http://127.0.0.1:3000/integrations/custom/"
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/commerce/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "CollectionPage",
+    "@id": "http://127.0.0.1:3000/integrations/commerce/#document",
+    "url": "http://127.0.0.1:3000/integrations/commerce/",
+    "name": "Commerce platforms",
+    "description": "Commerce platforms. This page covers the commerce platforms you can connect to Luca. It is for brands that sell through their own store, through a.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/commerce/#breadcrumb"
+    },
+    "hasPart": [
+     {
+      "@type": "WebPage",
+      "name": "Shopify",
+      "url": "http://127.0.0.1:3000/integrations/commerce/shopify/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Amazon",
+      "url": "http://127.0.0.1:3000/integrations/commerce/amazon/"
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/commerce/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "commerce",
+      "item": "http://127.0.0.1:3000/integrations/commerce/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/commerce/shopify/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/integrations/commerce/shopify/#document",
+    "url": "http://127.0.0.1:3000/integrations/commerce/shopify/",
+    "name": "Shopify",
+    "headline": "Shopify",
+    "description": "Shopify: A connection that brings data from a Shopify store into Luca. It is one of the sources Luca recommends connecting first.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/commerce/shopify/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/integrations/commerce/shopify/#U1-shopify-connector",
+      "name": "Shopify connector",
+      "description": "A connection that brings data from a Shopify store into Luca. It is one of the sources Luca recommends connecting first."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/commerce/shopify/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "commerce",
+      "item": "http://127.0.0.1:3000/integrations/commerce/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "shopify",
+      "item": "http://127.0.0.1:3000/integrations/commerce/shopify/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/commerce/amazon/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/integrations/commerce/amazon/#document",
+    "url": "http://127.0.0.1:3000/integrations/commerce/amazon/",
+    "name": "Amazon",
+    "headline": "Amazon",
+    "description": "Amazon: A connection that brings Amazon selling data into Luca. Luca's website names it, with Shopify, as a starting source.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/commerce/amazon/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/integrations/commerce/amazon/#U2-amazon-connector",
+      "name": "Amazon connector",
+      "description": "A connection that brings Amazon selling data into Luca. Luca's website names it, with Shopify, as a starting source."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/commerce/amazon/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "commerce",
+      "item": "http://127.0.0.1:3000/integrations/commerce/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "amazon",
+      "item": "http://127.0.0.1:3000/integrations/commerce/amazon/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/advertising/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "CollectionPage",
+    "@id": "http://127.0.0.1:3000/integrations/advertising/#document",
+    "url": "http://127.0.0.1:3000/integrations/advertising/",
+    "name": "Advertising",
+    "description": "Advertising. This page covers the advertising platforms you can connect to Luca. It is for teams that want to look at ad activity alongside sales and.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/advertising/#breadcrumb"
+    },
+    "hasPart": [
+     {
+      "@type": "WebPage",
+      "name": "Meta Ads",
+      "url": "http://127.0.0.1:3000/integrations/advertising/meta-ads/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Google Ads",
+      "url": "http://127.0.0.1:3000/integrations/advertising/google-ads/"
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/advertising/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "advertising",
+      "item": "http://127.0.0.1:3000/integrations/advertising/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/advertising/meta-ads/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/integrations/advertising/meta-ads/#document",
+    "url": "http://127.0.0.1:3000/integrations/advertising/meta-ads/",
+    "name": "Meta Ads",
+    "headline": "Meta Ads",
+    "description": "Meta Ads: A connection that brings Meta / Facebook Ads data into Luca as an advertising source.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/advertising/meta-ads/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/integrations/advertising/meta-ads/#U6-meta-ads-connector",
+      "name": "Meta Ads connector",
+      "description": "A connection that brings Meta / Facebook Ads data into Luca as an advertising source."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/advertising/meta-ads/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "advertising",
+      "item": "http://127.0.0.1:3000/integrations/advertising/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "meta ads",
+      "item": "http://127.0.0.1:3000/integrations/advertising/meta-ads/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/advertising/google-ads/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/integrations/advertising/google-ads/#document",
+    "url": "http://127.0.0.1:3000/integrations/advertising/google-ads/",
+    "name": "Google Ads",
+    "headline": "Google Ads",
+    "description": "Google Ads: A read-only connection that brings Google Ads data into Luca as an advertising source.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/advertising/google-ads/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/integrations/advertising/google-ads/#U7-google-ads-connector",
+      "name": "Google Ads connector",
+      "description": "A read-only connection that brings Google Ads data into Luca as an advertising source."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/advertising/google-ads/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "advertising",
+      "item": "http://127.0.0.1:3000/integrations/advertising/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "google ads",
+      "item": "http://127.0.0.1:3000/integrations/advertising/google-ads/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/analytics/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "CollectionPage",
+    "@id": "http://127.0.0.1:3000/integrations/analytics/#document",
+    "url": "http://127.0.0.1:3000/integrations/analytics/",
+    "name": "Web analytics and search",
+    "description": "Web analytics and search. This page covers the web analytics and search sources you can connect to Luca. It is for teams that want site and search data.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/analytics/#breadcrumb"
+    },
+    "hasPart": [
+     {
+      "@type": "WebPage",
+      "name": "Google Analytics 4",
+      "url": "http://127.0.0.1:3000/integrations/analytics/google-analytics-4/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Google Search Console",
+      "url": "http://127.0.0.1:3000/integrations/analytics/google-search-console/"
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/analytics/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "analytics",
+      "item": "http://127.0.0.1:3000/integrations/analytics/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/analytics/google-analytics-4/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/integrations/analytics/google-analytics-4/#document",
+    "url": "http://127.0.0.1:3000/integrations/analytics/google-analytics-4/",
+    "name": "Google Analytics 4",
+    "headline": "Google Analytics 4",
+    "description": "Google Analytics 4: A connection that brings Google Analytics data into Luca as a web analytics source.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/analytics/google-analytics-4/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/integrations/analytics/google-analytics-4/#U10-google-analytics-4-connector",
+      "name": "Google Analytics 4 connector",
+      "description": "A connection that brings Google Analytics data into Luca as a web analytics source."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/analytics/google-analytics-4/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "analytics",
+      "item": "http://127.0.0.1:3000/integrations/analytics/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "google analytics 4",
+      "item": "http://127.0.0.1:3000/integrations/analytics/google-analytics-4/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/analytics/google-search-console/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/integrations/analytics/google-search-console/#document",
+    "url": "http://127.0.0.1:3000/integrations/analytics/google-search-console/",
+    "name": "Google Search Console",
+    "headline": "Google Search Console",
+    "description": "Google Search Console: A read-only connection that brings Google Search Console data into Luca.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/analytics/google-search-console/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/integrations/analytics/google-search-console/#U11-google-search-console-connector",
+      "name": "Google Search Console connector",
+      "description": "A read-only connection that brings Google Search Console data into Luca."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/analytics/google-search-console/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "analytics",
+      "item": "http://127.0.0.1:3000/integrations/analytics/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "google search console",
+      "item": "http://127.0.0.1:3000/integrations/analytics/google-search-console/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/finance/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "CollectionPage",
+    "@id": "http://127.0.0.1:3000/integrations/finance/#document",
+    "url": "http://127.0.0.1:3000/integrations/finance/",
+    "name": "Payments and accounting",
+    "description": "Payments and accounting. This page covers the payments and accounting sources you can connect to Luca. It is for finance leads and founders who want sales.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/finance/#breadcrumb"
+    },
+    "hasPart": [
+     {
+      "@type": "WebPage",
+      "name": "Stripe",
+      "url": "http://127.0.0.1:3000/integrations/finance/stripe/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Xero",
+      "url": "http://127.0.0.1:3000/integrations/finance/xero/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "QuickBooks",
+      "url": "http://127.0.0.1:3000/integrations/finance/quickbooks/"
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/finance/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "finance",
+      "item": "http://127.0.0.1:3000/integrations/finance/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/finance/stripe/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/integrations/finance/stripe/#document",
+    "url": "http://127.0.0.1:3000/integrations/finance/stripe/",
+    "name": "Stripe",
+    "headline": "Stripe",
+    "description": "Stripe: A connection that brings Stripe payments data into Luca as a finance source.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/finance/stripe/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/integrations/finance/stripe/#U15-stripe-connector",
+      "name": "Stripe connector",
+      "description": "A connection that brings Stripe payments data into Luca as a finance source."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/finance/stripe/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "finance",
+      "item": "http://127.0.0.1:3000/integrations/finance/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "stripe",
+      "item": "http://127.0.0.1:3000/integrations/finance/stripe/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/finance/xero/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/integrations/finance/xero/#document",
+    "url": "http://127.0.0.1:3000/integrations/finance/xero/",
+    "name": "Xero",
+    "headline": "Xero",
+    "description": "Xero: A connection that brings Xero accounting data into Luca as a finance source.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/finance/xero/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/integrations/finance/xero/#U17-xero-connector",
+      "name": "Xero connector",
+      "description": "A connection that brings Xero accounting data into Luca as a finance source."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/finance/xero/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "finance",
+      "item": "http://127.0.0.1:3000/integrations/finance/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "xero",
+      "item": "http://127.0.0.1:3000/integrations/finance/xero/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/finance/quickbooks/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/integrations/finance/quickbooks/#document",
+    "url": "http://127.0.0.1:3000/integrations/finance/quickbooks/",
+    "name": "QuickBooks",
+    "headline": "QuickBooks",
+    "description": "QuickBooks: A connection to QuickBooks accounting data, described by Luca's founder as part of Luca's accounting connection.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/finance/quickbooks/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/integrations/finance/quickbooks/#U18-quickbooks-connector",
+      "name": "QuickBooks connector",
+      "description": "A connection to QuickBooks accounting data, described by Luca's founder as part of Luca's accounting connection."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/finance/quickbooks/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "finance",
+      "item": "http://127.0.0.1:3000/integrations/finance/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "quickbooks",
+      "item": "http://127.0.0.1:3000/integrations/finance/quickbooks/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/subscriptions/recharge/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/integrations/subscriptions/recharge/#document",
+    "url": "http://127.0.0.1:3000/integrations/subscriptions/recharge/",
+    "name": "Recharge (subscriptions)",
+    "headline": "Recharge (subscriptions)",
+    "description": "Recharge (subscriptions): Recharge subscription data connected by Luca's team and reconciled with store and accounting data as part of a Numbers build.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/subscriptions/recharge/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/integrations/subscriptions/recharge/#U14-recharge-subscription-data",
+      "name": "Recharge subscription data",
+      "description": "Recharge subscription data connected by Luca's team and reconciled with store and accounting data as part of a Numbers build."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/subscriptions/recharge/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "subscriptions",
+      "item": "http://127.0.0.1:3000/integrations/subscriptions/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "recharge",
+      "item": "http://127.0.0.1:3000/integrations/subscriptions/recharge/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/subscriptions/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "CollectionPage",
+    "@id": "http://127.0.0.1:3000/integrations/subscriptions/#document",
+    "url": "http://127.0.0.1:3000/integrations/subscriptions/",
+    "name": "Subscriptions",
+    "description": "Subscriptions. This page covers subscription data in Luca. It is for brands that sell subscriptions and need that data to line up with store and accounting.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/subscriptions/#breadcrumb"
+    },
+    "hasPart": [
+     {
+      "@type": "WebPage",
+      "name": "Recharge (subscriptions)",
+      "url": "http://127.0.0.1:3000/integrations/subscriptions/recharge/"
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/subscriptions/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "subscriptions",
+      "item": "http://127.0.0.1:3000/integrations/subscriptions/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/workspace/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "CollectionPage",
+    "@id": "http://127.0.0.1:3000/integrations/workspace/#document",
+    "url": "http://127.0.0.1:3000/integrations/workspace/",
+    "name": "Workspace and documents",
+    "description": "Workspace and documents. This page covers the ways you can work with Luca from your workspace and give it extra context. It is for teams that want to ask.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/workspace/#breadcrumb"
+    },
+    "hasPart": [
+     {
+      "@type": "WebPage",
+      "name": "Slack",
+      "url": "http://127.0.0.1:3000/integrations/workspace/slack/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Documents and files",
+      "url": "http://127.0.0.1:3000/integrations/workspace/documents/"
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/workspace/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "workspace",
+      "item": "http://127.0.0.1:3000/integrations/workspace/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/workspace/slack/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/integrations/workspace/slack/#document",
+    "url": "http://127.0.0.1:3000/integrations/workspace/slack/",
+    "name": "Slack",
+    "headline": "Slack",
+    "description": "Slack: A Slack app that lets you work with Luca from your Slack workspace.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/workspace/slack/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/integrations/workspace/slack/#U94-slack-app",
+      "name": "Slack app",
+      "description": "A Slack app that lets you work with Luca from your Slack workspace."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/integrations/workspace/slack/#U192-answers-delivered-in-slack",
+      "name": "Answers delivered in Slack",
+      "description": "Answers from Luca returned in Slack when you send it a direct message or mention it in a channel."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/workspace/slack/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "workspace",
+      "item": "http://127.0.0.1:3000/integrations/workspace/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "slack",
+      "item": "http://127.0.0.1:3000/integrations/workspace/slack/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/workspace/documents/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/integrations/workspace/documents/#document",
+    "url": "http://127.0.0.1:3000/integrations/workspace/documents/",
+    "name": "Documents and files",
+    "headline": "Documents and files",
+    "description": "Documents and files: The ability to add company documents to Luca so it has extra context when answering questions.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/workspace/documents/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/integrations/workspace/documents/#U27-upload-documents-and-files-as-context",
+      "name": "Upload documents and files as context",
+      "description": "The ability to add company documents to Luca so it has extra context when answering questions."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/workspace/documents/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "workspace",
+      "item": "http://127.0.0.1:3000/integrations/workspace/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "documents",
+      "item": "http://127.0.0.1:3000/integrations/workspace/documents/"
+     }
+    ]
+   }
+  ]
+ },
+ "/integrations/custom/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/integrations/custom/#document",
+    "url": "http://127.0.0.1:3000/integrations/custom/",
+    "name": "Custom connectors and ERPs",
+    "headline": "Custom connectors and ERPs",
+    "description": "Custom connectors and ERPs: API connections that Luca's team builds on request for systems without a standard connector, such as a custom ERP.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/integrations/custom/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/integrations/custom/#U22-custom-erp-and-internal-system-connections",
+      "name": "Custom ERP and internal-system connections",
+      "description": "API connections that Luca's team builds on request for systems without a standard connector, such as a custom ERP."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/integrations/custom/#U28-custom-connectors-built-by-luca-s-team-no-integration-fee",
+      "name": "Custom connectors built by Luca's team, no integration fee",
+      "description": "Custom connectors that Luca's team builds and delivers, which Luca's website states carry no integration fee."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/integrations/custom/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "integrations",
+      "item": "http://127.0.0.1:3000/integrations/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "custom",
+      "item": "http://127.0.0.1:3000/integrations/custom/"
+     }
+    ]
+   }
+  ]
+ },
+ "/solutions/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "CollectionPage",
+    "@id": "http://127.0.0.1:3000/solutions/#document",
+    "url": "http://127.0.0.1:3000/solutions/",
+    "name": "Solutions by buyer",
+    "description": "Solutions by buyer. This section describes Luca from the point of view of specific buyers: founders and CEOs, subscription brands, finance leads, growth.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/solutions/#breadcrumb"
+    },
+    "hasPart": [
+     {
+      "@type": "WebPage",
+      "name": "For founders and CEOs of Shopify brands",
+      "url": "http://127.0.0.1:3000/solutions/founders/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "For subscription DTC brands",
+      "url": "http://127.0.0.1:3000/solutions/subscription-brands/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "For CFOs and finance leads",
+      "url": "http://127.0.0.1:3000/solutions/finance-leads/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "For growth and marketing teams",
+      "url": "http://127.0.0.1:3000/solutions/growth-teams/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "For Shopify and Amazon sellers",
+      "url": "http://127.0.0.1:3000/solutions/shopify-and-amazon-sellers/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "For European and UK brands",
+      "url": "http://127.0.0.1:3000/solutions/european-brands/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "For Mastercard Business Bonus merchants",
+      "url": "http://127.0.0.1:3000/solutions/mastercard-business-bonus/"
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/solutions/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "solutions",
+      "item": "http://127.0.0.1:3000/solutions/"
+     }
+    ]
+   }
+  ]
+ },
+ "/solutions/founders/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/solutions/founders/#document",
+    "url": "http://127.0.0.1:3000/solutions/founders/",
+    "name": "For founders and CEOs of Shopify brands",
+    "headline": "For founders and CEOs of Shopify brands",
+    "description": "For founders and CEOs of Shopify brands: A single view that brings a brand's data together so the business can be read in one place. In Luca, this view is.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/solutions/founders/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/founders/#FD1-one-place-to-see-the-whole-business",
+      "name": "One place to see the whole business",
+      "description": "A single view that brings a brand's data together so the business can be read in one place. In Luca, this view is called Numbers."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/founders/#FD2-answers-in-plain-english-no-dashboards",
+      "name": "Answers in plain English, no dashboards",
+      "description": "Asking questions about business data in everyday language, instead of building reports or dashboards to find the answer."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/founders/#FD10-the-analyst-you-cannot-hire-yet",
+      "name": "The analyst you cannot hire yet",
+      "description": "Analytical help for a brand that needs analysis but is not yet ready to hire a full-time analyst or a fractional CFO."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/founders/#FD11-never-changes-anything-without-my-ok",
+      "name": "Never changes anything without my OK",
+      "description": "Human control over a business's systems: nothing is changed unless a person decides to change it."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/founders/#FD17-my-data-is-not-used-to-train-ai",
+      "name": "My data is not used to train AI",
+      "description": "A commitment that a customer's business data is not used to train artificial intelligence models."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/founders/#FD18-trial-on-my-own-data",
+      "name": "Trial on my own data",
+      "description": "Evaluating a product with your own business data from the start, rather than with sample data."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/founders/#FD20-what-luca-sees-beyond-shopify-sidekick",
+      "name": "What Luca sees beyond Shopify Sidekick",
+      "description": "The difference between an assistant that works inside one platform and an analyst that reads data from several platforms together."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/founders/#FD21-connected-data-instead-of-csv-exports",
+      "name": "Connected data instead of CSV exports",
+      "description": "Analysing business data through live connections and stored context, rather than exporting files to a general chatbot each time."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/founders/#FD29-talks-to-me-like-a-co-founder",
+      "name": "Talks to me like a co-founder",
+      "description": "Working with business data through conversation, as you would with an analyst, rather than by reading a dashboard."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/founders/#FD30-a-human-to-call-when-i-m-stuck",
+      "name": "A human to call when I'm stuck",
+      "description": "Access to people who help you set up and use the product, not only self-serve software."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/solutions/founders/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "solutions",
+      "item": "http://127.0.0.1:3000/solutions/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "founders",
+      "item": "http://127.0.0.1:3000/solutions/founders/"
+     }
+    ]
+   }
+  ]
+ },
+ "/solutions/subscription-brands/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/solutions/subscription-brands/#document",
+    "url": "http://127.0.0.1:3000/solutions/subscription-brands/",
+    "name": "For subscription DTC brands",
+    "headline": "For subscription DTC brands",
+    "description": "For subscription DTC brands: Bringing subscription platform, store and accounting data into agreement so that one view of the business can be trusted.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/solutions/subscription-brands/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/subscription-brands/#SU2-subscriptions-shopify-and-accounting-reconciled",
+      "name": "Subscriptions, Shopify and accounting reconciled",
+      "description": "Bringing subscription platform, store and accounting data into agreement so that one view of the business can be trusted."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/subscription-brands/#SU3-active-and-lapsed-subscribers",
+      "name": "Active and lapsed subscribers",
+      "description": "Knowing how many subscribers are currently active and how many have become inactive."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/subscription-brands/#SU4-skips-analysed-the-72-000-case",
+      "name": "Skips analysed (the $72,000 case)",
+      "description": "Analysing when subscribers skip deliveries, and what those skips mean for revenue."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/subscription-brands/#SU6-cohort-retention",
+      "name": "Cohort retention",
+      "description": "Grouping subscribers into cohorts and following how each cohort is retained over time."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/subscription-brands/#SU1-subscription-platform-connected",
+      "name": "Subscription platform connected",
+      "description": "Connecting a subscription platform, such as Recharge, Skio or Stay.ai, so its data can be analysed with the rest of the business."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/solutions/subscription-brands/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "solutions",
+      "item": "http://127.0.0.1:3000/solutions/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "subscription brands",
+      "item": "http://127.0.0.1:3000/solutions/subscription-brands/"
+     }
+    ]
+   }
+  ]
+ },
+ "/solutions/finance-leads/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/solutions/finance-leads/#document",
+    "url": "http://127.0.0.1:3000/solutions/finance-leads/",
+    "name": "For CFOs and finance leads",
+    "headline": "For CFOs and finance leads",
+    "description": "For CFOs and finance leads: Assurance that a tool cannot move funds or change financial systems without a person deciding to do so.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/solutions/finance-leads/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/finance-leads/#CF18-no-money-moves-without-approval",
+      "name": "No money moves without approval",
+      "description": "Assurance that a tool cannot move funds or change financial systems without a person deciding to do so."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/finance-leads/#CF22-works-with-our-accountant-keeps-the-ledger",
+      "name": "Works with our accountant, keeps the ledger",
+      "description": "An analysis tool that reads accounting data without replacing the accounting system as the record."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/finance-leads/#CF25-data-retention-after-we-leave",
+      "name": "Data retention after we leave",
+      "description": "The terms that govern how long a provider keeps your data and when it is deleted after you stop using it."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/finance-leads/#CF1-revenue-and-margin-reconcile-to-the-accounts",
+      "name": "Revenue and margin reconcile to the accounts",
+      "description": "Making the revenue and margin figures in an analysis tool agree with the accounting system."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/finance-leads/#CF2-accounting-system-connection",
+      "name": "Accounting system connection",
+      "description": "Connecting an accounting system, such as Xero, QuickBooks, Exact or NetSuite, so its data can be read alongside commerce data."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/solutions/finance-leads/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "solutions",
+      "item": "http://127.0.0.1:3000/solutions/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "finance leads",
+      "item": "http://127.0.0.1:3000/solutions/finance-leads/"
+     }
+    ]
+   }
+  ]
+ },
+ "/solutions/growth-teams/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/solutions/growth-teams/#document",
+    "url": "http://127.0.0.1:3000/solutions/growth-teams/",
+    "name": "For growth and marketing teams",
+    "headline": "For growth and marketing teams",
+    "description": "For growth and marketing teams: Using an analysis tool from inside Slack, so a team can ask questions where it already works.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/solutions/growth-teams/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/growth-teams/#GR21-luca-in-slack-for-the-team",
+      "name": "Luca in Slack for the team",
+      "description": "Using an analysis tool from inside Slack, so a team can ask questions where it already works."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/growth-teams/#GR23-google-analytics-and-search-console-alongside-ads",
+      "name": "Google Analytics and Search Console alongside ads",
+      "description": "Connecting web analytics and search data next to ad platform data, so traffic and spend can be read together."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/solutions/growth-teams/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "solutions",
+      "item": "http://127.0.0.1:3000/solutions/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "growth teams",
+      "item": "http://127.0.0.1:3000/solutions/growth-teams/"
+     }
+    ]
+   }
+  ]
+ },
+ "/solutions/shopify-and-amazon-sellers/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/solutions/shopify-and-amazon-sellers/#document",
+    "url": "http://127.0.0.1:3000/solutions/shopify-and-amazon-sellers/",
+    "name": "For Shopify and Amazon sellers",
+    "headline": "For Shopify and Amazon sellers",
+    "description": "For Shopify and Amazon sellers: Bringing sales from Shopify and Amazon into one profit and loss view of the business.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/solutions/shopify-and-amazon-sellers/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/shopify-and-amazon-sellers/#MC1-shopify-and-amazon-in-one-p-l",
+      "name": "Shopify and Amazon in one P&L",
+      "description": "Bringing sales from Shopify and Amazon into one profit and loss view of the business."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/solutions/shopify-and-amazon-sellers/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "solutions",
+      "item": "http://127.0.0.1:3000/solutions/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "shopify and amazon sellers",
+      "item": "http://127.0.0.1:3000/solutions/shopify-and-amazon-sellers/"
+     }
+    ]
+   }
+  ]
+ },
+ "/solutions/european-brands/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/solutions/european-brands/#document",
+    "url": "http://127.0.0.1:3000/solutions/european-brands/",
+    "name": "For European and UK brands",
+    "headline": "For European and UK brands",
+    "description": "For European and UK brands: Publishing prices in a buyer's local currency, so European and UK brands can compare plans without conversion.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/solutions/european-brands/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/european-brands/#EU4-prices-in-eur-and-gbp",
+      "name": "Prices in EUR and GBP",
+      "description": "Publishing prices in a buyer's local currency, so European and UK brands can compare plans without conversion."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/european-brands/#EU12-mastercard-business-bonus-for-european-brands",
+      "name": "Mastercard Business Bonus for European brands",
+      "description": "A partner route to Luca for merchants in the Mastercard Business Bonus programme, relevant to European brands that take part."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/european-brands/#EU3-xero-and-european-banking-sources",
+      "name": "Xero and European banking sources",
+      "description": "Connecting accounting systems and banking sources used by European brands, such as Xero, Exact and Open Banking."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/solutions/european-brands/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "solutions",
+      "item": "http://127.0.0.1:3000/solutions/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "european brands",
+      "item": "http://127.0.0.1:3000/solutions/european-brands/"
+     }
+    ]
+   }
+  ]
+ },
+ "/solutions/mastercard-business-bonus/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/solutions/mastercard-business-bonus/#document",
+    "url": "http://127.0.0.1:3000/solutions/mastercard-business-bonus/",
+    "name": "For Mastercard Business Bonus merchants",
+    "headline": "For Mastercard Business Bonus merchants",
+    "description": "For Mastercard Business Bonus merchants: Partner pricing is a separate price list offered to members of a partner programme. For Luca, it is a dedicated.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/solutions/mastercard-business-bonus/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/mastercard-business-bonus/#CO16-mastercard-business-bonus-partner-pricing",
+      "name": "Mastercard Business Bonus partner pricing",
+      "description": "Partner pricing is a separate price list offered to members of a partner programme. For Luca, it is a dedicated pricing page for Mastercard Business Bonus merchants."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/mastercard-business-bonus/#MB1-am-i-eligible",
+      "name": "Am I eligible?",
+      "description": "Whether a merchant qualifies for Luca's Mastercard Business Bonus partner pricing."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/mastercard-business-bonus/#MB2-size-of-the-discount",
+      "name": "Size of the discount",
+      "description": "How much the Mastercard Business Bonus partner discount reduces the price of Luca's plans."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/mastercard-business-bonus/#MB4-listed-on-mastercard-business-bonus",
+      "name": "Listed on Mastercard Business Bonus",
+      "description": "Being listed by a known partner programme, which gives merchants a recognisable place to find a provider."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/solutions/mastercard-business-bonus/#MB6-same-product-as-the-full-plan",
+      "name": "Same product as the full plan",
+      "description": "Whether partner pricing buys the same product as standard pricing, or a reduced version."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/solutions/mastercard-business-bonus/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "solutions",
+      "item": "http://127.0.0.1:3000/solutions/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "mastercard business bonus",
+      "item": "http://127.0.0.1:3000/solutions/mastercard-business-bonus/"
+     }
+    ]
+   }
+  ]
+ },
+ "/pricing/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "CollectionPage",
+    "@id": "http://127.0.0.1:3000/pricing/#document",
+    "url": "http://127.0.0.1:3000/pricing/",
+    "name": "Pricing model",
+    "description": "Pricing model: Published pricing means plans and prices are shown publicly, so you can read them without talking to sales.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/pricing/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/pricing/#CO1-published-pricing",
+      "name": "Published pricing",
+      "description": "Published pricing means plans and prices are shown publicly, so you can read them without talking to sales."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/pricing/#CO4-priced-by-seat",
+      "name": "Priced by seat",
+      "description": "Seat-based pricing charges for the number of people who use a product."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/pricing/#CO5-price-does-not-rise-with-your-revenue",
+      "name": "Price does not rise with your revenue",
+      "description": "A pricing model in which growth in revenue or orders does not increase what you pay."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/pricing/#CO6-unlimited-usage-on-every-plan",
+      "name": "Unlimited usage on every plan",
+      "description": "Unlimited usage means a plan does not cap or meter how much you use the product."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/pricing/#CO15-no-integration-fees",
+      "name": "No integration fees",
+      "description": "An integration fee is a charge for connecting a data source or building a custom connector."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/pricing/#CO17-compared-with-hiring-an-analyst",
+      "name": "Compared with hiring an analyst",
+      "description": "A way to judge a tool's cost against the cost of hiring a person to do similar work."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/pricing/#CO11-annual-billing-discount",
+      "name": "Annual billing discount",
+      "description": "An annual billing discount is a lower effective price for paying for a year at a time instead of monthly."
+     }
+    ],
+    "hasPart": [
+     {
+      "@type": "WebPage",
+      "name": "Trial and signup",
+      "url": "http://127.0.0.1:3000/pricing/trial-and-signup/"
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/pricing/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "pricing",
+      "item": "http://127.0.0.1:3000/pricing/"
+     }
+    ]
+   }
+  ]
+ },
+ "/pricing/trial-and-signup/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/pricing/trial-and-signup/#document",
+    "url": "http://127.0.0.1:3000/pricing/trial-and-signup/",
+    "name": "Trial and signup",
+    "headline": "Trial and signup",
+    "description": "Trial and signup: Some products ask for payment details and a data connection when you create your account.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/pricing/trial-and-signup/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/pricing/trial-and-signup/#CO9-card-and-data-connection-at-signup",
+      "name": "Card and data connection at signup",
+      "description": "Some products ask for payment details and a data connection when you create your account."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/pricing/trial-and-signup/#M5-organisation-setup-during-signup",
+      "name": "Organisation setup during signup",
+      "description": "Organisation setup is the signup step where you create the account that represents your business before adding data."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/pricing/trial-and-signup/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "pricing",
+      "item": "http://127.0.0.1:3000/pricing/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "trial and signup",
+      "item": "http://127.0.0.1:3000/pricing/trial-and-signup/"
+     }
+    ]
+   }
+  ]
+ },
+ "/security/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "CollectionPage",
+    "@id": "http://127.0.0.1:3000/security/#document",
+    "url": "http://127.0.0.1:3000/security/",
+    "name": "Security and data handling",
+    "description": "Security and data handling. This section explains where Luca stores your data, who processes it, what access Luca requests and what happens to your data.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/security/#breadcrumb"
+    },
+    "hasPart": [
+     {
+      "@type": "WebPage",
+      "name": "How Luca stores and processes your data",
+      "url": "http://127.0.0.1:3000/security/data-handling/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Access, scopes and deletion",
+      "url": "http://127.0.0.1:3000/security/access-and-scopes/"
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/security/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "security",
+      "item": "http://127.0.0.1:3000/security/"
+     }
+    ]
+   }
+  ]
+ },
+ "/security/data-handling/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/security/data-handling/#document",
+    "url": "http://127.0.0.1:3000/security/data-handling/",
+    "name": "How Luca stores and processes your data",
+    "headline": "How Luca stores and processes your data",
+    "description": "How Luca stores and processes your data: Tenant isolation is the practice of storing each customer's data apart from other customers' data in a shared.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/security/data-handling/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/security/data-handling/#U213-customer-data-kept-separate",
+      "name": "Customer data kept separate",
+      "description": "Tenant isolation is the practice of storing each customer's data apart from other customers' data in a shared service."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/security/data-handling/#U214-your-data-is-not-used-to-train-ai-models",
+      "name": "Your data is not used to train AI models",
+      "description": "A no-training commitment states that the data you give a service is not used to train AI models."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/security/data-handling/#U216-sub-processors-disclosed",
+      "name": "Sub-processors disclosed",
+      "description": "A sub-processor is a third party that processes customer data on a vendor's behalf. Disclosure means the vendor names them publicly."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/security/data-handling/#M4-hosted-on-google-cloud-platform",
+      "name": "Hosted on Google Cloud Platform",
+      "description": "Hosting describes the cloud infrastructure a service runs on."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/security/data-handling/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "security",
+      "item": "http://127.0.0.1:3000/security/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "data handling",
+      "item": "http://127.0.0.1:3000/security/data-handling/"
+     }
+    ]
+   }
+  ]
+ },
+ "/security/access-and-scopes/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/security/access-and-scopes/#document",
+    "url": "http://127.0.0.1:3000/security/access-and-scopes/",
+    "name": "Access, scopes and deletion",
+    "headline": "Access, scopes and deletion",
+    "description": "Access, scopes and deletion: Retention and deletion rules set out how long a vendor keeps your data and when it is removed after you stop using the service.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/security/access-and-scopes/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/security/access-and-scopes/#U218-deletion-and-retention-after-you-disconnect",
+      "name": "Deletion and retention after you disconnect",
+      "description": "Retention and deletion rules set out how long a vendor keeps your data and when it is removed after you stop using the service."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/security/access-and-scopes/#U219-read-only-access-scopes",
+      "name": "Read-only access scopes",
+      "description": "An access scope is the set of permissions an app requests when you connect a platform. A read-only scope lets the app view data without changing it."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/security/access-and-scopes/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "security",
+      "item": "http://127.0.0.1:3000/security/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "access and scopes",
+      "item": "http://127.0.0.1:3000/security/access-and-scopes/"
+     }
+    ]
+   }
+  ]
+ },
+ "/support/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "CollectionPage",
+    "@id": "http://127.0.0.1:3000/support/#document",
+    "url": "http://127.0.0.1:3000/support/",
+    "name": "Onboarding, services and support",
+    "description": "Onboarding, services and support. This section explains how Luca's team helps you get set up and where you can learn from other users. It is for teams.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/support/#breadcrumb"
+    },
+    "hasPart": [
+     {
+      "@type": "WebPage",
+      "name": "Onboarding: done with you",
+      "url": "http://127.0.0.1:3000/support/onboarding/"
+     },
+     {
+      "@type": "WebPage",
+      "name": "Community and podcast",
+      "url": "http://127.0.0.1:3000/support/community/"
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/support/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "support",
+      "item": "http://127.0.0.1:3000/support/"
+     }
+    ]
+   }
+  ]
+ },
+ "/support/onboarding/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/support/onboarding/#document",
+    "url": "http://127.0.0.1:3000/support/onboarding/",
+    "name": "Onboarding: done with you",
+    "headline": "Onboarding: done with you",
+    "description": "Onboarding: done with you: Hands-on onboarding means the vendor's team does much of the setup work with you, rather than leaving you to configure the.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/support/onboarding/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/support/onboarding/#S3-hands-on-onboarding-with-luca-s-team",
+      "name": "Hands-on onboarding with Luca's team",
+      "description": "Hands-on onboarding means the vendor's team does much of the setup work with you, rather than leaving you to configure the product alone."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/support/onboarding/#S4-data-mapping-done-by-luca-s-team",
+      "name": "Data mapping done by Luca's team",
+      "description": "Data mapping is matching fields and records across systems so that figures from different sources line up."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/support/onboarding/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "support",
+      "item": "http://127.0.0.1:3000/support/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "onboarding",
+      "item": "http://127.0.0.1:3000/support/onboarding/"
+     }
+    ]
+   }
+  ]
+ },
+ "/support/community/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/support/community/#document",
+    "url": "http://127.0.0.1:3000/support/community/",
+    "name": "Community and podcast",
+    "headline": "Community and podcast",
+    "description": "Community and podcast: A customer community is a shared space where users and prospects exchange ideas about a product.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/support/community/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/support/community/#S10-luca-community",
+      "name": "Luca community",
+      "description": "A customer community is a shared space where users and prospects exchange ideas about a product."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/support/community/#T18-e-commerce-leaders-series-podcast",
+      "name": "E-Commerce Leaders Series podcast",
+      "description": "An owned podcast is a show a company produces itself. Luca's features conversations with e-commerce operators."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/support/community/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "support",
+      "item": "http://127.0.0.1:3000/support/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "community",
+      "item": "http://127.0.0.1:3000/support/community/"
+     }
+    ]
+   }
+  ]
+ },
+ "/about/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/about/#document",
+    "url": "http://127.0.0.1:3000/about/",
+    "name": "About Luca",
+    "headline": "About Luca",
+    "description": "About Luca: Founder background describes the experience of the people leading a company.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/about/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/about/#T14-founder-background",
+      "name": "Founder background",
+      "description": "Founder background describes the experience of the people leading a company."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/about/#R9-team",
+      "name": "Team",
+      "description": "A named team shows who builds and runs a product."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/about/#R5-ai-model-provider-disclosed",
+      "name": "AI model provider disclosed",
+      "description": "Model provider disclosure means a vendor names the company whose language model its product uses."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/about/#R6-product-velocity",
+      "name": "Product velocity",
+      "description": "Product velocity is how quickly a vendor ships and extends its product."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/about/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "about",
+      "item": "http://127.0.0.1:3000/about/"
+     }
+    ]
+   }
+  ]
+ },
+ "/customers/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "TechArticle",
+    "@id": "http://127.0.0.1:3000/customers/#document",
+    "url": "http://127.0.0.1:3000/customers/",
+    "name": "Customers and proof",
+    "headline": "Customers and proof",
+    "description": "Customers and proof: Customer logos show which brands a vendor names as customers.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/customers/#breadcrumb"
+    },
+    "mentions": [
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/customers/#T8-customer-logos",
+      "name": "Customer logos",
+      "description": "Customer logos show which brands a vendor names as customers."
+     },
+     {
+      "@type": "DefinedTerm",
+      "@id": "http://127.0.0.1:3000/customers/#T9-named-testimonials",
+      "name": "Named testimonials",
+      "description": "Named testimonials are customer statements published with the person's name and photograph."
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/customers/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "customers",
+      "item": "http://127.0.0.1:3000/customers/"
+     }
+    ]
+   }
+  ]
+ },
+ "/review/": {
+  "@context": "https://schema.org",
+  "@graph": [
+   {
+    "@type": "Organization",
+    "@id": "http://127.0.0.1:3000/#publisher",
+    "name": "Luca AI",
+    "url": "https://ask-luca.com",
+    "logo": "http://127.0.0.1:3000/luca-logo.svg"
+   },
+   {
+    "@type": "SoftwareApplication",
+    "@id": "http://127.0.0.1:3000/#product",
+    "name": "Luca AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ask-luca.com",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebSite",
+    "@id": "http://127.0.0.1:3000/#website",
+    "name": "Luca AI Product Documentation",
+    "url": "http://127.0.0.1:3000/",
+    "inLanguage": "en-GB",
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    }
+   },
+   {
+    "@type": "WebPage",
+    "@id": "http://127.0.0.1:3000/review/#document",
+    "url": "http://127.0.0.1:3000/review/",
+    "name": "Documentation coverage and open questions",
+    "description": "Documentation coverage and open questions. This version documents 101 capabilities: 85 confirmed as available and 16 confirmed in a limited form, each with.",
+    "inLanguage": "en-GB",
+    "dateModified": "2026-10-16",
+    "creativeWorkStatus": "Draft",
+    "isPartOf": {
+     "@id": "http://127.0.0.1:3000/#website"
+    },
+    "publisher": {
+     "@id": "http://127.0.0.1:3000/#publisher"
+    },
+    "about": {
+     "@id": "http://127.0.0.1:3000/#product"
+    },
+    "breadcrumb": {
+     "@id": "http://127.0.0.1:3000/review/#breadcrumb"
+    }
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "http://127.0.0.1:3000/review/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Documentation",
+      "item": "http://127.0.0.1:3000/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "review",
+      "item": "http://127.0.0.1:3000/review/"
+     }
+    ]
+   }
+  ]
+ }
+}

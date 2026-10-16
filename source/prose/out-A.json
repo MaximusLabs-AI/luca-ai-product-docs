@@ -1,0 +1,634 @@
+{
+  "pages": [
+    {
+      "url": "/integrations/",
+      "intro": [
+        "This section describes the data sources you can connect to Luca and what each one contributes. It is for teams evaluating Luca and for anyone setting up a new workspace.",
+        "Luca reads across the sources you connect so you can ask questions in plain English and see a reconciled view of your business in Numbers. Each page notes where a connection is set up by Luca's team rather than by you."
+      ],
+      "sections": [
+        {
+          "id": "categories",
+          "title": "Integration categories",
+          "paragraphs": [
+            "Commerce platforms: Shopify and Amazon.",
+            "Advertising: Meta Ads and Google Ads.",
+            "Web analytics and search: Google Analytics 4 and Google Search Console.",
+            "Payments and accounting: Stripe and Xero, plus QuickBooks, which you should confirm during setup.",
+            "Subscriptions: Recharge, connected and reconciled by Luca's team as part of a Numbers build.",
+            "Workspace and documents: the Slack app and document uploads.",
+            "Custom connectors and ERPs: connections to systems without a standard connector, built by Luca's team on request."
+          ]
+        },
+        {
+          "id": "where-to-start",
+          "title": "Where to start",
+          "paragraphs": [
+            "Luca's website suggests starting with Shopify or Amazon, then adding advertising, analytics and finance sources. Connected sources appear in the product's Connect & Setup screen.",
+            "If a system you rely on is not listed here, read Custom connectors and ERPs and confirm the options with Luca's team."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/commerce/",
+      "intro": [
+        "This page covers the commerce platforms you can connect to Luca. It is for brands that sell through their own store, through a marketplace, or both.",
+        "Luca's website recommends a commerce platform as your first source. You can then add advertising, analytics and finance sources around it."
+      ],
+      "sections": [
+        {
+          "id": "connectors",
+          "title": "Connectors in this category",
+          "paragraphs": [
+            "Shopify: appears as a connected source in the Connect & Setup screen. Shopify data has been reconciled with subscription and accounting data in Numbers for a live client.",
+            "Amazon: listed as a data connection in Luca's product walkthrough and named on the website as a starting source."
+          ]
+        },
+        {
+          "id": "choosing-a-starting-source",
+          "title": "Choosing a starting source",
+          "paragraphs": [
+            "Start with the platform where most of your orders happen. If you sell on both Shopify and Amazon, ask Luca's team how the two are shown together in your workspace."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/commerce/shopify/",
+      "intro": [
+        "This page explains how Shopify connects to Luca and what that connection supports. It is for brands that run their store on Shopify.",
+        "Shopify is one of the two sources Luca's website suggests connecting first. Other sources, such as advertising, analytics and finance, are added around it."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers the Shopify connector as it appears in Luca's Connect & Setup screen, where the connection shows states including Connected, Completed and Syncing.",
+            "It also covers how Shopify data has been used in Numbers. For one live client, Shopify data was reconciled with subscription and accounting data into Numbers."
+          ]
+        },
+        {
+          "id": "before-you-connect",
+          "title": "Before you connect",
+          "paragraphs": [
+            "Confirm with Luca which Shopify data is read and which store permissions the connection requests. This page does not list Shopify data fields."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/commerce/amazon/",
+      "intro": [
+        "This page explains the Amazon connection in Luca. It is for brands that sell on Amazon, on its own or alongside a Shopify store.",
+        "Luca's website names Amazon, with Shopify, as a starting source. Advertising, analytics and finance sources are added after it."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers Amazon as a data connection, as shown in Luca's product walkthrough. It does not describe which Amazon account types, marketplaces or data fields are supported.",
+            "Confirm those details with Luca's team before you rely on Amazon data for a specific question."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/advertising/",
+      "intro": [
+        "This page covers the advertising platforms you can connect to Luca. It is for teams that want to look at ad activity alongside sales and finance data.",
+        "Luca's website suggests adding advertising sources after your commerce platform. Once connected, they sit alongside your other sources in the Connect & Setup screen."
+      ],
+      "sections": [
+        {
+          "id": "connectors",
+          "title": "Connectors in this category",
+          "paragraphs": [
+            "Meta Ads: Meta / Facebook Ads appears as connected in the Connect & Setup screen.",
+            "Google Ads: appears as connected in the Connect & Setup screen. Luca's privacy policy states that access to Google accounts is read-only."
+          ]
+        },
+        {
+          "id": "ad-account-access",
+          "title": "What Luca does with ad accounts",
+          "paragraphs": [
+            "These connections give Luca data to reason across. For Google accounts, the privacy policy states that Luca does not write to, change or delete anything. Confirm the access level for Meta Ads with Luca's team."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/advertising/meta-ads/",
+      "intro": [
+        "This page explains the Meta Ads connection in Luca. It is for brands that advertise on Meta / Facebook.",
+        "Meta Ads is one of the advertising sources you can add after your commerce platform. It appears with your other sources in the Connect & Setup screen."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers Meta / Facebook Ads as a source shown as connected in Luca's Connect & Setup screen.",
+            "It does not list which Meta ad accounts, metrics or permissions the connection uses. Confirm these with Luca's team during setup."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/advertising/google-ads/",
+      "intro": [
+        "This page explains the Google Ads connection in Luca and the access it uses. It is for brands that advertise on Google.",
+        "Google Ads is one of the advertising sources you can add after your commerce platform. Like Luca's other Google connections, it is covered by the read-only terms in Luca's privacy policy."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers Google Ads as a source shown as connected in Luca's Connect & Setup screen.",
+            "It also covers access. Luca's privacy policy states that Luca's access to Google accounts is read-only and that Luca does not write to, change or delete anything in your Google accounts."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/analytics/",
+      "intro": [
+        "This page covers the web analytics and search sources you can connect to Luca. It is for teams that want site and search data available next to sales, advertising and finance data.",
+        "Luca's website suggests adding analytics sources after your commerce platform. Both sources in this category are Google products, so Luca's privacy policy terms for Google data apply."
+      ],
+      "sections": [
+        {
+          "id": "connectors",
+          "title": "Connectors in this category",
+          "paragraphs": [
+            "Google Analytics 4: listed as a data connection in Luca's product walkthrough. Google data is handled under Google's API Limited Use policy.",
+            "Google Search Console: named in Luca's privacy policy with the read-only webmasters.readonly scope."
+          ]
+        },
+        {
+          "id": "google-data",
+          "title": "How Google data is handled",
+          "paragraphs": [
+            "Luca's privacy policy states that access to Google accounts is read-only, that Google data is handled under Google's API Limited Use policy, and that it is deleted within 30 days of disconnecting."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/analytics/google-analytics-4/",
+      "intro": [
+        "This page explains the Google Analytics connection in Luca and how its data is handled. It is for brands that use Google Analytics 4 on their site.",
+        "Google Analytics is one of the sources Luca reasons across when you ask questions. It sits alongside commerce, advertising and finance sources."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers Google Analytics as a data connection, as listed in Luca's product walkthrough.",
+            "It also covers data handling. Luca's privacy policy states that Google data is handled under Google's API Limited Use policy and is deleted within 30 days of disconnecting."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/analytics/google-search-console/",
+      "intro": [
+        "This page explains the Google Search Console connection in Luca and the access it uses. It is for brands that want search data available to Luca.",
+        "Search Console is one of the analytics and search sources you can add after your commerce platform. Its access is read-only."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers the Google Search Console connection. Luca's privacy policy names Search Console access with the read-only webmasters.readonly scope.",
+            "It does not list which Search Console reports or properties are read. Confirm these with Luca's team during setup."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/finance/",
+      "intro": [
+        "This page covers the payments and accounting sources you can connect to Luca. It is for finance leads and founders who want sales data checked against payments and the books.",
+        "Luca's website suggests adding finance sources after your commerce platform. Accounting data has been reconciled with Shopify and subscription data in Numbers for a live client."
+      ],
+      "sections": [
+        {
+          "id": "connectors",
+          "title": "Connectors in this category",
+          "paragraphs": [
+            "Stripe: appears in the Connect & Setup screen and is listed as a data connection in Luca's product walkthrough.",
+            "Xero: appears as connected in the Connect & Setup screen.",
+            "QuickBooks: described by Luca's founder as covered by the accounting connection. QuickBooks does not appear in the product screenshot we hold, so confirm the connection during setup."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/finance/stripe/",
+      "intro": [
+        "This page explains the Stripe connection in Luca. It is for brands that take payments through Stripe.",
+        "Stripe is one of the finance sources you can add after your commerce platform. It appears with your other sources in the Connect & Setup screen."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers Stripe as a source shown in Luca's Connect & Setup screen and listed as a data connection in the product walkthrough.",
+            "It does not list which Stripe data is read. Confirm this with Luca's team during setup."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/finance/xero/",
+      "intro": [
+        "This page explains the Xero connection in Luca and how accounting data has been used in Numbers. It is for brands that keep their books in Xero.",
+        "Xero is one of the finance sources you can add after your commerce platform. Accounting data can be reconciled with commerce and subscription data in Numbers."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers Xero as a source shown as connected in Luca's Connect & Setup screen.",
+            "It also covers reconciliation. For a subscription client, accounting data was reconciled with Shopify and Recharge data into one database."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/finance/quickbooks/",
+      "intro": [
+        "This page explains the QuickBooks connection in Luca and what you should confirm before relying on it. It is for brands that keep their books in QuickBooks.",
+        "QuickBooks sits in the payments and accounting category alongside Xero and Stripe."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers QuickBooks as part of Luca's accounting connection, as described by Luca's founder. A live subscription client's stack was described as Shopify, Recharge, Meta and QuickBooks or Xero.",
+            "Scope: this is stated by Luca's founder, and QuickBooks does not appear in the product screenshot we hold. Confirm the connection during setup."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/subscriptions/recharge/",
+      "intro": [
+        "This page explains how Recharge subscription data is brought into Luca. It is for subscription brands that use Recharge alongside Shopify and an accounting platform.",
+        "Recharge data is connected by Luca's team as part of a Numbers build. It is then reconciled with your commerce and accounting data."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers Recharge subscription data as it was connected for a live subscription client. Luca's team connected and reconciled it with Shopify and accounting data into one clean database.",
+            "Scope: Recharge is connected and reconciled by Luca's team as part of a Numbers build. It is not a self-serve connector button."
+          ]
+        },
+        {
+          "id": "the-problem-it-addresses",
+          "title": "The problem it addresses",
+          "paragraphs": [
+            "The client's pain, as relayed by Luca's founder, was that Shopify does not talk to Recharge, and Recharge does not talk to the accounting platform. Bringing all three into one database is what lets you look at them together."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/subscriptions/",
+      "intro": [
+        "This page covers subscription data in Luca. It is for brands that sell subscriptions and need that data to line up with store and accounting records.",
+        "Subscription data is brought in by Luca's team as part of a Numbers build, rather than through a self-serve connector."
+      ],
+      "sections": [
+        {
+          "id": "connectors",
+          "title": "Connectors in this category",
+          "paragraphs": [
+            "Recharge: connected and reconciled by Luca's team with Shopify and accounting data into one database for a live subscription client.",
+            "If you use a different subscription app, ask Luca's team whether it can be included in your Numbers build."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/workspace/",
+      "intro": [
+        "This page covers the ways you can work with Luca from your workspace and give it extra context. It is for teams that want to ask Luca questions where they already work, or add documents Luca can use.",
+        "These options sit alongside your data connections. They change where you ask questions and what context Luca has, not which data sources are connected."
+      ],
+      "sections": [
+        {
+          "id": "options",
+          "title": "Options in this category",
+          "paragraphs": [
+            "Slack: the 'Add Luca to Slack' option lets you send Luca a direct message or mention Luca in a channel.",
+            "Documents and files: the 'Upload company docs' and 'Manage Knowledge Base' options let you add documents as context."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/workspace/slack/",
+      "intro": [
+        "This page explains how to use Luca from Slack. It is for teams that want to ask Luca questions without leaving Slack.",
+        "Slack is a way to talk to Luca, not a data source. Luca answers from the sources you have connected."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers the 'Add Luca to Slack' option in Luca's product and its integration guide. The guide covers installing the Slack app, sending Luca a direct message and mentioning Luca in a channel.",
+            "Once installed, you work with Luca from Slack by direct message or by mentioning Luca in a channel."
+          ]
+        },
+        {
+          "id": "what-it-does-not-do",
+          "title": "What this does not cover",
+          "paragraphs": [
+            "This page describes answers to questions you ask in Slack. It does not describe scheduled messages or other messages Luca sends without being asked."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/workspace/documents/",
+      "intro": [
+        "This page explains how to add company documents to Luca as context. It is for teams whose questions depend on information held in files rather than in connected systems.",
+        "Documents add context alongside your data connections. They do not replace a connector for a live system."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers the 'Upload company docs' and 'Manage Knowledge Base' options in Luca's product. Luca's founder has described adding context from documents such as PDFs or emails.",
+            "It does not list supported file types, size limits or how long uploaded documents are kept. Confirm these with Luca's team."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/integrations/custom/",
+      "intro": [
+        "This page explains how Luca connects to systems that do not have a standard connector, such as a custom ERP. It is for brands whose data sits in internal or less common systems.",
+        "Custom connections are built by Luca's team and then sit alongside your standard connections. They are not a self-serve button."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What this page covers",
+          "paragraphs": [
+            "This page covers custom API connections that Luca's team builds on request, and the website's statement that custom connectors are built at no integration fee.",
+            "Scope: custom connections are built by Luca's team on request. Timing and scope are agreed per account, and lead time is agreed per request."
+          ]
+        },
+        {
+          "id": "how-to-request",
+          "title": "How to request a connection",
+          "paragraphs": [
+            "Luca's pricing page says custom connections are not a self-serve button yet and are arranged with the team. Contact Luca's team with the system you use and what you want to ask about it."
+          ]
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "id": "U1",
+      "name": "Shopify connector",
+      "definition": "A connection that brings data from a Shopify store into Luca. It is one of the sources Luca recommends connecting first.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The Shopify connector links your Shopify store to Luca so Luca can use your store data when you ask questions and when your Numbers view is built."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["In the product's Connect & Setup screen, Shopify appears as a connected source. The connection shows states including Connected, Completed and Syncing.", "For a live client, Shopify data was reconciled with subscription and accounting data into Numbers."]},
+        {"question": "How does it help?", "paragraphs": ["It gives Luca your store data as a base. This helps you look at store activity next to the advertising, analytics and finance sources you add later."]},
+        {"question": "What happens without it?", "paragraphs": ["If you sell on Shopify and do not connect it, Luca has no store data to reason across, and Numbers cannot include it."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands that run their store on Shopify, and the founders, operators and finance leads who need store data alongside other sources."]}
+      ],
+      "example": "During setup, connect Shopify and watch its state in the Connect & Setup screen until it shows as connected. Then ask Luca a question you already know the answer to from your Shopify admin and compare the two.",
+      "boundary": "This connector covers Shopify store data only. This page does not list the Shopify data fields read or the store permissions requested; confirm these with Luca.",
+      "review": "Attach a current screenshot of the Shopify card in Connect & Setup and confirm the meaning of each connection state. Confirm the data fields and permissions the connection uses."
+    },
+    {
+      "id": "U2",
+      "name": "Amazon connector",
+      "definition": "A connection that brings Amazon selling data into Luca. Luca's website names it, with Shopify, as a starting source.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The Amazon connector links your Amazon selling activity to Luca so Luca can use it when you ask questions."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Amazon is listed as a data connection in Luca's product walkthrough. Luca's website names Amazon, alongside Shopify, as a source to start with before adding advertising, analytics and finance sources."]},
+        {"question": "How does it help?", "paragraphs": ["It gives Luca your marketplace data as a base. This helps you ask questions about Amazon sales next to your other sources."]},
+        {"question": "What happens without it?", "paragraphs": ["If you sell on Amazon and do not connect it, Luca cannot include your Amazon activity in its answers."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands that sell on Amazon, on its own or alongside a Shopify store."]}
+      ],
+      "example": "During setup or a trial, connect your Amazon account and ask Luca a question about a recent period you can check in Amazon's own reports. Compare the answer with the figure you see there.",
+      "boundary": "This page does not state which Amazon account types, marketplaces or data fields are supported. Confirm these with Luca's team before you rely on Amazon data for a specific question.",
+      "review": "Confirm the Amazon account types and marketplaces supported, and the connection steps. Attach a screenshot of the Amazon connection in the product."
+    },
+    {
+      "id": "U6",
+      "name": "Meta Ads connector",
+      "definition": "A connection that brings Meta / Facebook Ads data into Luca as an advertising source.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The Meta Ads connector links your Meta / Facebook Ads account to Luca as one of your advertising sources."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["In the product's Connect & Setup screen, Meta / Facebook Ads appears as a connected source. It sits alongside your commerce, analytics and finance sources."]},
+        {"question": "How does it help?", "paragraphs": ["It gives Luca your Meta advertising data. This helps you ask questions that look at ad activity next to sales and finance data."]},
+        {"question": "What happens without it?", "paragraphs": ["Without it, Luca cannot include your Meta advertising activity when it answers questions."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands that advertise on Meta / Facebook, and the marketing and growth leads who manage that spend."]}
+      ],
+      "example": "Connect Meta Ads during setup and check that it shows as connected in Connect & Setup. Then ask Luca a question about a recent campaign period and compare the answer with Meta's own reporting.",
+      "boundary": "This page does not list the Meta ad accounts, metrics or permissions the connection uses. Confirm these, including the access level, with Luca's team.",
+      "review": "Confirm the data read from Meta Ads and the permissions requested, and whether access is read-only. Attach a screenshot of the Meta Ads card in Connect & Setup."
+    },
+    {
+      "id": "U7",
+      "name": "Google Ads connector",
+      "definition": "A read-only connection that brings Google Ads data into Luca as an advertising source.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The Google Ads connector links your Google Ads account to Luca as one of your advertising sources."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["In the product's Connect & Setup screen, Google Ads appears as a connected source. Luca's privacy policy states that Luca's access to Google accounts is read-only and that Luca does not write to, change or delete anything in your Google accounts."]},
+        {"question": "How does it help?", "paragraphs": ["It gives Luca your Google advertising data without giving it the ability to change your account. This helps you ask questions about Google Ads next to your other sources."]},
+        {"question": "What happens without it?", "paragraphs": ["Without it, Luca cannot include your Google Ads activity when it answers questions."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands that advertise on Google, and the marketing and growth leads who manage that spend."]}
+      ],
+      "example": "Connect Google Ads during setup and review the permissions Google shows you before you approve. Then ask Luca a question about a recent period and compare the answer with Google Ads reporting.",
+      "boundary": "Access to Google accounts is read-only: Luca does not write to, change or delete anything in your Google accounts. This page does not list the Google Ads data fields read.",
+      "review": "Confirm the Google Ads data fields read and the consent screen wording. Attach a screenshot of the Google Ads card in Connect & Setup."
+    },
+    {
+      "id": "U10",
+      "name": "Google Analytics 4 connector",
+      "definition": "A connection that brings Google Analytics data into Luca as a web analytics source.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The Google Analytics 4 connector links your Google Analytics property to Luca so Luca can use site data when you ask questions."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Google Analytics is listed as a data connection in Luca's product walkthrough. Luca's founder has described Google Analytics as part of the data Luca reasons across.", "Luca's privacy policy states that Google data is handled under Google's API Limited Use policy and is deleted within 30 days of disconnecting."]},
+        {"question": "How does it help?", "paragraphs": ["It gives Luca your site data. This helps you ask questions that look at site activity next to sales, advertising and finance data."]},
+        {"question": "What happens without it?", "paragraphs": ["Without it, Luca cannot include your Google Analytics data when it answers questions."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands that use Google Analytics 4 on their site, and the marketing and growth leads who use it."]}
+      ],
+      "example": "Connect Google Analytics during setup, then ask Luca a question about a recent period you can check in Google Analytics. Compare the two answers.",
+      "boundary": "Google data is handled under Google's API Limited Use policy and is deleted within 30 days of disconnecting. This page does not list the Google Analytics reports or properties read.",
+      "review": "Confirm which Google Analytics data is read and how a property is chosen. Attach a screenshot of the Google Analytics connection in the product."
+    },
+    {
+      "id": "U11",
+      "name": "Google Search Console connector",
+      "definition": "A read-only connection that brings Google Search Console data into Luca.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The Google Search Console connector links your Search Console account to Luca so Luca can use search data when you ask questions."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's privacy policy names Google Search Console access with the read-only webmasters.readonly scope. Luca also uses Search Console in its own internal workspace."]},
+        {"question": "How does it help?", "paragraphs": ["It gives Luca your search data with read-only access. This helps you ask questions about search alongside your other sources."]},
+        {"question": "What happens without it?", "paragraphs": ["Without it, Luca cannot include your Search Console data when it answers questions."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands that use Google Search Console, and the marketing and organic growth leads who work with it."]}
+      ],
+      "example": "Connect Search Console during setup and check that the consent screen requests read-only access. Then ask Luca a question about a recent period and compare it with Search Console's own reports.",
+      "boundary": "Access uses the read-only webmasters.readonly scope. This page does not list which Search Console reports or properties are read.",
+      "review": "Confirm the Search Console data read and how a property is chosen. Attach a screenshot of the connection in Connect & Setup."
+    },
+    {
+      "id": "U15",
+      "name": "Stripe connector",
+      "definition": "A connection that brings Stripe payments data into Luca as a finance source.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The Stripe connector links your Stripe account to Luca as one of your finance sources."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Stripe appears in the product's Connect & Setup screen and is listed as a data connection in Luca's product walkthrough."]},
+        {"question": "How does it help?", "paragraphs": ["It gives Luca your payments data. This helps you look at payments next to store and accounting data."]},
+        {"question": "What happens without it?", "paragraphs": ["If you take payments through Stripe and do not connect it, Luca cannot include that payments data in its answers."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands that take payments through Stripe, and the finance leads who reconcile them."]}
+      ],
+      "example": "Connect Stripe during setup, then ask Luca a question about payments in a recent period. Compare the answer with your Stripe dashboard.",
+      "boundary": "This page does not list which Stripe data is read or the permissions requested. Confirm these with Luca's team.",
+      "review": "Confirm the Stripe data read and the access level. Attach a screenshot of the Stripe card in Connect & Setup."
+    },
+    {
+      "id": "U17",
+      "name": "Xero connector",
+      "definition": "A connection that brings Xero accounting data into Luca as a finance source.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The Xero connector links your Xero accounting data to Luca as one of your finance sources."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["In the product's Connect & Setup screen, Xero appears as a connected source. For a subscription client, accounting data was reconciled with Shopify and Recharge data into one database."]},
+        {"question": "How does it help?", "paragraphs": ["It gives Luca your accounting data. This helps you check store and subscription figures against your books in one place."]},
+        {"question": "What happens without it?", "paragraphs": ["Without it, Luca cannot include your Xero accounting data, and store and subscription data cannot be reconciled against it."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands that keep their books in Xero, and the finance leads and founders who need sales data to match the accounts."]}
+      ],
+      "example": "Connect Xero during setup, then ask Luca a question about a closed month whose figures you know from Xero. Compare the answer with your Xero reports.",
+      "boundary": "This page does not list which Xero data is read or the permissions requested. Reconciliation with other sources has been done as part of a Numbers build; confirm how it applies to your account with Luca's team.",
+      "review": "Confirm the Xero data read and the access level. Attach a screenshot of the Xero card in Connect & Setup."
+    },
+    {
+      "id": "U18",
+      "name": "QuickBooks connector",
+      "definition": "A connection to QuickBooks accounting data, described by Luca's founder as part of Luca's accounting connection.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The QuickBooks connector is the accounting connection for brands that keep their books in QuickBooks rather than Xero."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's founder has described the accounting connection as covering QuickBooks as well as Xero. A live subscription client's stack was described as Shopify, Recharge, Meta and QuickBooks or Xero."]},
+        {"question": "How does it help?", "paragraphs": ["It gives Luca your accounting data if you use QuickBooks. This helps you check sales figures against your books."]},
+        {"question": "What happens without it?", "paragraphs": ["Without an accounting connection, Luca cannot check store and subscription data against your books."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands that keep their books in QuickBooks, and their finance leads."]}
+      ],
+      "example": "During setup, ask Luca's team to confirm the QuickBooks connection before you connect other sources. Once it is connected, ask Luca a question about a closed month and compare the answer with QuickBooks.",
+      "boundary": "Stated by Luca's founder; QuickBooks does not appear in the product screenshot we hold. Confirm the connection during setup.",
+      "review": "Confirm whether QuickBooks is available in Connect & Setup and attach a screenshot. If it is not self-serve, state how it is connected."
+    },
+    {
+      "id": "U14",
+      "name": "Recharge subscription data",
+      "definition": "Recharge subscription data connected by Luca's team and reconciled with store and accounting data as part of a Numbers build.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Recharge subscription data is brought into Luca so subscription activity can be seen alongside store and accounting data."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["For a live subscription client, Luca's team connected Recharge subscription data and reconciled it with Shopify and accounting data into one clean database. This is done as part of a Numbers build."]},
+        {"question": "How does it help?", "paragraphs": ["It brings systems that do not talk to each other into one place. This helps you look at store, subscription and accounting data together."]},
+        {"question": "What happens without it?", "paragraphs": ["That client's pain, as relayed by Luca's founder, was that Shopify does not talk to Recharge, and Recharge does not talk to the accounting platform."]},
+        {"question": "Who is it for?", "paragraphs": ["Subscription brands that use Recharge with Shopify and an accounting platform."]}
+      ],
+      "example": "Ask Luca's team to include Recharge in your Numbers build. Once it is delivered, pick a recent month and compare the subscription figures in Numbers with Recharge, Shopify and your accounting platform.",
+      "boundary": "Connected and reconciled by Luca's team as part of a Numbers build, not a self-serve connector button. This page does not cover other subscription apps.",
+      "review": "Confirm the Recharge data included in a Numbers build and the typical steps the team follows. Attach a sample Numbers view with client details removed."
+    },
+    {
+      "id": "U94",
+      "name": "Slack app",
+      "definition": "A Slack app that lets you work with Luca from your Slack workspace.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["The Slack app adds Luca to your Slack workspace so you can ask it questions there."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's product includes an 'Add Luca to Slack' option with an integration guide. The guide covers installing the Slack app, sending Luca a direct message and mentioning Luca in a channel."]},
+        {"question": "How does it help?", "paragraphs": ["It lets you ask Luca questions where your team already works. This helps you avoid switching tools to get an answer."]},
+        {"question": "What happens without it?", "paragraphs": ["Without the Slack app, you work with Luca in its own product rather than in Slack."]},
+        {"question": "Who is it for?", "paragraphs": ["Teams that use Slack day to day and want to ask Luca questions there."]}
+      ],
+      "example": "Use the 'Add Luca to Slack' option and follow the integration guide to install the app. Send Luca a direct message, then mention Luca in a channel, and check that both return an answer.",
+      "boundary": "The Slack app is a way to ask Luca questions. It is not a data source, and this page does not cover messages Luca sends without being asked.",
+      "review": "Attach the integration guide steps and a screenshot of the 'Add Luca to Slack' option. Confirm the Slack permissions the app requests."
+    },
+    {
+      "id": "U192",
+      "name": "Answers delivered in Slack",
+      "definition": "Answers from Luca returned in Slack when you send it a direct message or mention it in a channel.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Answers delivered in Slack means you get Luca's answers in Slack, in reply to questions you ask there."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Once the Slack app is installed, you work with Luca from Slack by direct message or by mentioning Luca in a channel."]},
+        {"question": "How does it help?", "paragraphs": ["A channel mention lets others in the channel see the question and the answer. This helps a team discuss the same figures in one thread."]},
+        {"question": "What happens without it?", "paragraphs": ["Without it, answers stay inside Luca's own product, and you share them with colleagues by other means."]},
+        {"question": "Who is it for?", "paragraphs": ["Teams that discuss performance in Slack channels, and individuals who prefer to ask by direct message."]}
+      ],
+      "example": "After installing the Slack app, mention Luca in a team channel with a question about last week. Check that the answer appears in the channel where your colleagues can see it.",
+      "boundary": "Answers are returned when you message or mention Luca. This page does not cover scheduled reports or messages Luca sends without being asked.",
+      "review": "Attach a screenshot of a direct message answer and a channel mention answer. Confirm whether answers in channels appear in a thread."
+    },
+    {
+      "id": "U27",
+      "name": "Upload documents and files as context",
+      "definition": "The ability to add company documents to Luca so it has extra context when answering questions.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["Document upload lets you give Luca information that lives in files rather than in a connected system."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's product includes 'Upload company docs' and 'Manage Knowledge Base' options. Luca's founder has described adding context from documents such as PDFs or emails."]},
+        {"question": "How does it help?", "paragraphs": ["It gives Luca context it cannot get from your data connections. This helps when a question depends on information held in a document."]},
+        {"question": "What happens without it?", "paragraphs": ["Without documents, Luca works only from your connected sources."]},
+        {"question": "Who is it for?", "paragraphs": ["Teams whose questions depend on information in files, such as PDFs or emails."]}
+      ],
+      "example": "Upload a company document through 'Upload company docs', then ask Luca a question that can only be answered from that document. Check that the answer reflects it.",
+      "boundary": "Documents add context; they do not replace a connector for a live system. This page does not list supported file types, size limits or how long documents are kept.",
+      "review": "Confirm supported file types, size limits and retention for uploaded documents. Attach screenshots of 'Upload company docs' and 'Manage Knowledge Base'."
+    },
+    {
+      "id": "U22",
+      "name": "Custom ERP and internal-system connections",
+      "definition": "API connections that Luca's team builds on request for systems without a standard connector, such as a custom ERP.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["A custom connection links a system that has no standard Luca connector, such as a custom ERP, to Luca."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["For systems without a standard connector, Luca's team builds the API connection. Luca's founder has put the time at a couple of days, and Luca's pricing page says custom connections are not a self-serve button yet and are arranged with the team."]},
+        {"question": "How does it help?", "paragraphs": ["It lets Luca use data from systems outside its standard connectors. This helps when important data sits in an internal system."]},
+        {"question": "What happens without it?", "paragraphs": ["Without a custom connection, data in that system is not available to Luca."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands that hold key data in a custom ERP or another internal system."]}
+      ],
+      "example": "Before a trial, send Luca's team the name of the system and the questions you want to ask about it. Agree the scope and timing, then test the delivered connection with a question you can check in the system itself.",
+      "boundary": "Built by Luca's team on request. Timing and scope are agreed per account.",
+      "review": "Confirm the information the team needs to start a build and how timing is agreed. List any systems already built for other accounts, if they can be named."
+    },
+    {
+      "id": "U28",
+      "name": "Custom connectors built by Luca's team, no integration fee",
+      "definition": "Custom connectors that Luca's team builds and delivers, which Luca's website states carry no integration fee.",
+      "answers": [
+        {"question": "What is it?", "paragraphs": ["When you need a connector Luca does not have, Luca's team builds it, and the website states there is no integration fee for this."]},
+        {"question": "How does it work in Luca?", "paragraphs": ["Luca's website states that custom connectors are built at no integration fee. The pricing page says custom work is done by Luca's team, not self-serve."]},
+        {"question": "How does it help?", "paragraphs": ["It means a missing connector does not add an integration fee. This helps you include systems outside the standard list."]},
+        {"question": "What happens without it?", "paragraphs": ["Without it, a system outside the standard connectors would stay outside Luca."]},
+        {"question": "Who is it for?", "paragraphs": ["Brands that use a system Luca does not yet connect to."]}
+      ],
+      "example": "Ask Luca's team in writing to confirm that your requested connector carries no integration fee and to agree the lead time. Test the connector when it is delivered.",
+      "boundary": "Delivered by Luca's team; lead time is agreed per request. Custom work is not self-serve.",
+      "review": "Confirm the exact website wording on no integration fee and any conditions that apply. Confirm how lead time is agreed."
+    }
+  ]
+}
